@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LocationFile",
+  "type": "object",
+  "required": [
+    "world_id",
+    "locations"
+  ],
+  "properties": {
+    "world_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "category",
+          "visibility",
+          "noise_level",
+          "privacy_level",
+          "social_pressure",
+          "rumor_spread_rate",
+          "emotional_tags",
+          "connected_to",
+          "description"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^loc_"
+          },
+          "name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "visibility": {
+            "type": "string",
+            "enum": [
+              "public",
+              "semi_public",
+              "restricted",
+              "semi_restricted"
+            ]
+          },
+          "noise_level": {
+            "$ref": "#/$defs/value100"
+          },
+          "privacy_level": {
+            "$ref": "#/$defs/value100"
+          },
+          "social_pressure": {
+            "$ref": "#/$defs/value100"
+          },
+          "rumor_spread_rate": {
+            "$ref": "#/$defs/value100"
+          },
+          "emotional_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "connected_to": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^loc_"
+            }
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "value100": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    }
+  }
+}

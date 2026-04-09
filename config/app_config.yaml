@@ -1,0 +1,4 @@
+app:
+  name: interactive_novel
+  version: 0.1.0
+  default_world: sample_world

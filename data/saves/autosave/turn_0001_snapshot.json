@@ -1,0 +1,5982 @@
+{
+  "snapshot_version": 5,
+  "world_id": "closed_school_society",
+  "turn": 1,
+  "entities": [
+    {
+      "id": "char_001",
+      "type": "character",
+      "name": {
+        "family_name": "神代",
+        "given_name": "湊",
+        "full_name": "神代 湊",
+        "reading": "かみしろ みなと"
+      },
+      "role": {
+        "primary": "protagonist",
+        "secondary": "student",
+        "archetype": "adaptive_observer"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-A",
+        "gender": "male"
+      },
+      "style_ratio": {
+        "action": 0.22,
+        "inner": 0.28,
+        "cognition": 0.34,
+        "world": 0.16
+      },
+      "intensity": {
+        "action": 61.2,
+        "inner": 72.8,
+        "cognition": 81.4,
+        "world": 55.3
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "classroom": {
+          "action": -2.2,
+          "inner": 1.1,
+          "cognition": 2.8,
+          "world": 0.4
+        },
+        "under_pressure": {
+          "action": 2.6,
+          "inner": -1.8,
+          "cognition": 3.1,
+          "world": 1.0
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "fairness",
+          "consistency",
+          "personal_responsibility"
+        ],
+        "taboo_values": [
+          "public_humiliation",
+          "manipulation_of_the_weak"
+        ],
+        "belief_style": "pragmatic_with_hidden_idealism"
+      },
+      "relation_tendency": {
+        "attachment_speed": 39.2,
+        "trust_growth_rate": 48.7,
+        "suspicion_growth_rate": 57.3,
+        "maintenance_need": 32.5,
+        "jealousy_bias": 24.8,
+        "forgiveness_rate": 51.6,
+        "asymmetry_tolerance": 63.4
+      },
+      "inner_profile": {
+        "self_evaluation": 54.6,
+        "insecurity": 47.2,
+        "maturity": 71.5,
+        "pride": 42.3,
+        "loneliness": 58.4
+      },
+      "needs": {
+        "survival": {
+          "hunger": 23.4,
+          "thirst": 21.1,
+          "sleepiness": 35.4,
+          "health": 85.827
+        },
+        "reproduction": {
+          "sexual_desire": 29.2,
+          "intimacy": 47.1
+        },
+        "psychological": {
+          "belonging": 53.7,
+          "approval": 39.0,
+          "safety": 46.3,
+          "power": 25.1,
+          "freedom": 63.8
+        }
+      },
+      "emotions": {
+        "joy": 30.6,
+        "anger": 14.7573,
+        "sadness": 26.2573,
+        "fear": 21.7573,
+        "affection": 21.7
+      },
+      "persona": {
+        "surface_persona": "calm_and_detached",
+        "hidden_persona": "earnest_and_protective",
+        "mask_strength": 68.2,
+        "switch_threshold": 74.5
+      },
+      "status": {
+        "current_location_id": "loc_classroom_2a",
+        "social_position": "middle",
+        "visible_reputation": 56.6772,
+        "hidden_reputation": 58.52,
+        "rumor_level": 37.6776,
+        "fatigue": 24.3,
+        "stress": 47.501,
+        "injury": 0.0,
+        "financial_level": 52.0
+      },
+      "traits": [
+        "observant",
+        "self_restrained",
+        "quietly_competent",
+        "conflict_averse_but_not_passive"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_002",
+      "type": "character",
+      "name": {
+        "family_name": "白峰",
+        "given_name": "澪",
+        "full_name": "白峰 澪",
+        "reading": "しらみね みお"
+      },
+      "role": {
+        "primary": "heroine",
+        "secondary": "student",
+        "archetype": "guarded_elite"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-A",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.16,
+        "inner": 0.35,
+        "cognition": 0.32,
+        "world": 0.17
+      },
+      "intensity": {
+        "action": 42.7,
+        "inner": 84.9,
+        "cognition": 78.6,
+        "world": 58.1
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "public_attention": {
+          "action": -3.4,
+          "inner": 4.1,
+          "cognition": 2.3,
+          "world": 1.8
+        },
+        "trusted_company": {
+          "action": 1.6,
+          "inner": -2.7,
+          "cognition": -0.8,
+          "world": -0.3
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "dignity",
+          "merit",
+          "controlled_honesty"
+        ],
+        "taboo_values": [
+          "cheap_sympathy",
+          "malicious_gossip"
+        ],
+        "belief_style": "rational_defensiveness"
+      },
+      "relation_tendency": {
+        "attachment_speed": 26.1,
+        "trust_growth_rate": 31.8,
+        "suspicion_growth_rate": 66.4,
+        "maintenance_need": 41.7,
+        "jealousy_bias": 34.2,
+        "forgiveness_rate": 28.5,
+        "asymmetry_tolerance": 22.9
+      },
+      "inner_profile": {
+        "self_evaluation": 73.4,
+        "insecurity": 58.9,
+        "maturity": 81.1,
+        "pride": 84.5,
+        "loneliness": 76.3
+      },
+      "needs": {
+        "survival": {
+          "hunger": 21.8,
+          "thirst": 19.7,
+          "sleepiness": 30.9,
+          "health": 82.112
+        },
+        "reproduction": {
+          "sexual_desire": 19.9,
+          "intimacy": 52.7
+        },
+        "psychological": {
+          "belonging": 62.4,
+          "approval": 22.0,
+          "safety": 60.9,
+          "power": 39.5,
+          "freedom": 45.1
+        }
+      },
+      "emotions": {
+        "joy": 17.4,
+        "anger": 20.1618,
+        "sadness": 34.0618,
+        "fear": 27.2618,
+        "affection": 16.3
+      },
+      "persona": {
+        "surface_persona": "untouchable_honor_student",
+        "hidden_persona": "wounded_and_cautious",
+        "mask_strength": 86.4,
+        "switch_threshold": 79.3
+      },
+      "status": {
+        "current_location_id": "loc_classroom_2a",
+        "social_position": "upper",
+        "visible_reputation": 73.4993,
+        "hidden_reputation": 48.2,
+        "rumor_level": 66.6123,
+        "fatigue": 21.1,
+        "stress": 56.8508,
+        "injury": 0.0,
+        "financial_level": 66.5
+      },
+      "traits": [
+        "high_pride",
+        "emotionally_guarded",
+        "sensitive_to_rumor",
+        "quietly_kind"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_003",
+      "type": "character",
+      "name": {
+        "family_name": "九条",
+        "given_name": "迅",
+        "full_name": "九条 迅",
+        "reading": "くじょう じん"
+      },
+      "role": {
+        "primary": "rival",
+        "secondary": "student",
+        "archetype": "dominant_competitor"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-B",
+        "gender": "male"
+      },
+      "style_ratio": {
+        "action": 0.35,
+        "inner": 0.17,
+        "cognition": 0.28,
+        "world": 0.2
+      },
+      "intensity": {
+        "action": 82.3,
+        "inner": 49.4,
+        "cognition": 69.7,
+        "world": 67.5
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "competition": {
+          "action": 4.2,
+          "inner": 0.9,
+          "cognition": 1.7,
+          "world": 1.1
+        },
+        "loss_of_control": {
+          "action": 3.1,
+          "inner": 2.4,
+          "cognition": -2.9,
+          "world": 0.8
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "strength",
+          "initiative",
+          "status"
+        ],
+        "taboo_values": [
+          "public_weakness",
+          "unearned_superiority"
+        ],
+        "belief_style": "competitive_hierarchy"
+      },
+      "relation_tendency": {
+        "attachment_speed": 21.7,
+        "trust_growth_rate": 33.2,
+        "suspicion_growth_rate": 61.8,
+        "maintenance_need": 29.6,
+        "jealousy_bias": 49.1,
+        "forgiveness_rate": 26.7,
+        "asymmetry_tolerance": 37.5
+      },
+      "inner_profile": {
+        "self_evaluation": 79.6,
+        "insecurity": 41.3,
+        "maturity": 58.7,
+        "pride": 87.1,
+        "loneliness": 32.9
+      },
+      "needs": {
+        "survival": {
+          "hunger": 26.8,
+          "thirst": 22.6,
+          "sleepiness": 28.8,
+          "health": 89.0515
+        },
+        "reproduction": {
+          "sexual_desire": 37.4,
+          "intimacy": 23.6
+        },
+        "psychological": {
+          "belonging": 29.8,
+          "approval": 58.4,
+          "safety": 31.6,
+          "power": 73.5,
+          "freedom": 47.2
+        }
+      },
+      "emotions": {
+        "joy": 33.5,
+        "anger": 25.635,
+        "sadness": 10.335,
+        "fear": 12.735,
+        "affection": 9.0
+      },
+      "persona": {
+        "surface_persona": "charismatic_alpha",
+        "hidden_persona": "territorial_and_watchful",
+        "mask_strength": 64.3,
+        "switch_threshold": 69.1
+      },
+      "status": {
+        "current_location_id": "loc_hallway_2f",
+        "social_position": "upper",
+        "visible_reputation": 78.2638,
+        "hidden_reputation": 54.46,
+        "rumor_level": 40.8835,
+        "fatigue": 19.2,
+        "stress": 38.5276,
+        "injury": 0.0,
+        "financial_level": 71.3
+      },
+      "traits": [
+        "aggressive_competence",
+        "status_conscious",
+        "protective_of_territory",
+        "socially_influential"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_004",
+      "type": "character",
+      "name": {
+        "family_name": "雨宮",
+        "given_name": "透子",
+        "full_name": "雨宮 透子",
+        "reading": "あまみや とうこ"
+      },
+      "role": {
+        "primary": "observer",
+        "secondary": "student",
+        "archetype": "quiet_analyst"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-C",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.12,
+        "inner": 0.26,
+        "cognition": 0.43,
+        "world": 0.19
+      },
+      "intensity": {
+        "action": 28.4,
+        "inner": 61.2,
+        "cognition": 89.5,
+        "world": 57.6
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "library": {
+          "action": -1.5,
+          "inner": -0.7,
+          "cognition": 4.4,
+          "world": 0.9
+        },
+        "social_noise": {
+          "action": -1.1,
+          "inner": 1.5,
+          "cognition": 2.2,
+          "world": 0.5
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "understanding",
+          "truth_pattern",
+          "noninterference_until_needed"
+        ],
+        "taboo_values": [
+          "needless_cruelty",
+          "reckless_disclosure"
+        ],
+        "belief_style": "detached_empathy"
+      },
+      "relation_tendency": {
+        "attachment_speed": 18.9,
+        "trust_growth_rate": 44.1,
+        "suspicion_growth_rate": 42.4,
+        "maintenance_need": 17.3,
+        "jealousy_bias": 11.5,
+        "forgiveness_rate": 59.8,
+        "asymmetry_tolerance": 71.2
+      },
+      "inner_profile": {
+        "self_evaluation": 67.2,
+        "insecurity": 29.5,
+        "maturity": 84.3,
+        "pride": 38.6,
+        "loneliness": 49.7
+      },
+      "needs": {
+        "survival": {
+          "hunger": 20.1,
+          "thirst": 24.9,
+          "sleepiness": 36.7,
+          "health": 79.391
+        },
+        "reproduction": {
+          "sexual_desire": 13.5,
+          "intimacy": 24.4
+        },
+        "psychological": {
+          "belonging": 32.8,
+          "approval": 15.5,
+          "safety": 51.3,
+          "power": 19.8,
+          "freedom": 58.7
+        }
+      },
+      "emotions": {
+        "joy": 25.3,
+        "anger": 7.1991,
+        "sadness": 18.3991,
+        "fear": 12.9991,
+        "affection": 18.0
+      },
+      "persona": {
+        "surface_persona": "soft_spoken_bookish",
+        "hidden_persona": "sharp_pattern_reader",
+        "mask_strength": 58.9,
+        "switch_threshold": 66.4
+      },
+      "status": {
+        "current_location_id": "loc_library_hall",
+        "social_position": "middle_low",
+        "visible_reputation": 43.3828,
+        "hidden_reputation": 61.54,
+        "rumor_level": 15.3484,
+        "fatigue": 25.9,
+        "stress": 22.1393,
+        "injury": 0.0,
+        "financial_level": 49.6
+      },
+      "traits": [
+        "analytical",
+        "observes_before_acting",
+        "emotionally_precise",
+        "low_visibility"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_005",
+      "type": "character",
+      "name": {
+        "family_name": "黒瀬",
+        "given_name": "環",
+        "full_name": "黒瀬 環",
+        "reading": "くろせ たまき"
+      },
+      "role": {
+        "primary": "operator",
+        "secondary": "student_council_aide",
+        "archetype": "social_manipulator"
+      },
+      "demographics": {
+        "age": 18,
+        "school_year": 3,
+        "class_name": "3-A",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.18,
+        "inner": 0.17,
+        "cognition": 0.31,
+        "world": 0.34
+      },
+      "intensity": {
+        "action": 48.3,
+        "inner": 44.6,
+        "cognition": 79.1,
+        "world": 86.2
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "institutional_space": {
+          "action": 1.2,
+          "inner": -0.4,
+          "cognition": 2.9,
+          "world": 3.8
+        },
+        "private_conversation": {
+          "action": 0.6,
+          "inner": 1.1,
+          "cognition": 1.7,
+          "world": -1.3
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "control",
+          "predictability",
+          "advantage_management"
+        ],
+        "taboo_values": [
+          "being_used_by_others",
+          "public_loss_of_face"
+        ],
+        "belief_style": "cold_utilitarianism"
+      },
+      "relation_tendency": {
+        "attachment_speed": 14.6,
+        "trust_growth_rate": 22.8,
+        "suspicion_growth_rate": 68.9,
+        "maintenance_need": 34.4,
+        "jealousy_bias": 29.7,
+        "forgiveness_rate": 19.6,
+        "asymmetry_tolerance": 74.8
+      },
+      "inner_profile": {
+        "self_evaluation": 76.4,
+        "insecurity": 36.1,
+        "maturity": 83.7,
+        "pride": 72.8,
+        "loneliness": 41.9
+      },
+      "needs": {
+        "survival": {
+          "hunger": 18.7,
+          "thirst": 18.3,
+          "sleepiness": 27.9,
+          "health": 83.772
+        },
+        "reproduction": {
+          "sexual_desire": 22.8,
+          "intimacy": 18.9
+        },
+        "psychological": {
+          "belonging": 20.7,
+          "approval": 42.1,
+          "safety": 57.9,
+          "power": 80.9,
+          "freedom": 39.1
+        }
+      },
+      "emotions": {
+        "joy": 21.2,
+        "anger": 12.6164,
+        "sadness": 10.0164,
+        "fear": 17.1164,
+        "affection": 7.9
+      },
+      "persona": {
+        "surface_persona": "composed_high_functional_senior",
+        "hidden_persona": "control_oriented_strategist",
+        "mask_strength": 82.7,
+        "switch_threshold": 72.6
+      },
+      "status": {
+        "current_location_id": "loc_student_council",
+        "social_position": "upper",
+        "visible_reputation": 68.0165,
+        "hidden_reputation": 71.96,
+        "rumor_level": 29.68,
+        "fatigue": 22.3,
+        "stress": 28.7931,
+        "injury": 0.0,
+        "financial_level": 69.3
+      },
+      "traits": [
+        "political",
+        "indirect_operator",
+        "high_control_need",
+        "institutionally_capable"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_006",
+      "type": "character",
+      "name": {
+        "family_name": "篠崎",
+        "given_name": "朱音",
+        "full_name": "篠崎 朱音",
+        "reading": "しのざき あかね"
+      },
+      "role": {
+        "primary": "outsider",
+        "secondary": "transfer_student",
+        "archetype": "charming_disruptor"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-D",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.29,
+        "inner": 0.24,
+        "cognition": 0.21,
+        "world": 0.26
+      },
+      "intensity": {
+        "action": 69.1,
+        "inner": 57.3,
+        "cognition": 52.7,
+        "world": 64.8
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "new_social_field": {
+          "action": 2.3,
+          "inner": 1.4,
+          "cognition": -0.9,
+          "world": 2.1
+        },
+        "cornered": {
+          "action": 1.7,
+          "inner": 2.6,
+          "cognition": -1.2,
+          "world": 0.5
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "self_preservation",
+          "mobility",
+          "emotional_readability_of_others"
+        ],
+        "taboo_values": [
+          "being_fixed_in_one_role",
+          "forced_confession"
+        ],
+        "belief_style": "adaptive_survivalism"
+      },
+      "relation_tendency": {
+        "attachment_speed": 44.8,
+        "trust_growth_rate": 39.2,
+        "suspicion_growth_rate": 46.7,
+        "maintenance_need": 52.1,
+        "jealousy_bias": 31.5,
+        "forgiveness_rate": 46.9,
+        "asymmetry_tolerance": 54.6
+      },
+      "inner_profile": {
+        "self_evaluation": 51.3,
+        "insecurity": 63.5,
+        "maturity": 49.7,
+        "pride": 46.2,
+        "loneliness": 57.8
+      },
+      "needs": {
+        "survival": {
+          "hunger": 24.2,
+          "thirst": 22.0,
+          "sleepiness": 32.2,
+          "health": 78.3575
+        },
+        "reproduction": {
+          "sexual_desire": 35.1,
+          "intimacy": 49.3
+        },
+        "psychological": {
+          "belonging": 69.8,
+          "approval": 56.2,
+          "safety": 57.8,
+          "power": 28.2,
+          "freedom": 63.2
+        }
+      },
+      "emotions": {
+        "joy": 35.9,
+        "anger": 11.0205,
+        "sadness": 23.9205,
+        "fear": 28.5205,
+        "affection": 25.7
+      },
+      "persona": {
+        "surface_persona": "friendly_transfer_student",
+        "hidden_persona": "self_protective_liar",
+        "mask_strength": 73.2,
+        "switch_threshold": 67.8
+      },
+      "status": {
+        "current_location_id": "loc_courtyard",
+        "social_position": "unstable_middle",
+        "visible_reputation": 52.8585,
+        "hidden_reputation": 39.8,
+        "rumor_level": 38.3997,
+        "fatigue": 28.2,
+        "stress": 48.2217,
+        "injury": 0.0,
+        "financial_level": 43.7
+      },
+      "traits": [
+        "socially_flexible",
+        "secretive",
+        "emotionally_hungry",
+        "escape_oriented"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_007",
+      "type": "character",
+      "name": {
+        "family_name": "東雲",
+        "given_name": "紗良",
+        "full_name": "東雲 紗良",
+        "reading": "しののめ さら"
+      },
+      "role": {
+        "primary": "unstable_actor",
+        "secondary": "student",
+        "archetype": "fragile_dependent"
+      },
+      "demographics": {
+        "age": 16,
+        "school_year": 1,
+        "class_name": "1-C",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.14,
+        "inner": 0.43,
+        "cognition": 0.18,
+        "world": 0.25
+      },
+      "intensity": {
+        "action": 31.9,
+        "inner": 88.2,
+        "cognition": 37.6,
+        "world": 53.1
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "abandonment_trigger": {
+          "action": 1.1,
+          "inner": 5.2,
+          "cognition": -3.6,
+          "world": 0.9
+        },
+        "gentle_attention": {
+          "action": -0.7,
+          "inner": -2.9,
+          "cognition": 0.6,
+          "world": -0.4
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "emotional_anchor",
+          "not_being_left_behind",
+          "exclusive_bond"
+        ],
+        "taboo_values": [
+          "abandonment",
+          "cold_rejection"
+        ],
+        "belief_style": "dependency_seeking"
+      },
+      "relation_tendency": {
+        "attachment_speed": 78.4,
+        "trust_growth_rate": 52.3,
+        "suspicion_growth_rate": 58.2,
+        "maintenance_need": 86.7,
+        "jealousy_bias": 67.9,
+        "forgiveness_rate": 33.5,
+        "asymmetry_tolerance": 18.6
+      },
+      "inner_profile": {
+        "self_evaluation": 28.4,
+        "insecurity": 84.7,
+        "maturity": 31.2,
+        "pride": 14.9,
+        "loneliness": 88.1
+      },
+      "needs": {
+        "survival": {
+          "hunger": 22.9,
+          "thirst": 19.6,
+          "sleepiness": 43.1,
+          "health": 63.7029
+        },
+        "reproduction": {
+          "sexual_desire": 18.2,
+          "intimacy": 73.4
+        },
+        "psychological": {
+          "belonging": 87.2,
+          "approval": 62.3,
+          "safety": 77.5,
+          "power": 9.3,
+          "freedom": 18.9
+        }
+      },
+      "emotions": {
+        "joy": 12.6,
+        "anger": 18.6268,
+        "sadness": 52.0268,
+        "fear": 47.6268,
+        "affection": 38.8
+      },
+      "persona": {
+        "surface_persona": "quiet_and_unsteady",
+        "hidden_persona": "clingy_and_overinvested",
+        "mask_strength": 37.4,
+        "switch_threshold": 52.6
+      },
+      "status": {
+        "current_location_id": "loc_infirmary_corridor",
+        "social_position": "lower",
+        "visible_reputation": 28.9241,
+        "hidden_reputation": 33.06,
+        "rumor_level": 31.9522,
+        "fatigue": 44.8,
+        "stress": 72.4966,
+        "injury": 9.4,
+        "financial_level": 38.9
+      },
+      "traits": [
+        "emotionally_fragile",
+        "high_dependency_risk",
+        "rumination_prone",
+        "attachment_sensitive"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": true,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_008",
+      "type": "character",
+      "name": {
+        "family_name": "相沢",
+        "given_name": "蓮",
+        "full_name": "相沢 蓮",
+        "reading": "あいざわ れん"
+      },
+      "role": {
+        "primary": "social_hub",
+        "secondary": "student",
+        "archetype": "network_mediator"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-B",
+        "gender": "male"
+      },
+      "style_ratio": {
+        "action": 0.26,
+        "inner": 0.22,
+        "cognition": 0.19,
+        "world": 0.33
+      },
+      "intensity": {
+        "action": 58.4,
+        "inner": 53.7,
+        "cognition": 47.1,
+        "world": 78.6
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "crowd": {
+          "action": 1.4,
+          "inner": -0.6,
+          "cognition": 0.5,
+          "world": 4.2
+        },
+        "isolation": {
+          "action": -1.9,
+          "inner": 1.7,
+          "cognition": 0.8,
+          "world": -2.3
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "social_balance",
+          "access",
+          "smooth_interaction"
+        ],
+        "taboo_values": [
+          "being_excluded",
+          "irrelevance"
+        ],
+        "belief_style": "network_pragmatism"
+      },
+      "relation_tendency": {
+        "attachment_speed": 36.2,
+        "trust_growth_rate": 43.5,
+        "suspicion_growth_rate": 33.4,
+        "maintenance_need": 61.9,
+        "jealousy_bias": 26.1,
+        "forgiveness_rate": 57.3,
+        "asymmetry_tolerance": 68.8
+      },
+      "inner_profile": {
+        "self_evaluation": 65.8,
+        "insecurity": 37.2,
+        "maturity": 56.1,
+        "pride": 51.4,
+        "loneliness": 29.8
+      },
+      "needs": {
+        "survival": {
+          "hunger": 25.4,
+          "thirst": 20.6,
+          "sleepiness": 30.1,
+          "health": 87.1685
+        },
+        "reproduction": {
+          "sexual_desire": 39.8,
+          "intimacy": 42.8
+        },
+        "psychological": {
+          "belonging": 73.6,
+          "approval": 64.5,
+          "safety": 35.2,
+          "power": 43.2,
+          "freedom": 52.1
+        }
+      },
+      "emotions": {
+        "joy": 41.4,
+        "anger": 9.2195,
+        "sadness": 12.3195,
+        "fear": 14.2195,
+        "affection": 20.9
+      },
+      "persona": {
+        "surface_persona": "friendly_connector",
+        "hidden_persona": "approval_sensitive_broker",
+        "mask_strength": 71.5,
+        "switch_threshold": 64.9
+      },
+      "status": {
+        "current_location_id": "loc_hallway_2f",
+        "social_position": "upper_middle",
+        "visible_reputation": 76.6898,
+        "hidden_reputation": 56.3,
+        "rumor_level": 50.4601,
+        "fatigue": 20.5,
+        "stress": 35.3399,
+        "injury": 0.0,
+        "financial_level": 58.4
+      },
+      "traits": [
+        "well_connected",
+        "mediating",
+        "approval_sensitive",
+        "easily_used_as_channel"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": true,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_001",
+      "from": "char_001",
+      "to": "char_002",
+      "basic": {
+        "like": 58.3694,
+        "trust": 41.6624,
+        "respect": 72.3,
+        "fear": 11.4,
+        "suspicion": 28.4866
+      },
+      "extended": {
+        "interest": 67.1788,
+        "dependence": 19.211,
+        "attachment": 29.9564,
+        "attraction": 34.1,
+        "intimacy": 21.2788
+      },
+      "advanced": {
+        "desire": 12.4,
+        "exclusivity": 9.7,
+        "obsession": 5.7637,
+        "control": 3.1,
+        "devotion": 14.9728,
+        "resentment": 7.4093
+      },
+      "labels": {
+        "structural": [
+          "classmate",
+          "heroine_axis"
+        ],
+        "emotional": [
+          "careful",
+          "curious"
+        ],
+        "perception": [
+          "hard_to_read",
+          "needs_protection"
+        ]
+      },
+      "maintenance": 25.1429,
+      "decay": 9.6415,
+      "asymmetry": 11.8448,
+      "trend": "stagnant"
+    },
+    {
+      "id": "rel_002",
+      "from": "char_002",
+      "to": "char_001",
+      "basic": {
+        "like": 43.5574,
+        "trust": 34.3476,
+        "respect": 61.7,
+        "fear": 8.2,
+        "suspicion": 41.5943
+      },
+      "extended": {
+        "interest": 63.3705,
+        "dependence": 14.7213,
+        "attachment": 18.6718,
+        "attraction": 21.8,
+        "intimacy": 20.1705
+      },
+      "advanced": {
+        "desire": 8.9,
+        "exclusivity": 6.1,
+        "obsession": 3.1808,
+        "control": 2.3,
+        "devotion": 10.2233,
+        "resentment": 12.6409
+      },
+      "labels": {
+        "structural": [
+          "classmate",
+          "heroine_axis"
+        ],
+        "emotional": [
+          "drawn_in",
+          "guarded"
+        ],
+        "perception": [
+          "possibly_dangerous",
+          "possibly_safe"
+        ]
+      },
+      "maintenance": 37.1123,
+      "decay": 12.496,
+      "asymmetry": 11.7443,
+      "trend": "stagnant"
+    },
+    {
+      "id": "rel_003",
+      "from": "char_001",
+      "to": "char_003",
+      "basic": {
+        "like": 24.0378,
+        "trust": 19.4234,
+        "respect": 52.7,
+        "fear": 23.452,
+        "suspicion": 56.0041
+      },
+      "extended": {
+        "interest": 31.5569,
+        "dependence": 6.1551,
+        "attachment": 7.7301,
+        "attraction": 4.3,
+        "intimacy": 5.0569
+      },
+      "advanced": {
+        "desire": 2.0,
+        "exclusivity": 3.1,
+        "obsession": 1.336,
+        "control": 4.5,
+        "devotion": 1.8538,
+        "resentment": 31.5905
+      },
+      "labels": {
+        "structural": [
+          "rival_axis"
+        ],
+        "emotional": [
+          "tense"
+        ],
+        "perception": [
+          "competitive",
+          "watching_me"
+        ]
+      },
+      "maintenance": 9.22,
+      "decay": 18.9598,
+      "asymmetry": 4.6117,
+      "trend": "deteriorating"
+    },
+    {
+      "id": "rel_004",
+      "from": "char_003",
+      "to": "char_001",
+      "basic": {
+        "like": 18.7494,
+        "trust": 14.3377,
+        "respect": 58.6562,
+        "fear": 7.1587,
+        "suspicion": 64.1149
+      },
+      "extended": {
+        "interest": 54.565,
+        "dependence": 3.606,
+        "attachment": 6.2952,
+        "attraction": 3.2,
+        "intimacy": 2.865
+      },
+      "advanced": {
+        "desire": 1.6,
+        "exclusivity": 7.8,
+        "obsession": 8.3099,
+        "control": 18.8,
+        "devotion": 1.0664,
+        "resentment": 34.1159
+      },
+      "labels": {
+        "structural": [
+          "rival_axis"
+        ],
+        "emotional": [
+          "territorial"
+        ],
+        "perception": [
+          "needs_assessment",
+          "unwelcome_variable"
+        ]
+      },
+      "maintenance": 11.9663,
+      "decay": 16.0296,
+      "asymmetry": 4.6103,
+      "trend": "deteriorating"
+    },
+    {
+      "id": "rel_005",
+      "from": "char_004",
+      "to": "char_001",
+      "basic": {
+        "like": 46.4727,
+        "trust": 42.0585,
+        "respect": 63.8,
+        "fear": 4.8,
+        "suspicion": 18.2
+      },
+      "extended": {
+        "interest": 58.6811,
+        "dependence": 9.5524,
+        "attachment": 19.1143,
+        "attraction": 8.3,
+        "intimacy": 15.5271
+      },
+      "advanced": {
+        "desire": 3.2,
+        "exclusivity": 2.9,
+        "obsession": 1.8682,
+        "control": 1.1,
+        "devotion": 8.1628,
+        "resentment": 2.226
+      },
+      "labels": {
+        "structural": [
+          "observer_to_protagonist"
+        ],
+        "emotional": [
+          "quiet_interest"
+        ],
+        "perception": [
+          "important_node",
+          "worth_tracking"
+        ]
+      },
+      "maintenance": 21.7584,
+      "decay": 8.1704,
+      "asymmetry": 3.8708,
+      "trend": "deepening"
+    },
+    {
+      "id": "rel_006",
+      "from": "char_001",
+      "to": "char_004",
+      "basic": {
+        "like": 41.8749,
+        "trust": 38.8842,
+        "respect": 49.5,
+        "fear": 3.2,
+        "suspicion": 14.7
+      },
+      "extended": {
+        "interest": 34.7826,
+        "dependence": 7.7173,
+        "attachment": 13.6589,
+        "attraction": 5.4,
+        "intimacy": 13.9119
+      },
+      "advanced": {
+        "desire": 2.1,
+        "exclusivity": 1.9,
+        "obsession": 0.7364,
+        "control": 0.8,
+        "devotion": 5.5471,
+        "resentment": 1.407
+      },
+      "labels": {
+        "structural": [
+          "observer_link"
+        ],
+        "emotional": [
+          "comfortable"
+        ],
+        "perception": [
+          "easy_to_talk_to",
+          "not_simple"
+        ]
+      },
+      "maintenance": 17.92,
+      "decay": 7.7032,
+      "asymmetry": 3.8457,
+      "trend": "deepening"
+    },
+    {
+      "id": "rel_007",
+      "from": "char_005",
+      "to": "char_008",
+      "basic": {
+        "like": 37.5687,
+        "trust": 29.7615,
+        "respect": 45.5941,
+        "fear": 7.4718,
+        "suspicion": 24.7403
+      },
+      "extended": {
+        "interest": 49.2783,
+        "dependence": 16.1743,
+        "attachment": 10.5488,
+        "attraction": 7.2,
+        "intimacy": 9.3783
+      },
+      "advanced": {
+        "desire": 3.8,
+        "exclusivity": 5.2,
+        "obsession": 5.0166,
+        "control": 32.1,
+        "devotion": 4.7444,
+        "resentment": 8.1393
+      },
+      "labels": {
+        "structural": [
+          "information_channel"
+        ],
+        "emotional": [
+          "instrumental_affection"
+        ],
+        "perception": [
+          "manageable",
+          "useful_hub"
+        ]
+      },
+      "maintenance": 30.9035,
+      "decay": 9.2574,
+      "asymmetry": 7.5641,
+      "trend": "volatile"
+    },
+    {
+      "id": "rel_008",
+      "from": "char_008",
+      "to": "char_005",
+      "basic": {
+        "like": 51.7629,
+        "trust": 27.5543,
+        "respect": 53.2,
+        "fear": 12.4916,
+        "suspicion": 34.9933
+      },
+      "extended": {
+        "interest": 41.0743,
+        "dependence": 22.0506,
+        "attachment": 16.7071,
+        "attraction": 9.6,
+        "intimacy": 12.0743
+      },
+      "advanced": {
+        "desire": 4.1,
+        "exclusivity": 6.3,
+        "obsession": 4.0638,
+        "control": 5.9,
+        "devotion": 7.8794,
+        "resentment": 11.8304
+      },
+      "labels": {
+        "structural": [
+          "information_channel"
+        ],
+        "emotional": [
+          "impressed",
+          "slightly_wary"
+        ],
+        "perception": [
+          "important_senior",
+          "not_transparent"
+        ]
+      },
+      "maintenance": 34.6931,
+      "decay": 11.1221,
+      "asymmetry": 7.5712,
+      "trend": "volatile"
+    },
+    {
+      "id": "rel_009",
+      "from": "char_007",
+      "to": "char_001",
+      "basic": {
+        "like": 71.5843,
+        "trust": 43.7179,
+        "respect": 39.7,
+        "fear": 12.3,
+        "suspicion": 18.9
+      },
+      "extended": {
+        "interest": 83.4892,
+        "dependence": 77.2752,
+        "attachment": 69.8761,
+        "attraction": 31.6,
+        "intimacy": 47.4334
+      },
+      "advanced": {
+        "desire": 24.8,
+        "exclusivity": 39.5,
+        "obsession": 56.9271,
+        "control": 8.6,
+        "devotion": 42.1755,
+        "resentment": 13.1088
+      },
+      "labels": {
+        "structural": [
+          "dependency_axis"
+        ],
+        "emotional": [
+          "anxious",
+          "clingy",
+          "dependent",
+          "warm"
+        ],
+        "perception": [
+          "anchor",
+          "must_not_lose",
+          "trusted",
+          "unbalanced"
+        ]
+      },
+      "maintenance": 80.0618,
+      "decay": 4.3,
+      "asymmetry": 31.0269,
+      "trend": "deepening"
+    },
+    {
+      "id": "rel_010",
+      "from": "char_001",
+      "to": "char_007",
+      "basic": {
+        "like": 47.264,
+        "trust": 25.799,
+        "respect": 29.1859,
+        "fear": 9.6,
+        "suspicion": 38.6
+      },
+      "extended": {
+        "interest": 38.4751,
+        "dependence": 11.543,
+        "attachment": 19.8222,
+        "attraction": 11.1,
+        "intimacy": 14.4751
+      },
+      "advanced": {
+        "desire": 7.3,
+        "exclusivity": 4.4,
+        "obsession": 3.8389,
+        "control": 4.2,
+        "devotion": 17.1244,
+        "resentment": 10.5284
+      },
+      "labels": {
+        "structural": [
+          "dependency_axis"
+        ],
+        "emotional": [
+          "protective",
+          "uneasy"
+        ],
+        "perception": [
+          "fragile",
+          "high_risk"
+        ]
+      },
+      "maintenance": 48.22,
+      "decay": 10.1034,
+      "asymmetry": 30.9808,
+      "trend": "stagnant"
+    },
+    {
+      "id": "rel_011",
+      "from": "char_006",
+      "to": "char_001",
+      "basic": {
+        "like": 44.7596,
+        "trust": 27.5734,
+        "respect": 33.7,
+        "fear": 6.2,
+        "suspicion": 29.5
+      },
+      "extended": {
+        "interest": 57.572,
+        "dependence": 14.9787,
+        "attachment": 18.0314,
+        "attraction": 22.6,
+        "intimacy": 15.5189
+      },
+      "advanced": {
+        "desire": 10.7,
+        "exclusivity": 6.8,
+        "obsession": 4.6,
+        "control": 2.9,
+        "devotion": 8.5007,
+        "resentment": 5.6702
+      },
+      "labels": {
+        "structural": [
+          "outsider_to_protagonist"
+        ],
+        "emotional": [
+          "careful",
+          "interested"
+        ],
+        "perception": [
+          "readable_enough",
+          "useful"
+        ]
+      },
+      "maintenance": 35.0256,
+      "decay": 11.2899,
+      "asymmetry": 4.8527,
+      "trend": "stagnant"
+    },
+    {
+      "id": "rel_012",
+      "from": "char_001",
+      "to": "char_006",
+      "basic": {
+        "like": 39.6538,
+        "trust": 23.5865,
+        "respect": 28.1859,
+        "fear": 4.1,
+        "suspicion": 37.8
+      },
+      "extended": {
+        "interest": 42.768,
+        "dependence": 7.5902,
+        "attachment": 10.8007,
+        "attraction": 18.4,
+        "intimacy": 8.868
+      },
+      "advanced": {
+        "desire": 8.3,
+        "exclusivity": 3.4,
+        "obsession": 2.2031,
+        "control": 1.8,
+        "devotion": 4.7306,
+        "resentment": 6.2954
+      },
+      "labels": {
+        "structural": [
+          "outsider_to_protagonist"
+        ],
+        "emotional": [
+          "cautious_interest"
+        ],
+        "perception": [
+          "hiding_something",
+          "socially_skilled"
+        ]
+      },
+      "maintenance": 21.42,
+      "decay": 13.6589,
+      "asymmetry": 4.836,
+      "trend": "stagnant"
+    },
+    {
+      "id": "rel_013",
+      "from": "char_002",
+      "to": "char_003",
+      "basic": {
+        "like": 16.1443,
+        "trust": 14.2315,
+        "respect": 39.8,
+        "fear": 17.9,
+        "suspicion": 52.7
+      },
+      "extended": {
+        "interest": 22.3614,
+        "dependence": 3.5524,
+        "attachment": 4.4027,
+        "attraction": 4.9,
+        "intimacy": 2.7614
+      },
+      "advanced": {
+        "desire": 1.5,
+        "exclusivity": 1.2,
+        "obsession": 0.9002,
+        "control": 3.8,
+        "devotion": 1.082,
+        "resentment": 21.8958
+      },
+      "labels": {
+        "structural": [
+          "tension_axis"
+        ],
+        "emotional": [],
+        "perception": [
+          "pressuring_presence"
+        ]
+      },
+      "maintenance": 8.52,
+      "decay": 16.2743,
+      "asymmetry": 10.0751,
+      "trend": "deteriorating"
+    },
+    {
+      "id": "rel_014",
+      "from": "char_003",
+      "to": "char_002",
+      "basic": {
+        "like": 33.456,
+        "trust": 21.8458,
+        "respect": 58.4,
+        "fear": 5.2,
+        "suspicion": 31.8
+      },
+      "extended": {
+        "interest": 46.6695,
+        "dependence": 6.0917,
+        "attachment": 10.3009,
+        "attraction": 19.4,
+        "intimacy": 7.4695
+      },
+      "advanced": {
+        "desire": 9.8,
+        "exclusivity": 11.3,
+        "obsession": 6.4423,
+        "control": 12.9,
+        "devotion": 5.1559,
+        "resentment": 7.4272
+      },
+      "labels": {
+        "structural": [
+          "tension_axis"
+        ],
+        "emotional": [
+          "competitive_interest"
+        ],
+        "perception": [
+          "hard_to_dominate",
+          "valuable_status_target"
+        ]
+      },
+      "maintenance": 19.22,
+      "decay": 12.5751,
+      "asymmetry": 10.0498,
+      "trend": "stagnant"
+    }
+  ],
+  "secrets": [
+    {
+      "id": "secret_001",
+      "title": "白峰澪の過去の噂被害",
+      "category": "past_damage",
+      "objective_truth": "白峰澪は以前、事実を歪められた噂によって孤立しかけた過去があり、現在も噂への警戒が極めて強い。",
+      "visibility": "rumored",
+      "knowledge_states": {
+        "char_001": "partially_known",
+        "char_002": "known",
+        "char_003": "rumored",
+        "char_004": "partially_known",
+        "char_005": "partially_known",
+        "char_006": "rumored",
+        "char_007": "rumored",
+        "char_008": "partially_known"
+      },
+      "reveal_conditions": [
+        "high_trust_between_char_001_and_char_002",
+        "rumor_chain_investigation",
+        "library_or_rooftop_private_scene"
+      ],
+      "impact": {
+        "relation_targets": [
+          "char_001",
+          "char_002",
+          "char_005",
+          "char_008"
+        ],
+        "emotion_effects": [
+          "sadness",
+          "fear",
+          "affection"
+        ],
+        "world_effects": [
+          "rumor_instability",
+          "reputation_shift"
+        ]
+      },
+      "priority": 82.4
+    },
+    {
+      "id": "secret_002",
+      "title": "九条迅の神代湊への警戒",
+      "category": "hostile_attention",
+      "objective_truth": "九条迅は神代湊を、自分の立場や支配圏を揺らし得る不確定要素として強く警戒している。",
+      "visibility": "revealed",
+      "knowledge_states": {
+        "char_001": "known",
+        "char_002": "partially_known",
+        "char_003": "known",
+        "char_004": "partially_known",
+        "char_005": "partially_known",
+        "char_006": "partially_known",
+        "char_007": "partially_known",
+        "char_008": "partially_known"
+      },
+      "reveal_conditions": [
+        "direct_confrontation_scene",
+        "competition_event",
+        "third_party_observation_by_char_004"
+      ],
+      "impact": {
+        "relation_targets": [
+          "char_001",
+          "char_003"
+        ],
+        "emotion_effects": [
+          "anger",
+          "fear"
+        ],
+        "world_effects": [
+          "conflict_escalation"
+        ]
+      },
+      "priority": 75.9
+    },
+    {
+      "id": "secret_003",
+      "title": "黒瀬環による相沢蓮経由の情報操作",
+      "category": "information_manipulation",
+      "objective_truth": "黒瀬環は相沢蓮の情報流通力を利用し、学内の空気と認識を微妙に誘導している。",
+      "visibility": "revealed",
+      "knowledge_states": {
+        "char_001": "partially_known",
+        "char_002": "partially_known",
+        "char_003": "partially_known",
+        "char_004": "partially_known",
+        "char_005": "known",
+        "char_006": "partially_known",
+        "char_007": "partially_known",
+        "char_008": "known"
+      },
+      "reveal_conditions": [
+        "cross_check_multiple_rumors",
+        "student_council_trace",
+        "char_008_breaks_alignment"
+      ],
+      "impact": {
+        "relation_targets": [
+          "char_005",
+          "char_008",
+          "char_001",
+          "char_002"
+        ],
+        "emotion_effects": [
+          "suspicion",
+          "anger"
+        ],
+        "world_effects": [
+          "network_restructuring",
+          "reputation_instability"
+        ]
+      },
+      "priority": 88.3
+    },
+    {
+      "id": "secret_004",
+      "title": "東雲紗良の神代湊への依存傾向",
+      "category": "emotional_dependency",
+      "objective_truth": "東雲紗良は神代湊を精神的な支柱として過剰に見始めており、拒絶や離脱で不安定化する危険がある。",
+      "visibility": "revealed",
+      "knowledge_states": {
+        "char_001": "known",
+        "char_002": "partially_known",
+        "char_003": "partially_known",
+        "char_004": "partially_known",
+        "char_005": "partially_known",
+        "char_006": "partially_known",
+        "char_007": "known",
+        "char_008": "partially_known"
+      },
+      "reveal_conditions": [
+        "abandonment_trigger_event",
+        "infirmary_scene",
+        "jealousy_chain_reaction"
+      ],
+      "impact": {
+        "relation_targets": [
+          "char_001",
+          "char_007",
+          "char_002"
+        ],
+        "emotion_effects": [
+          "fear",
+          "sadness",
+          "jealousy"
+        ],
+        "world_effects": [
+          "volatile_event_risk"
+        ]
+      },
+      "priority": 91.7
+    },
+    {
+      "id": "secret_005",
+      "title": "篠崎朱音の転入理由偽装",
+      "category": "identity_mask",
+      "objective_truth": "篠崎朱音は転入理由について表向きの説明をしているが、実際にはそれとは別の逃避的・防衛的事情を隠している。",
+      "visibility": "hidden",
+      "knowledge_states": {
+        "char_001": "unknown",
+        "char_002": "unknown",
+        "char_003": "unknown",
+        "char_004": "partially_known",
+        "char_005": "rumored",
+        "char_006": "known",
+        "char_007": "unknown",
+        "char_008": "unknown"
+      },
+      "reveal_conditions": [
+        "transfer_document_inconsistency",
+        "private_confession_scene",
+        "pressure_from_social_group"
+      ],
+      "impact": {
+        "relation_targets": [
+          "char_006",
+          "char_001",
+          "char_004"
+        ],
+        "emotion_effects": [
+          "fear",
+          "sadness",
+          "trust_shift"
+        ],
+        "world_effects": [
+          "identity_reframing"
+        ]
+      },
+      "priority": 73.8
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_classroom_2a",
+      "name": "2-A Classroom",
+      "category": "classroom",
+      "visibility": "public",
+      "noise_level": 58.3,
+      "privacy_level": 21.4,
+      "social_pressure": 74.8,
+      "rumor_spread_rate": 68.5,
+      "emotional_tags": [
+        "daily_life",
+        "observation",
+        "tension"
+      ],
+      "connected_to": [
+        "loc_hallway_2f"
+      ],
+      "description": "神代湊と白峰澪の主戦場となる教室。視線と空気が蓄積しやすい。"
+    },
+    {
+      "id": "loc_hallway_2f",
+      "name": "2F Hallway",
+      "category": "hallway",
+      "visibility": "public",
+      "noise_level": 71.6,
+      "privacy_level": 12.9,
+      "social_pressure": 63.2,
+      "rumor_spread_rate": 82.7,
+      "emotional_tags": [
+        "traffic",
+        "chance_encounter",
+        "exposure"
+      ],
+      "connected_to": [
+        "loc_classroom_2a",
+        "loc_library_hall",
+        "loc_courtyard"
+      ],
+      "description": "人の流れが多く、噂や視線が交差する通路。相沢蓮や九条迅の影響が強く出やすい。"
+    },
+    {
+      "id": "loc_library_hall",
+      "name": "Library Hall",
+      "category": "library",
+      "visibility": "semi_public",
+      "noise_level": 18.5,
+      "privacy_level": 66.4,
+      "social_pressure": 27.6,
+      "rumor_spread_rate": 16.9,
+      "emotional_tags": [
+        "calm",
+        "analysis",
+        "confession_potential"
+      ],
+      "connected_to": [
+        "loc_hallway_2f"
+      ],
+      "description": "静けさと観察に向いた場所。雨宮透子の視点や秘密の断片が浮上しやすい。"
+    },
+    {
+      "id": "loc_student_council",
+      "name": "Student Council Room",
+      "category": "institution",
+      "visibility": "restricted",
+      "noise_level": 24.7,
+      "privacy_level": 72.1,
+      "social_pressure": 69.3,
+      "rumor_spread_rate": 21.4,
+      "emotional_tags": [
+        "control",
+        "authority",
+        "negotiation"
+      ],
+      "connected_to": [
+        "loc_hallway_2f"
+      ],
+      "description": "制度と権限の匂いが強い部屋。黒瀬環の操作性が最も高まる。"
+    },
+    {
+      "id": "loc_courtyard",
+      "name": "Courtyard",
+      "category": "open_space",
+      "visibility": "public",
+      "noise_level": 44.6,
+      "privacy_level": 39.8,
+      "social_pressure": 41.7,
+      "rumor_spread_rate": 47.2,
+      "emotional_tags": [
+        "openness",
+        "transition",
+        "fragile_peace"
+      ],
+      "connected_to": [
+        "loc_hallway_2f",
+        "loc_rooftop_access"
+      ],
+      "description": "偶然の接触と一時的な解放感が生まれる中庭。篠崎朱音の外部者性が映える。"
+    },
+    {
+      "id": "loc_infirmary_corridor",
+      "name": "Infirmary Corridor",
+      "category": "medical_corridor",
+      "visibility": "semi_public",
+      "noise_level": 15.3,
+      "privacy_level": 61.5,
+      "social_pressure": 32.4,
+      "rumor_spread_rate": 19.7,
+      "emotional_tags": [
+        "fragility",
+        "unease",
+        "dependency"
+      ],
+      "connected_to": [
+        "loc_hallway_2f"
+      ],
+      "description": "弱さや不調が表に出やすい場所。東雲紗良の不安定さと依存が浮きやすい。"
+    },
+    {
+      "id": "loc_rooftop_access",
+      "name": "Rooftop Access",
+      "category": "rooftop_edge",
+      "visibility": "semi_restricted",
+      "noise_level": 12.6,
+      "privacy_level": 78.3,
+      "social_pressure": 18.5,
+      "rumor_spread_rate": 9.4,
+      "emotional_tags": [
+        "isolation",
+        "honesty",
+        "critical_scene"
+      ],
+      "connected_to": [
+        "loc_courtyard"
+      ],
+      "description": "本音や対決が生じやすい高所の境界空間。重要秘密の開示候補地点。"
+    }
+  ],
+  "event_log": [
+    {
+      "turn": 1,
+      "event_type": "action",
+      "actor_id": "char_001",
+      "target_id": "char_002",
+      "location_id": "loc_classroom_2a",
+      "top_need": "safety",
+      "need_score": 47.8,
+      "action_type": "withdraw",
+      "short_term_score": 40.6595,
+      "long_term_score": 8.0,
+      "world_cost": 16.4406,
+      "engine_bias": 0.3657,
+      "ideology_bias": 0.0,
+      "score": 11.6821,
+      "reason": "defensive_need",
+      "world_pressure_preview": {
+        "pressure_score": 29.892,
+        "visibility_risk": 55.882,
+        "hierarchy_friction": 5.7,
+        "privacy_shield": 3.852
+      },
+      "candidate_preview": [
+        {
+          "action_type": "withdraw",
+          "score": 11.6821,
+          "short_term_score": 40.6595,
+          "long_term_score": 8.0,
+          "world_cost": 16.4406,
+          "pressure_score": 29.892
+        },
+        {
+          "action_type": "wait",
+          "score": 3.6095,
+          "short_term_score": 17.7734,
+          "long_term_score": 4.0,
+          "world_cost": 9.0423,
+          "pressure_score": 16.4406
+        },
+        {
+          "action_type": "seek_help",
+          "score": 1.6717,
+          "short_term_score": 52.6324,
+          "long_term_score": 12.0,
+          "world_cost": 34.9771,
+          "pressure_score": 56.7948
+        },
+        {
+          "action_type": "observe",
+          "score": -4.041,
+          "short_term_score": 34.528,
+          "long_term_score": 7.0,
+          "world_cost": 28.086,
+          "pressure_score": 48.5745
+        },
+        {
+          "action_type": "approach",
+          "score": -4.9378,
+          "short_term_score": 43.1976,
+          "long_term_score": 10.0,
+          "world_cost": 35.1992,
+          "pressure_score": 61.2786
+        },
+        {
+          "action_type": "support",
+          "score": -6.2626,
+          "short_term_score": 32.9481,
+          "long_term_score": 12.0,
+          "world_cost": 33.1551,
+          "pressure_score": 55.3002
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_001",
+          "char_002"
+        ],
+        [
+          "char_002",
+          "char_001"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 55.882,
+        "hierarchy_friction": 5.7,
+        "institutional_weight": 17.0,
+        "privacy_shield": 3.852,
+        "pressure_score": 29.892,
+        "rumor_multiplier": 1.2126
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_001",
+          "summary": "神代 湊 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_001",
+            "char_002"
+          ],
+          "pressure_score": 59.7231
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "general_students",
+          "pressure_score": 11.8573,
+          "summary": "general_students の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": []
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "reputation_shift",
+      "trigger_type": "reputation_shift",
+      "trigger_id": "char_001",
+      "summary": "神代 湊 の行動が周囲の評価に薄く残った。",
+      "affected_entities": [
+        "char_001",
+        "char_002"
+      ],
+      "pressure_score": 59.7231
+    },
+    {
+      "turn": 1,
+      "event_type": "faction_pressure",
+      "trigger_type": "faction_pressure",
+      "trigger_id": "general_students",
+      "pressure_score": 11.8573,
+      "summary": "general_students の空気が動き、周辺メンバーが出来事に反応し始めた。",
+      "affected_entities": []
+    },
+    {
+      "turn": 1,
+      "event_type": "action",
+      "actor_id": "char_002",
+      "target_id": "char_001",
+      "location_id": "loc_classroom_2a",
+      "top_need": "safety",
+      "need_score": 62.4,
+      "action_type": "withdraw",
+      "short_term_score": 53.3898,
+      "long_term_score": 8.0837,
+      "world_cost": 15.1943,
+      "engine_bias": 0.3979,
+      "ideology_bias": 0.0,
+      "score": 20.8769,
+      "reason": "defensive_need",
+      "world_pressure_preview": {
+        "pressure_score": 27.626,
+        "visibility_risk": 55.882,
+        "hierarchy_friction": 0.035,
+        "privacy_shield": 3.852
+      },
+      "candidate_preview": [
+        {
+          "action_type": "withdraw",
+          "score": 20.8769,
+          "short_term_score": 53.3898,
+          "long_term_score": 8.0837,
+          "world_cost": 15.1943,
+          "pressure_score": 27.626
+        },
+        {
+          "action_type": "seek_help",
+          "score": 11.4328,
+          "short_term_score": 64.5701,
+          "long_term_score": 11.7698,
+          "world_cost": 32.6092,
+          "pressure_score": 52.4894
+        },
+        {
+          "action_type": "wait",
+          "score": 4.468,
+          "short_term_score": 18.0466,
+          "long_term_score": 4.0,
+          "world_cost": 8.3569,
+          "pressure_score": 15.1943
+        },
+        {
+          "action_type": "observe",
+          "score": -1.9847,
+          "short_term_score": 34.5978,
+          "long_term_score": 7.0,
+          "world_cost": 26.0607,
+          "pressure_score": 44.8922
+        },
+        {
+          "action_type": "approach",
+          "score": -4.4893,
+          "short_term_score": 39.8159,
+          "long_term_score": 9.8326,
+          "world_cost": 32.6443,
+          "pressure_score": 56.6333
+        },
+        {
+          "action_type": "support",
+          "score": -6.0305,
+          "short_term_score": 29.6373,
+          "long_term_score": 11.7489,
+          "world_cost": 30.8495,
+          "pressure_score": 51.1081
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_002",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_002"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 55.882,
+        "hierarchy_friction": 0.035,
+        "institutional_weight": 17.0,
+        "privacy_shield": 3.852,
+        "pressure_score": 27.626,
+        "rumor_multiplier": 1.2126
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_002",
+          "summary": "白峰 澪 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_002",
+            "char_001"
+          ],
+          "pressure_score": 60.0726
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "social_core",
+          "pressure_score": 12.0834,
+          "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_003",
+            "char_008"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "reputation_shift",
+      "trigger_type": "reputation_shift",
+      "trigger_id": "char_002",
+      "summary": "白峰 澪 の行動が周囲の評価に薄く残った。",
+      "affected_entities": [
+        "char_002",
+        "char_001"
+      ],
+      "pressure_score": 60.0726
+    },
+    {
+      "turn": 1,
+      "event_type": "faction_pressure",
+      "trigger_type": "faction_pressure",
+      "trigger_id": "social_core",
+      "pressure_score": 12.0834,
+      "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+      "affected_entities": [
+        "char_003",
+        "char_008"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "action",
+      "actor_id": "char_003",
+      "target_id": "char_001",
+      "location_id": "loc_hallway_2f",
+      "top_need": "power",
+      "need_score": 48.685,
+      "action_type": "confront",
+      "short_term_score": 108.5451,
+      "long_term_score": 10.8,
+      "world_cost": 43.6648,
+      "engine_bias": 0.4384,
+      "ideology_bias": 4.8,
+      "score": 32.0814,
+      "reason": "conflict_pressure",
+      "world_pressure_preview": {
+        "pressure_score": 75.9432,
+        "visibility_risk": 65.608,
+        "hierarchy_friction": 0.0,
+        "privacy_shield": 2.322
+      },
+      "candidate_preview": [
+        {
+          "action_type": "confront",
+          "score": 32.0814,
+          "short_term_score": 108.5451,
+          "long_term_score": 10.8,
+          "world_cost": 43.6648,
+          "pressure_score": 75.9432
+        },
+        {
+          "action_type": "withdraw",
+          "score": 10.5233,
+          "short_term_score": 35.0048,
+          "long_term_score": 8.0,
+          "world_cost": 13.9229,
+          "pressure_score": 25.3144
+        },
+        {
+          "action_type": "wait",
+          "score": 5.2625,
+          "short_term_score": 18.4069,
+          "long_term_score": 4.0,
+          "world_cost": 7.6576,
+          "pressure_score": 13.9229
+        },
+        {
+          "action_type": "observe",
+          "score": 3.5502,
+          "short_term_score": 40.9232,
+          "long_term_score": 7.0,
+          "world_cost": 24.2787,
+          "pressure_score": 41.1359
+        },
+        {
+          "action_type": "seek_help",
+          "score": -4.9936,
+          "short_term_score": 33.5572,
+          "long_term_score": 12.0,
+          "world_cost": 29.6136,
+          "pressure_score": 48.0974
+        },
+        {
+          "action_type": "support",
+          "score": -11.8843,
+          "short_term_score": 21.4695,
+          "long_term_score": 12.0,
+          "world_cost": 29.0654,
+          "pressure_score": 46.8316
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_003",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_003"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 65.608,
+        "hierarchy_friction": 0.0,
+        "institutional_weight": 0.0,
+        "privacy_shield": 2.322,
+        "pressure_score": 75.9432,
+        "rumor_multiplier": 1.1464
+      },
+      "world_events": [
+        {
+          "trigger_type": "world_pressure",
+          "trigger_id": "char_003:confront:exposure",
+          "summary": "2F Hallway の空気が張りつめ、出来事が周囲に残りやすくなった。",
+          "affected_entities": [
+            "char_003",
+            "char_001"
+          ]
+        },
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_003",
+          "summary": "九条 迅 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_003",
+            "char_001"
+          ],
+          "pressure_score": 69.8283
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "social_core",
+          "pressure_score": 33.9233,
+          "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_002",
+            "char_008"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "world_pressure",
+      "trigger_type": "world_pressure",
+      "trigger_id": "char_003:confront:exposure",
+      "summary": "2F Hallway の空気が張りつめ、出来事が周囲に残りやすくなった。",
+      "affected_entities": [
+        "char_003",
+        "char_001"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "reputation_shift",
+      "trigger_type": "reputation_shift",
+      "trigger_id": "char_003",
+      "summary": "九条 迅 の行動が周囲の評価に薄く残った。",
+      "affected_entities": [
+        "char_003",
+        "char_001"
+      ],
+      "pressure_score": 69.8283
+    },
+    {
+      "turn": 1,
+      "event_type": "faction_pressure",
+      "trigger_type": "faction_pressure",
+      "trigger_id": "social_core",
+      "pressure_score": 33.9233,
+      "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+      "affected_entities": [
+        "char_002",
+        "char_008"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secret_exposure",
+      "secret_id": "secret_001",
+      "old_visibility": "hidden",
+      "new_visibility": "rumored",
+      "reason": "rumor_chain_investigation",
+      "affected_entities": [
+        "char_004",
+        "char_008"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secret_exposure",
+      "secret_id": "secret_002",
+      "old_visibility": "hidden",
+      "new_visibility": "revealed",
+      "reason": "direct_confrontation_scene",
+      "affected_entities": [
+        "char_003",
+        "char_001"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "action",
+      "actor_id": "char_004",
+      "target_id": "char_001",
+      "location_id": "loc_library_hall",
+      "top_need": "safety",
+      "need_score": 51.3,
+      "action_type": "confide",
+      "short_term_score": 52.5027,
+      "long_term_score": 20.784,
+      "world_cost": 5.3313,
+      "engine_bias": 0.394,
+      "ideology_bias": 0.0,
+      "score": 34.3901,
+      "reason": "private_disclosure",
+      "world_pressure_preview": {
+        "pressure_score": 9.6932,
+        "visibility_risk": 18.844,
+        "hierarchy_friction": 1.92,
+        "privacy_shield": 11.952
+      },
+      "candidate_preview": [
+        {
+          "action_type": "confide",
+          "score": 34.3901,
+          "short_term_score": 52.5027,
+          "long_term_score": 20.784,
+          "world_cost": 5.3313,
+          "pressure_score": 9.6932
+        },
+        {
+          "action_type": "seek_help",
+          "score": 32.8316,
+          "short_term_score": 53.6174,
+          "long_term_score": 12.0,
+          "world_cost": 5.0634,
+          "pressure_score": 6.6971
+        },
+        {
+          "action_type": "observe",
+          "score": 24.8675,
+          "short_term_score": 32.528,
+          "long_term_score": 7.0,
+          "world_cost": 3.4883,
+          "pressure_score": 5.7278
+        },
+        {
+          "action_type": "withdraw",
+          "score": 23.1448,
+          "short_term_score": 36.5556,
+          "long_term_score": 8.0,
+          "world_cost": 3.1026,
+          "pressure_score": 3.5248
+        },
+        {
+          "action_type": "approach",
+          "score": 20.2038,
+          "short_term_score": 33.3101,
+          "long_term_score": 10.0,
+          "world_cost": 4.5262,
+          "pressure_score": 7.2258
+        },
+        {
+          "action_type": "support",
+          "score": 17.6046,
+          "short_term_score": 23.8538,
+          "long_term_score": 12.0,
+          "world_cost": 4.2625,
+          "pressure_score": 6.5209
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_004",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_004"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 18.844,
+        "hierarchy_friction": 1.92,
+        "institutional_weight": 0.0,
+        "privacy_shield": 11.952,
+        "pressure_score": 9.6932,
+        "rumor_multiplier": 0.7213
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_004",
+          "summary": "雨宮 透子 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_004",
+            "char_001"
+          ],
+          "pressure_score": 22.8459
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "quiet_observers",
+          "pressure_score": 10.9127,
+          "summary": "quiet_observers の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": []
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "reputation_shift",
+      "trigger_type": "reputation_shift",
+      "trigger_id": "char_004",
+      "summary": "雨宮 透子 の行動が周囲の評価に薄く残った。",
+      "affected_entities": [
+        "char_004",
+        "char_001"
+      ],
+      "pressure_score": 22.8459
+    },
+    {
+      "turn": 1,
+      "event_type": "faction_pressure",
+      "trigger_type": "faction_pressure",
+      "trigger_id": "quiet_observers",
+      "pressure_score": 10.9127,
+      "summary": "quiet_observers の空気が動き、周辺メンバーが出来事に反応し始めた。",
+      "affected_entities": []
+    },
+    {
+      "turn": 1,
+      "event_type": "action",
+      "actor_id": "char_005",
+      "target_id": "char_008",
+      "location_id": "loc_student_council",
+      "top_need": "safety",
+      "need_score": 57.9,
+      "action_type": "confront",
+      "short_term_score": 77.2297,
+      "long_term_score": 10.8,
+      "world_cost": 11.3995,
+      "engine_bias": 0.3119,
+      "ideology_bias": 2.4,
+      "score": 43.257,
+      "reason": "conflict_pressure",
+      "world_pressure_preview": {
+        "pressure_score": 16.9464,
+        "visibility_risk": 17.71,
+        "hierarchy_friction": 0.04,
+        "privacy_shield": 12.978
+      },
+      "candidate_preview": [
+        {
+          "action_type": "confront",
+          "score": 43.257,
+          "short_term_score": 77.2297,
+          "long_term_score": 10.8,
+          "world_cost": 11.3995,
+          "pressure_score": 16.9464
+        },
+        {
+          "action_type": "seek_help",
+          "score": 28.6677,
+          "short_term_score": 53.7913,
+          "long_term_score": 12.0,
+          "world_cost": 9.368,
+          "pressure_score": 10.7327
+        },
+        {
+          "action_type": "withdraw",
+          "score": 26.9316,
+          "short_term_score": 42.6639,
+          "long_term_score": 8.0,
+          "world_cost": 3.1908,
+          "pressure_score": 5.6488
+        },
+        {
+          "action_type": "confide",
+          "score": 20.9533,
+          "short_term_score": 36.624,
+          "long_term_score": 19.5714,
+          "world_cost": 8.5438,
+          "pressure_score": 15.5342
+        },
+        {
+          "action_type": "observe",
+          "score": 20.8396,
+          "short_term_score": 33.0508,
+          "long_term_score": 7.0,
+          "world_cost": 5.4766,
+          "pressure_score": 9.1793
+        },
+        {
+          "action_type": "wait",
+          "score": 18.6192,
+          "short_term_score": 21.032,
+          "long_term_score": 4.0,
+          "world_cost": 1.7087,
+          "pressure_score": 3.1068
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_005",
+          "char_008"
+        ],
+        [
+          "char_008",
+          "char_005"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 17.71,
+        "hierarchy_friction": 0.04,
+        "institutional_weight": 9.35,
+        "privacy_shield": 12.978,
+        "pressure_score": 16.9464,
+        "rumor_multiplier": 0.796
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_005",
+          "summary": "黒瀬 環 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_005",
+            "char_008"
+          ],
+          "pressure_score": 21.9771
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "institutional_core",
+          "pressure_score": 17.8679,
+          "summary": "institutional_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": []
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "reputation_shift",
+      "trigger_type": "reputation_shift",
+      "trigger_id": "char_005",
+      "summary": "黒瀬 環 の行動が周囲の評価に薄く残った。",
+      "affected_entities": [
+        "char_005",
+        "char_008"
+      ],
+      "pressure_score": 21.9771
+    },
+    {
+      "turn": 1,
+      "event_type": "faction_pressure",
+      "trigger_type": "faction_pressure",
+      "trigger_id": "institutional_core",
+      "pressure_score": 17.8679,
+      "summary": "institutional_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+      "affected_entities": []
+    },
+    {
+      "turn": 1,
+      "event_type": "secret_exposure",
+      "secret_id": "secret_003",
+      "old_visibility": "hidden",
+      "new_visibility": "revealed",
+      "reason": "channel_breakdown",
+      "affected_entities": [
+        "char_005",
+        "char_008"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "action",
+      "actor_id": "char_006",
+      "target_id": "char_001",
+      "location_id": "loc_courtyard",
+      "top_need": "safety",
+      "need_score": 59.6,
+      "action_type": "seek_help",
+      "short_term_score": 62.8242,
+      "long_term_score": 12.0,
+      "world_cost": 15.5179,
+      "engine_bias": 0.2702,
+      "ideology_bias": 2.4,
+      "score": 30.0365,
+      "reason": "stability_recovery",
+      "world_pressure_preview": {
+        "pressure_score": 24.4234,
+        "visibility_risk": 38.98,
+        "hierarchy_friction": 0.32,
+        "privacy_shield": 7.164
+      },
+      "candidate_preview": [
+        {
+          "action_type": "seek_help",
+          "score": 30.0365,
+          "short_term_score": 62.8242,
+          "long_term_score": 12.0,
+          "world_cost": 15.5179,
+          "pressure_score": 24.4234
+        },
+        {
+          "action_type": "withdraw",
+          "score": 29.8069,
+          "short_term_score": 50.5818,
+          "long_term_score": 8.0,
+          "world_cost": 7.0699,
+          "pressure_score": 12.8544
+        },
+        {
+          "action_type": "confide",
+          "score": 17.9871,
+          "short_term_score": 51.0933,
+          "long_term_score": 19.138,
+          "world_cost": 19.8863,
+          "pressure_score": 35.3496
+        },
+        {
+          "action_type": "approach",
+          "score": 15.4816,
+          "short_term_score": 43.741,
+          "long_term_score": 10.0,
+          "world_cost": 15.3273,
+          "pressure_score": 26.3515
+        },
+        {
+          "action_type": "confront",
+          "score": 12.8626,
+          "short_term_score": 51.6145,
+          "long_term_score": 8.88,
+          "world_cost": 22.5608,
+          "pressure_score": 38.5632
+        },
+        {
+          "action_type": "support",
+          "score": 12.8124,
+          "short_term_score": 37.9715,
+          "long_term_score": 12.0,
+          "world_cost": 14.9673,
+          "pressure_score": 23.7806
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_006",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_006"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 38.98,
+        "hierarchy_friction": 0.32,
+        "institutional_weight": 0.0,
+        "privacy_shield": 7.164,
+        "pressure_score": 24.4234,
+        "rumor_multiplier": 0.9044
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_006",
+          "summary": "篠崎 朱音 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_006",
+            "char_001"
+          ],
+          "pressure_score": 45.851
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "peripheral",
+          "pressure_score": 13.206,
+          "summary": "peripheral の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_007"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "reputation_shift",
+      "trigger_type": "reputation_shift",
+      "trigger_id": "char_006",
+      "summary": "篠崎 朱音 の行動が周囲の評価に薄く残った。",
+      "affected_entities": [
+        "char_006",
+        "char_001"
+      ],
+      "pressure_score": 45.851
+    },
+    {
+      "turn": 1,
+      "event_type": "faction_pressure",
+      "trigger_type": "faction_pressure",
+      "trigger_id": "peripheral",
+      "pressure_score": 13.206,
+      "summary": "peripheral の空気が動き、周辺メンバーが出来事に反応し始めた。",
+      "affected_entities": [
+        "char_007"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "action",
+      "actor_id": "char_007",
+      "target_id": "char_001",
+      "location_id": "loc_infirmary_corridor",
+      "top_need": "safety",
+      "need_score": 79.3,
+      "action_type": "seek_help",
+      "short_term_score": 104.9216,
+      "long_term_score": 12.0,
+      "world_cost": 14.8919,
+      "engine_bias": 0.4071,
+      "ideology_bias": 2.4,
+      "score": 57.2121,
+      "reason": "stability_recovery",
+      "world_pressure_preview": {
+        "pressure_score": 24.1308,
+        "visibility_risk": 21.686,
+        "hierarchy_friction": 4.135,
+        "privacy_shield": 11.07
+      },
+      "candidate_preview": [
+        {
+          "action_type": "seek_help",
+          "score": 57.2121,
+          "short_term_score": 104.9216,
+          "long_term_score": 12.0,
+          "world_cost": 14.8919,
+          "pressure_score": 24.1308
+        },
+        {
+          "action_type": "confide",
+          "score": 46.9886,
+          "short_term_score": 91.2469,
+          "long_term_score": 21.0497,
+          "world_cost": 19.2094,
+          "pressure_score": 34.9261
+        },
+        {
+          "action_type": "withdraw",
+          "score": 37.7133,
+          "short_term_score": 67.8769,
+          "long_term_score": 8.0,
+          "world_cost": 7.8582,
+          "pressure_score": 12.7004
+        },
+        {
+          "action_type": "approach",
+          "score": 27.1508,
+          "short_term_score": 61.3266,
+          "long_term_score": 10.0,
+          "world_cost": 14.9677,
+          "pressure_score": 26.0358
+        },
+        {
+          "action_type": "support",
+          "score": 21.7909,
+          "short_term_score": 49.7074,
+          "long_term_score": 12.0,
+          "world_cost": 13.7106,
+          "pressure_score": 23.4957
+        },
+        {
+          "action_type": "wait",
+          "score": 7.8921,
+          "short_term_score": 15.4219,
+          "long_term_score": 4.0,
+          "world_cost": 3.8419,
+          "pressure_score": 6.9852
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_007",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_007"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 21.686,
+        "hierarchy_friction": 4.135,
+        "institutional_weight": 17.0,
+        "privacy_shield": 11.07,
+        "pressure_score": 24.1308,
+        "rumor_multiplier": 0.9017
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_007",
+          "summary": "東雲 紗良 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_007",
+            "char_001"
+          ],
+          "pressure_score": 26.7663
+        },
+        {
+          "trigger_type": "hierarchy_sanction",
+          "trigger_id": "char_007->char_001",
+          "summary": "東雲 紗良 の行動は階層差に阻まれ、表向きの立場を少し失った。",
+          "affected_entities": [
+            "char_007",
+            "char_001"
+          ],
+          "pressure_score": 4.7437
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "peripheral",
+          "pressure_score": 11.1287,
+          "summary": "peripheral の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_006"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "reputation_shift",
+      "trigger_type": "reputation_shift",
+      "trigger_id": "char_007",
+      "summary": "東雲 紗良 の行動が周囲の評価に薄く残った。",
+      "affected_entities": [
+        "char_007",
+        "char_001"
+      ],
+      "pressure_score": 26.7663
+    },
+    {
+      "turn": 1,
+      "event_type": "hierarchy_sanction",
+      "trigger_type": "hierarchy_sanction",
+      "trigger_id": "char_007->char_001",
+      "summary": "東雲 紗良 の行動は階層差に阻まれ、表向きの立場を少し失った。",
+      "affected_entities": [
+        "char_007",
+        "char_001"
+      ],
+      "pressure_score": 4.7437
+    },
+    {
+      "turn": 1,
+      "event_type": "faction_pressure",
+      "trigger_type": "faction_pressure",
+      "trigger_id": "peripheral",
+      "pressure_score": 11.1287,
+      "summary": "peripheral の空気が動き、周辺メンバーが出来事に反応し始めた。",
+      "affected_entities": [
+        "char_006"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secret_exposure",
+      "secret_id": "secret_004",
+      "old_visibility": "hidden",
+      "new_visibility": "revealed",
+      "reason": "dependency_confession",
+      "affected_entities": [
+        "char_007",
+        "char_001"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "action",
+      "actor_id": "char_008",
+      "target_id": "char_005",
+      "location_id": "loc_hallway_2f",
+      "top_need": "belonging",
+      "need_score": 62.56,
+      "action_type": "withdraw",
+      "short_term_score": 31.046,
+      "long_term_score": 9.8258,
+      "world_cost": 14.3453,
+      "engine_bias": 0.3267,
+      "ideology_bias": 0.0,
+      "score": 8.1668,
+      "reason": "defensive_need",
+      "world_pressure_preview": {
+        "pressure_score": 26.0824,
+        "visibility_risk": 65.608,
+        "hierarchy_friction": 1.92,
+        "privacy_shield": 2.322
+      },
+      "candidate_preview": [
+        {
+          "action_type": "withdraw",
+          "score": 8.1668,
+          "short_term_score": 31.046,
+          "long_term_score": 9.8258,
+          "world_cost": 14.3453,
+          "pressure_score": 26.0824
+        },
+        {
+          "action_type": "approach",
+          "score": 6.6754,
+          "short_term_score": 47.5285,
+          "long_term_score": 9.2885,
+          "world_cost": 30.6719,
+          "pressure_score": 53.4689
+        },
+        {
+          "action_type": "wait",
+          "score": 6.0547,
+          "short_term_score": 19.6031,
+          "long_term_score": 4.84,
+          "world_cost": 7.8899,
+          "pressure_score": 14.3453
+        },
+        {
+          "action_type": "seek_help",
+          "score": 0.1843,
+          "short_term_score": 43.651,
+          "long_term_score": 11.0216,
+          "world_cost": 30.4161,
+          "pressure_score": 49.5566
+        },
+        {
+          "action_type": "support",
+          "score": -0.8519,
+          "short_term_score": 41.0891,
+          "long_term_score": 10.9327,
+          "world_cost": 29.8468,
+          "pressure_score": 48.2524
+        },
+        {
+          "action_type": "confront",
+          "score": -5.4973,
+          "short_term_score": 56.4929,
+          "long_term_score": 13.8847,
+          "world_cost": 44.932,
+          "pressure_score": 78.2472
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_008",
+          "char_005"
+        ],
+        [
+          "char_005",
+          "char_008"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 65.608,
+        "hierarchy_friction": 1.92,
+        "institutional_weight": 0.0,
+        "privacy_shield": 2.322,
+        "pressure_score": 26.0824,
+        "rumor_multiplier": 1.1464
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_008",
+          "summary": "相沢 蓮 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_008",
+            "char_005"
+          ],
+          "pressure_score": 71.0162
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "social_core",
+          "pressure_score": 11.6724,
+          "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_002",
+            "char_003"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "reputation_shift",
+      "trigger_type": "reputation_shift",
+      "trigger_id": "char_008",
+      "summary": "相沢 蓮 の行動が周囲の評価に薄く残った。",
+      "affected_entities": [
+        "char_008",
+        "char_005"
+      ],
+      "pressure_score": 71.0162
+    },
+    {
+      "turn": 1,
+      "event_type": "faction_pressure",
+      "trigger_type": "faction_pressure",
+      "trigger_id": "social_core",
+      "pressure_score": 11.6724,
+      "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+      "affected_entities": [
+        "char_002",
+        "char_003"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "secret",
+      "trigger_id": "secret_001",
+      "summary": "白峰澪が神代湊への警戒を少し下げた。",
+      "affected_entities": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "secret",
+      "trigger_id": "secret_002",
+      "summary": "神代湊と九条迅の対立が一段深く固定された。",
+      "affected_entities": [
+        "char_001",
+        "char_003"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "secret",
+      "trigger_id": "secret_003",
+      "summary": "相沢蓮が黒瀬環への不信を強め、情報流通がぎくしゃくし始めた。",
+      "affected_entities": [
+        "char_005",
+        "char_008"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "secret",
+      "trigger_id": "secret_004",
+      "summary": "東雲紗良の依存が反応を呼び、神代湊の負荷が増した。",
+      "affected_entities": [
+        "char_001",
+        "char_007"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "action",
+      "trigger_id": "char_001:withdraw",
+      "summary": "距離を取ったことで、相手側に小さな違和感が残った。",
+      "affected_entities": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "action",
+      "trigger_id": "char_002:withdraw",
+      "summary": "距離を取ったことで、相手側に小さな違和感が残った。",
+      "affected_entities": [
+        "char_002",
+        "char_001"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "action",
+      "trigger_id": "char_003:confront",
+      "summary": "対立の余波で相手側の反感が残った。",
+      "affected_entities": [
+        "char_003",
+        "char_001"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "action",
+      "trigger_id": "char_004:confide",
+      "summary": "打ち明け話が相互理解の余韻を残した。",
+      "affected_entities": [
+        "char_004",
+        "char_001"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "action",
+      "trigger_id": "char_005:confront",
+      "summary": "対立の余波で相手側の反感が残った。",
+      "affected_entities": [
+        "char_005",
+        "char_008"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "secondary_reaction",
+      "trigger_type": "action",
+      "trigger_id": "char_008:withdraw",
+      "summary": "距離を取ったことで、相手側に小さな違和感が残った。",
+      "affected_entities": [
+        "char_008",
+        "char_005"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "offscreen_event",
+      "trigger_type": "offscreen_rumor_echo",
+      "trigger_id": "loc_hallway_2f",
+      "summary": "loc_hallway_2f 周辺で出来事の余波が続き、見えないところで噂が補強された。",
+      "affected_entities": [
+        "char_003",
+        "char_008"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "offscreen_event",
+      "trigger_type": "offscreen_secret_drift",
+      "trigger_id": "secret_002",
+      "summary": "secret_002 の話題が視界外でもじわじわ広がっている。",
+      "affected_entities": [
+        "char_002",
+        "char_004",
+        "char_005",
+        "char_006",
+        "char_007",
+        "char_008"
+      ]
+    },
+    {
+      "turn": 1,
+      "event_type": "world_drift",
+      "trigger_type": "world_drift",
+      "trigger_id": "loc_hallway_2f",
+      "summary": "2F Hallway に残った空気が、そこにいる人物たちの緊張を少し押し上げた。",
+      "affected_entities": [
+        "char_003",
+        "char_008"
+      ]
+    }
+  ],
+  "last_actions": [
+    {
+      "actor_id": "char_001",
+      "target_id": "char_002",
+      "location_id": "loc_classroom_2a",
+      "top_need": "safety",
+      "need_score": 47.8,
+      "action_type": "withdraw",
+      "short_term_score": 40.6595,
+      "long_term_score": 8.0,
+      "world_cost": 16.4406,
+      "engine_bias": 0.3657,
+      "ideology_bias": 0.0,
+      "score": 11.6821,
+      "reason": "defensive_need",
+      "world_pressure_preview": {
+        "pressure_score": 29.892,
+        "visibility_risk": 55.882,
+        "hierarchy_friction": 5.7,
+        "privacy_shield": 3.852
+      },
+      "candidate_preview": [
+        {
+          "action_type": "withdraw",
+          "score": 11.6821,
+          "short_term_score": 40.6595,
+          "long_term_score": 8.0,
+          "world_cost": 16.4406,
+          "pressure_score": 29.892
+        },
+        {
+          "action_type": "wait",
+          "score": 3.6095,
+          "short_term_score": 17.7734,
+          "long_term_score": 4.0,
+          "world_cost": 9.0423,
+          "pressure_score": 16.4406
+        },
+        {
+          "action_type": "seek_help",
+          "score": 1.6717,
+          "short_term_score": 52.6324,
+          "long_term_score": 12.0,
+          "world_cost": 34.9771,
+          "pressure_score": 56.7948
+        },
+        {
+          "action_type": "observe",
+          "score": -4.041,
+          "short_term_score": 34.528,
+          "long_term_score": 7.0,
+          "world_cost": 28.086,
+          "pressure_score": 48.5745
+        },
+        {
+          "action_type": "approach",
+          "score": -4.9378,
+          "short_term_score": 43.1976,
+          "long_term_score": 10.0,
+          "world_cost": 35.1992,
+          "pressure_score": 61.2786
+        },
+        {
+          "action_type": "support",
+          "score": -6.2626,
+          "short_term_score": 32.9481,
+          "long_term_score": 12.0,
+          "world_cost": 33.1551,
+          "pressure_score": 55.3002
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_001",
+          "char_002"
+        ],
+        [
+          "char_002",
+          "char_001"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 55.882,
+        "hierarchy_friction": 5.7,
+        "institutional_weight": 17.0,
+        "privacy_shield": 3.852,
+        "pressure_score": 29.892,
+        "rumor_multiplier": 1.2126
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_001",
+          "summary": "神代 湊 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_001",
+            "char_002"
+          ],
+          "pressure_score": 59.7231
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "general_students",
+          "pressure_score": 11.8573,
+          "summary": "general_students の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": []
+        }
+      ]
+    },
+    {
+      "actor_id": "char_002",
+      "target_id": "char_001",
+      "location_id": "loc_classroom_2a",
+      "top_need": "safety",
+      "need_score": 62.4,
+      "action_type": "withdraw",
+      "short_term_score": 53.3898,
+      "long_term_score": 8.0837,
+      "world_cost": 15.1943,
+      "engine_bias": 0.3979,
+      "ideology_bias": 0.0,
+      "score": 20.8769,
+      "reason": "defensive_need",
+      "world_pressure_preview": {
+        "pressure_score": 27.626,
+        "visibility_risk": 55.882,
+        "hierarchy_friction": 0.035,
+        "privacy_shield": 3.852
+      },
+      "candidate_preview": [
+        {
+          "action_type": "withdraw",
+          "score": 20.8769,
+          "short_term_score": 53.3898,
+          "long_term_score": 8.0837,
+          "world_cost": 15.1943,
+          "pressure_score": 27.626
+        },
+        {
+          "action_type": "seek_help",
+          "score": 11.4328,
+          "short_term_score": 64.5701,
+          "long_term_score": 11.7698,
+          "world_cost": 32.6092,
+          "pressure_score": 52.4894
+        },
+        {
+          "action_type": "wait",
+          "score": 4.468,
+          "short_term_score": 18.0466,
+          "long_term_score": 4.0,
+          "world_cost": 8.3569,
+          "pressure_score": 15.1943
+        },
+        {
+          "action_type": "observe",
+          "score": -1.9847,
+          "short_term_score": 34.5978,
+          "long_term_score": 7.0,
+          "world_cost": 26.0607,
+          "pressure_score": 44.8922
+        },
+        {
+          "action_type": "approach",
+          "score": -4.4893,
+          "short_term_score": 39.8159,
+          "long_term_score": 9.8326,
+          "world_cost": 32.6443,
+          "pressure_score": 56.6333
+        },
+        {
+          "action_type": "support",
+          "score": -6.0305,
+          "short_term_score": 29.6373,
+          "long_term_score": 11.7489,
+          "world_cost": 30.8495,
+          "pressure_score": 51.1081
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_002",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_002"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 55.882,
+        "hierarchy_friction": 0.035,
+        "institutional_weight": 17.0,
+        "privacy_shield": 3.852,
+        "pressure_score": 27.626,
+        "rumor_multiplier": 1.2126
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_002",
+          "summary": "白峰 澪 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_002",
+            "char_001"
+          ],
+          "pressure_score": 60.0726
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "social_core",
+          "pressure_score": 12.0834,
+          "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_003",
+            "char_008"
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "char_003",
+      "target_id": "char_001",
+      "location_id": "loc_hallway_2f",
+      "top_need": "power",
+      "need_score": 48.685,
+      "action_type": "confront",
+      "short_term_score": 108.5451,
+      "long_term_score": 10.8,
+      "world_cost": 43.6648,
+      "engine_bias": 0.4384,
+      "ideology_bias": 4.8,
+      "score": 32.0814,
+      "reason": "conflict_pressure",
+      "world_pressure_preview": {
+        "pressure_score": 75.9432,
+        "visibility_risk": 65.608,
+        "hierarchy_friction": 0.0,
+        "privacy_shield": 2.322
+      },
+      "candidate_preview": [
+        {
+          "action_type": "confront",
+          "score": 32.0814,
+          "short_term_score": 108.5451,
+          "long_term_score": 10.8,
+          "world_cost": 43.6648,
+          "pressure_score": 75.9432
+        },
+        {
+          "action_type": "withdraw",
+          "score": 10.5233,
+          "short_term_score": 35.0048,
+          "long_term_score": 8.0,
+          "world_cost": 13.9229,
+          "pressure_score": 25.3144
+        },
+        {
+          "action_type": "wait",
+          "score": 5.2625,
+          "short_term_score": 18.4069,
+          "long_term_score": 4.0,
+          "world_cost": 7.6576,
+          "pressure_score": 13.9229
+        },
+        {
+          "action_type": "observe",
+          "score": 3.5502,
+          "short_term_score": 40.9232,
+          "long_term_score": 7.0,
+          "world_cost": 24.2787,
+          "pressure_score": 41.1359
+        },
+        {
+          "action_type": "seek_help",
+          "score": -4.9936,
+          "short_term_score": 33.5572,
+          "long_term_score": 12.0,
+          "world_cost": 29.6136,
+          "pressure_score": 48.0974
+        },
+        {
+          "action_type": "support",
+          "score": -11.8843,
+          "short_term_score": 21.4695,
+          "long_term_score": 12.0,
+          "world_cost": 29.0654,
+          "pressure_score": 46.8316
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_003",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_003"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 65.608,
+        "hierarchy_friction": 0.0,
+        "institutional_weight": 0.0,
+        "privacy_shield": 2.322,
+        "pressure_score": 75.9432,
+        "rumor_multiplier": 1.1464
+      },
+      "world_events": [
+        {
+          "trigger_type": "world_pressure",
+          "trigger_id": "char_003:confront:exposure",
+          "summary": "2F Hallway の空気が張りつめ、出来事が周囲に残りやすくなった。",
+          "affected_entities": [
+            "char_003",
+            "char_001"
+          ]
+        },
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_003",
+          "summary": "九条 迅 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_003",
+            "char_001"
+          ],
+          "pressure_score": 69.8283
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "social_core",
+          "pressure_score": 33.9233,
+          "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_002",
+            "char_008"
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "char_004",
+      "target_id": "char_001",
+      "location_id": "loc_library_hall",
+      "top_need": "safety",
+      "need_score": 51.3,
+      "action_type": "confide",
+      "short_term_score": 52.5027,
+      "long_term_score": 20.784,
+      "world_cost": 5.3313,
+      "engine_bias": 0.394,
+      "ideology_bias": 0.0,
+      "score": 34.3901,
+      "reason": "private_disclosure",
+      "world_pressure_preview": {
+        "pressure_score": 9.6932,
+        "visibility_risk": 18.844,
+        "hierarchy_friction": 1.92,
+        "privacy_shield": 11.952
+      },
+      "candidate_preview": [
+        {
+          "action_type": "confide",
+          "score": 34.3901,
+          "short_term_score": 52.5027,
+          "long_term_score": 20.784,
+          "world_cost": 5.3313,
+          "pressure_score": 9.6932
+        },
+        {
+          "action_type": "seek_help",
+          "score": 32.8316,
+          "short_term_score": 53.6174,
+          "long_term_score": 12.0,
+          "world_cost": 5.0634,
+          "pressure_score": 6.6971
+        },
+        {
+          "action_type": "observe",
+          "score": 24.8675,
+          "short_term_score": 32.528,
+          "long_term_score": 7.0,
+          "world_cost": 3.4883,
+          "pressure_score": 5.7278
+        },
+        {
+          "action_type": "withdraw",
+          "score": 23.1448,
+          "short_term_score": 36.5556,
+          "long_term_score": 8.0,
+          "world_cost": 3.1026,
+          "pressure_score": 3.5248
+        },
+        {
+          "action_type": "approach",
+          "score": 20.2038,
+          "short_term_score": 33.3101,
+          "long_term_score": 10.0,
+          "world_cost": 4.5262,
+          "pressure_score": 7.2258
+        },
+        {
+          "action_type": "support",
+          "score": 17.6046,
+          "short_term_score": 23.8538,
+          "long_term_score": 12.0,
+          "world_cost": 4.2625,
+          "pressure_score": 6.5209
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_004",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_004"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 18.844,
+        "hierarchy_friction": 1.92,
+        "institutional_weight": 0.0,
+        "privacy_shield": 11.952,
+        "pressure_score": 9.6932,
+        "rumor_multiplier": 0.7213
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_004",
+          "summary": "雨宮 透子 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_004",
+            "char_001"
+          ],
+          "pressure_score": 22.8459
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "quiet_observers",
+          "pressure_score": 10.9127,
+          "summary": "quiet_observers の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": []
+        }
+      ]
+    },
+    {
+      "actor_id": "char_005",
+      "target_id": "char_008",
+      "location_id": "loc_student_council",
+      "top_need": "safety",
+      "need_score": 57.9,
+      "action_type": "confront",
+      "short_term_score": 77.2297,
+      "long_term_score": 10.8,
+      "world_cost": 11.3995,
+      "engine_bias": 0.3119,
+      "ideology_bias": 2.4,
+      "score": 43.257,
+      "reason": "conflict_pressure",
+      "world_pressure_preview": {
+        "pressure_score": 16.9464,
+        "visibility_risk": 17.71,
+        "hierarchy_friction": 0.04,
+        "privacy_shield": 12.978
+      },
+      "candidate_preview": [
+        {
+          "action_type": "confront",
+          "score": 43.257,
+          "short_term_score": 77.2297,
+          "long_term_score": 10.8,
+          "world_cost": 11.3995,
+          "pressure_score": 16.9464
+        },
+        {
+          "action_type": "seek_help",
+          "score": 28.6677,
+          "short_term_score": 53.7913,
+          "long_term_score": 12.0,
+          "world_cost": 9.368,
+          "pressure_score": 10.7327
+        },
+        {
+          "action_type": "withdraw",
+          "score": 26.9316,
+          "short_term_score": 42.6639,
+          "long_term_score": 8.0,
+          "world_cost": 3.1908,
+          "pressure_score": 5.6488
+        },
+        {
+          "action_type": "confide",
+          "score": 20.9533,
+          "short_term_score": 36.624,
+          "long_term_score": 19.5714,
+          "world_cost": 8.5438,
+          "pressure_score": 15.5342
+        },
+        {
+          "action_type": "observe",
+          "score": 20.8396,
+          "short_term_score": 33.0508,
+          "long_term_score": 7.0,
+          "world_cost": 5.4766,
+          "pressure_score": 9.1793
+        },
+        {
+          "action_type": "wait",
+          "score": 18.6192,
+          "short_term_score": 21.032,
+          "long_term_score": 4.0,
+          "world_cost": 1.7087,
+          "pressure_score": 3.1068
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_005",
+          "char_008"
+        ],
+        [
+          "char_008",
+          "char_005"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 17.71,
+        "hierarchy_friction": 0.04,
+        "institutional_weight": 9.35,
+        "privacy_shield": 12.978,
+        "pressure_score": 16.9464,
+        "rumor_multiplier": 0.796
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_005",
+          "summary": "黒瀬 環 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_005",
+            "char_008"
+          ],
+          "pressure_score": 21.9771
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "institutional_core",
+          "pressure_score": 17.8679,
+          "summary": "institutional_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": []
+        }
+      ]
+    },
+    {
+      "actor_id": "char_006",
+      "target_id": "char_001",
+      "location_id": "loc_courtyard",
+      "top_need": "safety",
+      "need_score": 59.6,
+      "action_type": "seek_help",
+      "short_term_score": 62.8242,
+      "long_term_score": 12.0,
+      "world_cost": 15.5179,
+      "engine_bias": 0.2702,
+      "ideology_bias": 2.4,
+      "score": 30.0365,
+      "reason": "stability_recovery",
+      "world_pressure_preview": {
+        "pressure_score": 24.4234,
+        "visibility_risk": 38.98,
+        "hierarchy_friction": 0.32,
+        "privacy_shield": 7.164
+      },
+      "candidate_preview": [
+        {
+          "action_type": "seek_help",
+          "score": 30.0365,
+          "short_term_score": 62.8242,
+          "long_term_score": 12.0,
+          "world_cost": 15.5179,
+          "pressure_score": 24.4234
+        },
+        {
+          "action_type": "withdraw",
+          "score": 29.8069,
+          "short_term_score": 50.5818,
+          "long_term_score": 8.0,
+          "world_cost": 7.0699,
+          "pressure_score": 12.8544
+        },
+        {
+          "action_type": "confide",
+          "score": 17.9871,
+          "short_term_score": 51.0933,
+          "long_term_score": 19.138,
+          "world_cost": 19.8863,
+          "pressure_score": 35.3496
+        },
+        {
+          "action_type": "approach",
+          "score": 15.4816,
+          "short_term_score": 43.741,
+          "long_term_score": 10.0,
+          "world_cost": 15.3273,
+          "pressure_score": 26.3515
+        },
+        {
+          "action_type": "confront",
+          "score": 12.8626,
+          "short_term_score": 51.6145,
+          "long_term_score": 8.88,
+          "world_cost": 22.5608,
+          "pressure_score": 38.5632
+        },
+        {
+          "action_type": "support",
+          "score": 12.8124,
+          "short_term_score": 37.9715,
+          "long_term_score": 12.0,
+          "world_cost": 14.9673,
+          "pressure_score": 23.7806
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_006",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_006"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 38.98,
+        "hierarchy_friction": 0.32,
+        "institutional_weight": 0.0,
+        "privacy_shield": 7.164,
+        "pressure_score": 24.4234,
+        "rumor_multiplier": 0.9044
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_006",
+          "summary": "篠崎 朱音 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_006",
+            "char_001"
+          ],
+          "pressure_score": 45.851
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "peripheral",
+          "pressure_score": 13.206,
+          "summary": "peripheral の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_007"
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "char_007",
+      "target_id": "char_001",
+      "location_id": "loc_infirmary_corridor",
+      "top_need": "safety",
+      "need_score": 79.3,
+      "action_type": "seek_help",
+      "short_term_score": 104.9216,
+      "long_term_score": 12.0,
+      "world_cost": 14.8919,
+      "engine_bias": 0.4071,
+      "ideology_bias": 2.4,
+      "score": 57.2121,
+      "reason": "stability_recovery",
+      "world_pressure_preview": {
+        "pressure_score": 24.1308,
+        "visibility_risk": 21.686,
+        "hierarchy_friction": 4.135,
+        "privacy_shield": 11.07
+      },
+      "candidate_preview": [
+        {
+          "action_type": "seek_help",
+          "score": 57.2121,
+          "short_term_score": 104.9216,
+          "long_term_score": 12.0,
+          "world_cost": 14.8919,
+          "pressure_score": 24.1308
+        },
+        {
+          "action_type": "confide",
+          "score": 46.9886,
+          "short_term_score": 91.2469,
+          "long_term_score": 21.0497,
+          "world_cost": 19.2094,
+          "pressure_score": 34.9261
+        },
+        {
+          "action_type": "withdraw",
+          "score": 37.7133,
+          "short_term_score": 67.8769,
+          "long_term_score": 8.0,
+          "world_cost": 7.8582,
+          "pressure_score": 12.7004
+        },
+        {
+          "action_type": "approach",
+          "score": 27.1508,
+          "short_term_score": 61.3266,
+          "long_term_score": 10.0,
+          "world_cost": 14.9677,
+          "pressure_score": 26.0358
+        },
+        {
+          "action_type": "support",
+          "score": 21.7909,
+          "short_term_score": 49.7074,
+          "long_term_score": 12.0,
+          "world_cost": 13.7106,
+          "pressure_score": 23.4957
+        },
+        {
+          "action_type": "wait",
+          "score": 7.8921,
+          "short_term_score": 15.4219,
+          "long_term_score": 4.0,
+          "world_cost": 3.8419,
+          "pressure_score": 6.9852
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_007",
+          "char_001"
+        ],
+        [
+          "char_001",
+          "char_007"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 21.686,
+        "hierarchy_friction": 4.135,
+        "institutional_weight": 17.0,
+        "privacy_shield": 11.07,
+        "pressure_score": 24.1308,
+        "rumor_multiplier": 0.9017
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_007",
+          "summary": "東雲 紗良 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_007",
+            "char_001"
+          ],
+          "pressure_score": 26.7663
+        },
+        {
+          "trigger_type": "hierarchy_sanction",
+          "trigger_id": "char_007->char_001",
+          "summary": "東雲 紗良 の行動は階層差に阻まれ、表向きの立場を少し失った。",
+          "affected_entities": [
+            "char_007",
+            "char_001"
+          ],
+          "pressure_score": 4.7437
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "peripheral",
+          "pressure_score": 11.1287,
+          "summary": "peripheral の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_006"
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "char_008",
+      "target_id": "char_005",
+      "location_id": "loc_hallway_2f",
+      "top_need": "belonging",
+      "need_score": 62.56,
+      "action_type": "withdraw",
+      "short_term_score": 31.046,
+      "long_term_score": 9.8258,
+      "world_cost": 14.3453,
+      "engine_bias": 0.3267,
+      "ideology_bias": 0.0,
+      "score": 8.1668,
+      "reason": "defensive_need",
+      "world_pressure_preview": {
+        "pressure_score": 26.0824,
+        "visibility_risk": 65.608,
+        "hierarchy_friction": 1.92,
+        "privacy_shield": 2.322
+      },
+      "candidate_preview": [
+        {
+          "action_type": "withdraw",
+          "score": 8.1668,
+          "short_term_score": 31.046,
+          "long_term_score": 9.8258,
+          "world_cost": 14.3453,
+          "pressure_score": 26.0824
+        },
+        {
+          "action_type": "approach",
+          "score": 6.6754,
+          "short_term_score": 47.5285,
+          "long_term_score": 9.2885,
+          "world_cost": 30.6719,
+          "pressure_score": 53.4689
+        },
+        {
+          "action_type": "wait",
+          "score": 6.0547,
+          "short_term_score": 19.6031,
+          "long_term_score": 4.84,
+          "world_cost": 7.8899,
+          "pressure_score": 14.3453
+        },
+        {
+          "action_type": "seek_help",
+          "score": 0.1843,
+          "short_term_score": 43.651,
+          "long_term_score": 11.0216,
+          "world_cost": 30.4161,
+          "pressure_score": 49.5566
+        },
+        {
+          "action_type": "support",
+          "score": -0.8519,
+          "short_term_score": 41.0891,
+          "long_term_score": 10.9327,
+          "world_cost": 29.8468,
+          "pressure_score": 48.2524
+        },
+        {
+          "action_type": "confront",
+          "score": -5.4973,
+          "short_term_score": 56.4929,
+          "long_term_score": 13.8847,
+          "world_cost": 44.932,
+          "pressure_score": 78.2472
+        }
+      ],
+      "is_player_selected": false,
+      "relation_pairs_updated": [
+        [
+          "char_008",
+          "char_005"
+        ],
+        [
+          "char_005",
+          "char_008"
+        ]
+      ],
+      "world_pressure": {
+        "visibility_risk": 65.608,
+        "hierarchy_friction": 1.92,
+        "institutional_weight": 0.0,
+        "privacy_shield": 2.322,
+        "pressure_score": 26.0824,
+        "rumor_multiplier": 1.1464
+      },
+      "world_events": [
+        {
+          "trigger_type": "reputation_shift",
+          "trigger_id": "char_008",
+          "summary": "相沢 蓮 の行動が周囲の評価に薄く残った。",
+          "affected_entities": [
+            "char_008",
+            "char_005"
+          ],
+          "pressure_score": 71.0162
+        },
+        {
+          "trigger_type": "faction_pressure",
+          "trigger_id": "social_core",
+          "pressure_score": 11.6724,
+          "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+          "affected_entities": [
+            "char_002",
+            "char_003"
+          ]
+        }
+      ]
+    }
+  ],
+  "revealed_secrets": [
+    {
+      "secret_id": "secret_001",
+      "old_visibility": "hidden",
+      "new_visibility": "rumored",
+      "reason": "rumor_chain_investigation",
+      "affected_entities": [
+        "char_004",
+        "char_008"
+      ]
+    },
+    {
+      "secret_id": "secret_002",
+      "old_visibility": "hidden",
+      "new_visibility": "revealed",
+      "reason": "direct_confrontation_scene",
+      "affected_entities": [
+        "char_003",
+        "char_001"
+      ]
+    },
+    {
+      "secret_id": "secret_003",
+      "old_visibility": "hidden",
+      "new_visibility": "revealed",
+      "reason": "channel_breakdown",
+      "affected_entities": [
+        "char_005",
+        "char_008"
+      ]
+    },
+    {
+      "secret_id": "secret_004",
+      "old_visibility": "hidden",
+      "new_visibility": "revealed",
+      "reason": "dependency_confession",
+      "affected_entities": [
+        "char_007",
+        "char_001"
+      ]
+    }
+  ],
+  "secondary_events": [
+    {
+      "trigger_type": "secret",
+      "trigger_id": "secret_001",
+      "summary": "白峰澪が神代湊への警戒を少し下げた。",
+      "affected_entities": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "trigger_type": "secret",
+      "trigger_id": "secret_002",
+      "summary": "神代湊と九条迅の対立が一段深く固定された。",
+      "affected_entities": [
+        "char_001",
+        "char_003"
+      ]
+    },
+    {
+      "trigger_type": "secret",
+      "trigger_id": "secret_003",
+      "summary": "相沢蓮が黒瀬環への不信を強め、情報流通がぎくしゃくし始めた。",
+      "affected_entities": [
+        "char_005",
+        "char_008"
+      ]
+    },
+    {
+      "trigger_type": "secret",
+      "trigger_id": "secret_004",
+      "summary": "東雲紗良の依存が反応を呼び、神代湊の負荷が増した。",
+      "affected_entities": [
+        "char_001",
+        "char_007"
+      ]
+    },
+    {
+      "trigger_type": "action",
+      "trigger_id": "char_001:withdraw",
+      "summary": "距離を取ったことで、相手側に小さな違和感が残った。",
+      "affected_entities": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "trigger_type": "action",
+      "trigger_id": "char_002:withdraw",
+      "summary": "距離を取ったことで、相手側に小さな違和感が残った。",
+      "affected_entities": [
+        "char_002",
+        "char_001"
+      ]
+    },
+    {
+      "trigger_type": "action",
+      "trigger_id": "char_003:confront",
+      "summary": "対立の余波で相手側の反感が残った。",
+      "affected_entities": [
+        "char_003",
+        "char_001"
+      ]
+    },
+    {
+      "trigger_type": "action",
+      "trigger_id": "char_004:confide",
+      "summary": "打ち明け話が相互理解の余韻を残した。",
+      "affected_entities": [
+        "char_004",
+        "char_001"
+      ]
+    },
+    {
+      "trigger_type": "action",
+      "trigger_id": "char_005:confront",
+      "summary": "対立の余波で相手側の反感が残った。",
+      "affected_entities": [
+        "char_005",
+        "char_008"
+      ]
+    },
+    {
+      "trigger_type": "action",
+      "trigger_id": "char_008:withdraw",
+      "summary": "距離を取ったことで、相手側に小さな違和感が残った。",
+      "affected_entities": [
+        "char_008",
+        "char_005"
+      ]
+    },
+    {
+      "trigger_type": "world_drift",
+      "trigger_id": "loc_hallway_2f",
+      "summary": "2F Hallway に残った空気が、そこにいる人物たちの緊張を少し押し上げた。",
+      "affected_entities": [
+        "char_003",
+        "char_008"
+      ]
+    },
+    {
+      "trigger_type": "offscreen_rumor_echo",
+      "trigger_id": "loc_hallway_2f",
+      "summary": "loc_hallway_2f 周辺で出来事の余波が続き、見えないところで噂が補強された。",
+      "affected_entities": [
+        "char_003",
+        "char_008"
+      ]
+    },
+    {
+      "trigger_type": "offscreen_secret_drift",
+      "trigger_id": "secret_002",
+      "summary": "secret_002 の話題が視界外でもじわじわ広がっている。",
+      "affected_entities": [
+        "char_002",
+        "char_004",
+        "char_005",
+        "char_006",
+        "char_007",
+        "char_008"
+      ]
+    }
+  ],
+  "relation_memories": {
+    "char_001->char_002": {
+      "touch_streak": 1.4,
+      "support_balance": -0.8,
+      "breach_count": 0,
+      "last_action": "target_of_withdraw",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.4819232
+    },
+    "char_002->char_001": {
+      "touch_streak": 1.4,
+      "support_balance": -0.8,
+      "breach_count": 0,
+      "last_action": "withdraw",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.11744880000000008
+    },
+    "char_001->char_003": {
+      "touch_streak": 0.4,
+      "support_balance": -1.0,
+      "breach_count": 1,
+      "last_action": "target_of_confront",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.1553872
+    },
+    "char_003->char_001": {
+      "touch_streak": 1.0,
+      "support_balance": -1.5,
+      "breach_count": 1,
+      "last_action": "confront",
+      "last_touched_turn": 1,
+      "long_term_charge": -0.479623
+    },
+    "char_004->char_001": {
+      "touch_streak": 1.0,
+      "support_balance": 1.7,
+      "breach_count": 0,
+      "last_action": "confide",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.21666400000000002
+    },
+    "char_001->char_004": {
+      "touch_streak": 0.4,
+      "support_balance": 1.1,
+      "breach_count": 0,
+      "last_action": "target_of_confide",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.29735280000000003
+    },
+    "char_005->char_008": {
+      "touch_streak": 1.4,
+      "support_balance": -1.8,
+      "breach_count": 1,
+      "last_action": "target_of_withdraw",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.3187070000000001
+    },
+    "char_008->char_005": {
+      "touch_streak": 1.4,
+      "support_balance": -1.5,
+      "breach_count": 1,
+      "last_action": "withdraw",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.3651454
+    },
+    "char_007->char_001": {
+      "touch_streak": 1.0,
+      "support_balance": 1.7,
+      "breach_count": 0,
+      "last_action": "seek_help",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.23180699999999999
+    },
+    "char_001->char_007": {
+      "touch_streak": 0.4,
+      "support_balance": 1.1,
+      "breach_count": 0,
+      "last_action": "target_of_seek_help",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.1972448
+    },
+    "char_006->char_001": {
+      "touch_streak": 1.0,
+      "support_balance": 1.7,
+      "breach_count": 0,
+      "last_action": "seek_help",
+      "last_touched_turn": 1,
+      "long_term_charge": -0.033496999999999943
+    },
+    "char_001->char_006": {
+      "touch_streak": 0.4,
+      "support_balance": 1.1,
+      "breach_count": 0,
+      "last_action": "target_of_seek_help",
+      "last_touched_turn": 1,
+      "long_term_charge": 0.1795448
+    },
+    "char_002->char_003": {
+      "touch_streak": 0.0,
+      "support_balance": 0.0,
+      "breach_count": 0,
+      "last_action": null,
+      "last_touched_turn": 0,
+      "long_term_charge": 0.0
+    },
+    "char_003->char_002": {
+      "touch_streak": 0.0,
+      "support_balance": 0.0,
+      "breach_count": 0,
+      "last_action": null,
+      "last_touched_turn": 0,
+      "long_term_charge": 0.0
+    }
+  },
+  "secret_pressure": {
+    "secret_001": 9.4,
+    "secret_002": 15.4,
+    "secret_003": 15.4,
+    "secret_004": 15.4
+  },
+  "world_tension": 12.5811,
+  "location_heat": {
+    "loc_classroom_2a": 8.5872,
+    "loc_hallway_2f": 19.0789,
+    "loc_library_hall": 0.0,
+    "loc_student_council": 0.0,
+    "loc_courtyard": 0.4234,
+    "loc_infirmary_corridor": 0.0
+  },
+  "location_pressure_history": [
+    {
+      "turn": 1,
+      "location_id": "loc_classroom_2a",
+      "actor_id": "char_001",
+      "target_id": "char_002",
+      "action_type": "withdraw",
+      "pressure_score": 29.892
+    },
+    {
+      "turn": 1,
+      "location_id": "loc_classroom_2a",
+      "actor_id": "char_002",
+      "target_id": "char_001",
+      "action_type": "withdraw",
+      "pressure_score": 27.626
+    },
+    {
+      "turn": 1,
+      "location_id": "loc_hallway_2f",
+      "actor_id": "char_003",
+      "target_id": "char_001",
+      "action_type": "confront",
+      "pressure_score": 75.9432
+    },
+    {
+      "turn": 1,
+      "location_id": "loc_library_hall",
+      "actor_id": "char_004",
+      "target_id": "char_001",
+      "action_type": "confide",
+      "pressure_score": 9.6932
+    },
+    {
+      "turn": 1,
+      "location_id": "loc_student_council",
+      "actor_id": "char_005",
+      "target_id": "char_008",
+      "action_type": "confront",
+      "pressure_score": 16.9464
+    },
+    {
+      "turn": 1,
+      "location_id": "loc_courtyard",
+      "actor_id": "char_006",
+      "target_id": "char_001",
+      "action_type": "seek_help",
+      "pressure_score": 24.4234
+    },
+    {
+      "turn": 1,
+      "location_id": "loc_infirmary_corridor",
+      "actor_id": "char_007",
+      "target_id": "char_001",
+      "action_type": "seek_help",
+      "pressure_score": 24.1308
+    },
+    {
+      "turn": 1,
+      "location_id": "loc_hallway_2f",
+      "actor_id": "char_008",
+      "target_id": "char_005",
+      "action_type": "withdraw",
+      "pressure_score": 26.0824
+    }
+  ],
+  "save_metadata": {
+    "slot_name": "autosave",
+    "saved_turn": 1,
+    "saved_at": "2026-04-09T01:45:46.716395+00:00",
+    "summary": {
+      "world_id": "closed_school_society",
+      "turn": 1,
+      "entity_count": 8,
+      "relation_count": 14,
+      "secret_count": 5,
+      "revealed_secret_count": 4,
+      "secondary_event_count": 13,
+      "location_count": 7,
+      "last_actions": [
+        {
+          "actor_id": "char_001",
+          "target_id": "char_002",
+          "location_id": "loc_classroom_2a",
+          "top_need": "safety",
+          "need_score": 47.8,
+          "action_type": "withdraw",
+          "short_term_score": 40.6595,
+          "long_term_score": 8.0,
+          "world_cost": 16.4406,
+          "engine_bias": 0.3657,
+          "ideology_bias": 0.0,
+          "score": 11.6821,
+          "reason": "defensive_need",
+          "world_pressure_preview": {
+            "pressure_score": 29.892,
+            "visibility_risk": 55.882,
+            "hierarchy_friction": 5.7,
+            "privacy_shield": 3.852
+          },
+          "candidate_preview": [
+            {
+              "action_type": "withdraw",
+              "score": 11.6821,
+              "short_term_score": 40.6595,
+              "long_term_score": 8.0,
+              "world_cost": 16.4406,
+              "pressure_score": 29.892
+            },
+            {
+              "action_type": "wait",
+              "score": 3.6095,
+              "short_term_score": 17.7734,
+              "long_term_score": 4.0,
+              "world_cost": 9.0423,
+              "pressure_score": 16.4406
+            },
+            {
+              "action_type": "seek_help",
+              "score": 1.6717,
+              "short_term_score": 52.6324,
+              "long_term_score": 12.0,
+              "world_cost": 34.9771,
+              "pressure_score": 56.7948
+            },
+            {
+              "action_type": "observe",
+              "score": -4.041,
+              "short_term_score": 34.528,
+              "long_term_score": 7.0,
+              "world_cost": 28.086,
+              "pressure_score": 48.5745
+            },
+            {
+              "action_type": "approach",
+              "score": -4.9378,
+              "short_term_score": 43.1976,
+              "long_term_score": 10.0,
+              "world_cost": 35.1992,
+              "pressure_score": 61.2786
+            },
+            {
+              "action_type": "support",
+              "score": -6.2626,
+              "short_term_score": 32.9481,
+              "long_term_score": 12.0,
+              "world_cost": 33.1551,
+              "pressure_score": 55.3002
+            }
+          ],
+          "is_player_selected": false,
+          "relation_pairs_updated": [
+            [
+              "char_001",
+              "char_002"
+            ],
+            [
+              "char_002",
+              "char_001"
+            ]
+          ],
+          "world_pressure": {
+            "visibility_risk": 55.882,
+            "hierarchy_friction": 5.7,
+            "institutional_weight": 17.0,
+            "privacy_shield": 3.852,
+            "pressure_score": 29.892,
+            "rumor_multiplier": 1.2126
+          },
+          "world_events": [
+            {
+              "trigger_type": "reputation_shift",
+              "trigger_id": "char_001",
+              "summary": "神代 湊 の行動が周囲の評価に薄く残った。",
+              "affected_entities": [
+                "char_001",
+                "char_002"
+              ],
+              "pressure_score": 59.7231
+            },
+            {
+              "trigger_type": "faction_pressure",
+              "trigger_id": "general_students",
+              "pressure_score": 11.8573,
+              "summary": "general_students の空気が動き、周辺メンバーが出来事に反応し始めた。",
+              "affected_entities": []
+            }
+          ]
+        },
+        {
+          "actor_id": "char_002",
+          "target_id": "char_001",
+          "location_id": "loc_classroom_2a",
+          "top_need": "safety",
+          "need_score": 62.4,
+          "action_type": "withdraw",
+          "short_term_score": 53.3898,
+          "long_term_score": 8.0837,
+          "world_cost": 15.1943,
+          "engine_bias": 0.3979,
+          "ideology_bias": 0.0,
+          "score": 20.8769,
+          "reason": "defensive_need",
+          "world_pressure_preview": {
+            "pressure_score": 27.626,
+            "visibility_risk": 55.882,
+            "hierarchy_friction": 0.035,
+            "privacy_shield": 3.852
+          },
+          "candidate_preview": [
+            {
+              "action_type": "withdraw",
+              "score": 20.8769,
+              "short_term_score": 53.3898,
+              "long_term_score": 8.0837,
+              "world_cost": 15.1943,
+              "pressure_score": 27.626
+            },
+            {
+              "action_type": "seek_help",
+              "score": 11.4328,
+              "short_term_score": 64.5701,
+              "long_term_score": 11.7698,
+              "world_cost": 32.6092,
+              "pressure_score": 52.4894
+            },
+            {
+              "action_type": "wait",
+              "score": 4.468,
+              "short_term_score": 18.0466,
+              "long_term_score": 4.0,
+              "world_cost": 8.3569,
+              "pressure_score": 15.1943
+            },
+            {
+              "action_type": "observe",
+              "score": -1.9847,
+              "short_term_score": 34.5978,
+              "long_term_score": 7.0,
+              "world_cost": 26.0607,
+              "pressure_score": 44.8922
+            },
+            {
+              "action_type": "approach",
+              "score": -4.4893,
+              "short_term_score": 39.8159,
+              "long_term_score": 9.8326,
+              "world_cost": 32.6443,
+              "pressure_score": 56.6333
+            },
+            {
+              "action_type": "support",
+              "score": -6.0305,
+              "short_term_score": 29.6373,
+              "long_term_score": 11.7489,
+              "world_cost": 30.8495,
+              "pressure_score": 51.1081
+            }
+          ],
+          "is_player_selected": false,
+          "relation_pairs_updated": [
+            [
+              "char_002",
+              "char_001"
+            ],
+            [
+              "char_001",
+              "char_002"
+            ]
+          ],
+          "world_pressure": {
+            "visibility_risk": 55.882,
+            "hierarchy_friction": 0.035,
+            "institutional_weight": 17.0,
+            "privacy_shield": 3.852,
+            "pressure_score": 27.626,
+            "rumor_multiplier": 1.2126
+          },
+          "world_events": [
+            {
+              "trigger_type": "reputation_shift",
+              "trigger_id": "char_002",
+              "summary": "白峰 澪 の行動が周囲の評価に薄く残った。",
+              "affected_entities": [
+                "char_002",
+                "char_001"
+              ],
+              "pressure_score": 60.0726
+            },
+            {
+              "trigger_type": "faction_pressure",
+              "trigger_id": "social_core",
+              "pressure_score": 12.0834,
+              "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+              "affected_entities": [
+                "char_003",
+                "char_008"
+              ]
+            }
+          ]
+        },
+        {
+          "actor_id": "char_003",
+          "target_id": "char_001",
+          "location_id": "loc_hallway_2f",
+          "top_need": "power",
+          "need_score": 48.685,
+          "action_type": "confront",
+          "short_term_score": 108.5451,
+          "long_term_score": 10.8,
+          "world_cost": 43.6648,
+          "engine_bias": 0.4384,
+          "ideology_bias": 4.8,
+          "score": 32.0814,
+          "reason": "conflict_pressure",
+          "world_pressure_preview": {
+            "pressure_score": 75.9432,
+            "visibility_risk": 65.608,
+            "hierarchy_friction": 0.0,
+            "privacy_shield": 2.322
+          },
+          "candidate_preview": [
+            {
+              "action_type": "confront",
+              "score": 32.0814,
+              "short_term_score": 108.5451,
+              "long_term_score": 10.8,
+              "world_cost": 43.6648,
+              "pressure_score": 75.9432
+            },
+            {
+              "action_type": "withdraw",
+              "score": 10.5233,
+              "short_term_score": 35.0048,
+              "long_term_score": 8.0,
+              "world_cost": 13.9229,
+              "pressure_score": 25.3144
+            },
+            {
+              "action_type": "wait",
+              "score": 5.2625,
+              "short_term_score": 18.4069,
+              "long_term_score": 4.0,
+              "world_cost": 7.6576,
+              "pressure_score": 13.9229
+            },
+            {
+              "action_type": "observe",
+              "score": 3.5502,
+              "short_term_score": 40.9232,
+              "long_term_score": 7.0,
+              "world_cost": 24.2787,
+              "pressure_score": 41.1359
+            },
+            {
+              "action_type": "seek_help",
+              "score": -4.9936,
+              "short_term_score": 33.5572,
+              "long_term_score": 12.0,
+              "world_cost": 29.6136,
+              "pressure_score": 48.0974
+            },
+            {
+              "action_type": "support",
+              "score": -11.8843,
+              "short_term_score": 21.4695,
+              "long_term_score": 12.0,
+              "world_cost": 29.0654,
+              "pressure_score": 46.8316
+            }
+          ],
+          "is_player_selected": false,
+          "relation_pairs_updated": [
+            [
+              "char_003",
+              "char_001"
+            ],
+            [
+              "char_001",
+              "char_003"
+            ]
+          ],
+          "world_pressure": {
+            "visibility_risk": 65.608,
+            "hierarchy_friction": 0.0,
+            "institutional_weight": 0.0,
+            "privacy_shield": 2.322,
+            "pressure_score": 75.9432,
+            "rumor_multiplier": 1.1464
+          },
+          "world_events": [
+            {
+              "trigger_type": "world_pressure",
+              "trigger_id": "char_003:confront:exposure",
+              "summary": "2F Hallway の空気が張りつめ、出来事が周囲に残りやすくなった。",
+              "affected_entities": [
+                "char_003",
+                "char_001"
+              ]
+            },
+            {
+              "trigger_type": "reputation_shift",
+              "trigger_id": "char_003",
+              "summary": "九条 迅 の行動が周囲の評価に薄く残った。",
+              "affected_entities": [
+                "char_003",
+                "char_001"
+              ],
+              "pressure_score": 69.8283
+            },
+            {
+              "trigger_type": "faction_pressure",
+              "trigger_id": "social_core",
+              "pressure_score": 33.9233,
+              "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+              "affected_entities": [
+                "char_002",
+                "char_008"
+              ]
+            }
+          ]
+        },
+        {
+          "actor_id": "char_004",
+          "target_id": "char_001",
+          "location_id": "loc_library_hall",
+          "top_need": "safety",
+          "need_score": 51.3,
+          "action_type": "confide",
+          "short_term_score": 52.5027,
+          "long_term_score": 20.784,
+          "world_cost": 5.3313,
+          "engine_bias": 0.394,
+          "ideology_bias": 0.0,
+          "score": 34.3901,
+          "reason": "private_disclosure",
+          "world_pressure_preview": {
+            "pressure_score": 9.6932,
+            "visibility_risk": 18.844,
+            "hierarchy_friction": 1.92,
+            "privacy_shield": 11.952
+          },
+          "candidate_preview": [
+            {
+              "action_type": "confide",
+              "score": 34.3901,
+              "short_term_score": 52.5027,
+              "long_term_score": 20.784,
+              "world_cost": 5.3313,
+              "pressure_score": 9.6932
+            },
+            {
+              "action_type": "seek_help",
+              "score": 32.8316,
+              "short_term_score": 53.6174,
+              "long_term_score": 12.0,
+              "world_cost": 5.0634,
+              "pressure_score": 6.6971
+            },
+            {
+              "action_type": "observe",
+              "score": 24.8675,
+              "short_term_score": 32.528,
+              "long_term_score": 7.0,
+              "world_cost": 3.4883,
+              "pressure_score": 5.7278
+            },
+            {
+              "action_type": "withdraw",
+              "score": 23.1448,
+              "short_term_score": 36.5556,
+              "long_term_score": 8.0,
+              "world_cost": 3.1026,
+              "pressure_score": 3.5248
+            },
+            {
+              "action_type": "approach",
+              "score": 20.2038,
+              "short_term_score": 33.3101,
+              "long_term_score": 10.0,
+              "world_cost": 4.5262,
+              "pressure_score": 7.2258
+            },
+            {
+              "action_type": "support",
+              "score": 17.6046,
+              "short_term_score": 23.8538,
+              "long_term_score": 12.0,
+              "world_cost": 4.2625,
+              "pressure_score": 6.5209
+            }
+          ],
+          "is_player_selected": false,
+          "relation_pairs_updated": [
+            [
+              "char_004",
+              "char_001"
+            ],
+            [
+              "char_001",
+              "char_004"
+            ]
+          ],
+          "world_pressure": {
+            "visibility_risk": 18.844,
+            "hierarchy_friction": 1.92,
+            "institutional_weight": 0.0,
+            "privacy_shield": 11.952,
+            "pressure_score": 9.6932,
+            "rumor_multiplier": 0.7213
+          },
+          "world_events": [
+            {
+              "trigger_type": "reputation_shift",
+              "trigger_id": "char_004",
+              "summary": "雨宮 透子 の行動が周囲の評価に薄く残った。",
+              "affected_entities": [
+                "char_004",
+                "char_001"
+              ],
+              "pressure_score": 22.8459
+            },
+            {
+              "trigger_type": "faction_pressure",
+              "trigger_id": "quiet_observers",
+              "pressure_score": 10.9127,
+              "summary": "quiet_observers の空気が動き、周辺メンバーが出来事に反応し始めた。",
+              "affected_entities": []
+            }
+          ]
+        },
+        {
+          "actor_id": "char_005",
+          "target_id": "char_008",
+          "location_id": "loc_student_council",
+          "top_need": "safety",
+          "need_score": 57.9,
+          "action_type": "confront",
+          "short_term_score": 77.2297,
+          "long_term_score": 10.8,
+          "world_cost": 11.3995,
+          "engine_bias": 0.3119,
+          "ideology_bias": 2.4,
+          "score": 43.257,
+          "reason": "conflict_pressure",
+          "world_pressure_preview": {
+            "pressure_score": 16.9464,
+            "visibility_risk": 17.71,
+            "hierarchy_friction": 0.04,
+            "privacy_shield": 12.978
+          },
+          "candidate_preview": [
+            {
+              "action_type": "confront",
+              "score": 43.257,
+              "short_term_score": 77.2297,
+              "long_term_score": 10.8,
+              "world_cost": 11.3995,
+              "pressure_score": 16.9464
+            },
+            {
+              "action_type": "seek_help",
+              "score": 28.6677,
+              "short_term_score": 53.7913,
+              "long_term_score": 12.0,
+              "world_cost": 9.368,
+              "pressure_score": 10.7327
+            },
+            {
+              "action_type": "withdraw",
+              "score": 26.9316,
+              "short_term_score": 42.6639,
+              "long_term_score": 8.0,
+              "world_cost": 3.1908,
+              "pressure_score": 5.6488
+            },
+            {
+              "action_type": "confide",
+              "score": 20.9533,
+              "short_term_score": 36.624,
+              "long_term_score": 19.5714,
+              "world_cost": 8.5438,
+              "pressure_score": 15.5342
+            },
+            {
+              "action_type": "observe",
+              "score": 20.8396,
+              "short_term_score": 33.0508,
+              "long_term_score": 7.0,
+              "world_cost": 5.4766,
+              "pressure_score": 9.1793
+            },
+            {
+              "action_type": "wait",
+              "score": 18.6192,
+              "short_term_score": 21.032,
+              "long_term_score": 4.0,
+              "world_cost": 1.7087,
+              "pressure_score": 3.1068
+            }
+          ],
+          "is_player_selected": false,
+          "relation_pairs_updated": [
+            [
+              "char_005",
+              "char_008"
+            ],
+            [
+              "char_008",
+              "char_005"
+            ]
+          ],
+          "world_pressure": {
+            "visibility_risk": 17.71,
+            "hierarchy_friction": 0.04,
+            "institutional_weight": 9.35,
+            "privacy_shield": 12.978,
+            "pressure_score": 16.9464,
+            "rumor_multiplier": 0.796
+          },
+          "world_events": [
+            {
+              "trigger_type": "reputation_shift",
+              "trigger_id": "char_005",
+              "summary": "黒瀬 環 の行動が周囲の評価に薄く残った。",
+              "affected_entities": [
+                "char_005",
+                "char_008"
+              ],
+              "pressure_score": 21.9771
+            },
+            {
+              "trigger_type": "faction_pressure",
+              "trigger_id": "institutional_core",
+              "pressure_score": 17.8679,
+              "summary": "institutional_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+              "affected_entities": []
+            }
+          ]
+        },
+        {
+          "actor_id": "char_006",
+          "target_id": "char_001",
+          "location_id": "loc_courtyard",
+          "top_need": "safety",
+          "need_score": 59.6,
+          "action_type": "seek_help",
+          "short_term_score": 62.8242,
+          "long_term_score": 12.0,
+          "world_cost": 15.5179,
+          "engine_bias": 0.2702,
+          "ideology_bias": 2.4,
+          "score": 30.0365,
+          "reason": "stability_recovery",
+          "world_pressure_preview": {
+            "pressure_score": 24.4234,
+            "visibility_risk": 38.98,
+            "hierarchy_friction": 0.32,
+            "privacy_shield": 7.164
+          },
+          "candidate_preview": [
+            {
+              "action_type": "seek_help",
+              "score": 30.0365,
+              "short_term_score": 62.8242,
+              "long_term_score": 12.0,
+              "world_cost": 15.5179,
+              "pressure_score": 24.4234
+            },
+            {
+              "action_type": "withdraw",
+              "score": 29.8069,
+              "short_term_score": 50.5818,
+              "long_term_score": 8.0,
+              "world_cost": 7.0699,
+              "pressure_score": 12.8544
+            },
+            {
+              "action_type": "confide",
+              "score": 17.9871,
+              "short_term_score": 51.0933,
+              "long_term_score": 19.138,
+              "world_cost": 19.8863,
+              "pressure_score": 35.3496
+            },
+            {
+              "action_type": "approach",
+              "score": 15.4816,
+              "short_term_score": 43.741,
+              "long_term_score": 10.0,
+              "world_cost": 15.3273,
+              "pressure_score": 26.3515
+            },
+            {
+              "action_type": "confront",
+              "score": 12.8626,
+              "short_term_score": 51.6145,
+              "long_term_score": 8.88,
+              "world_cost": 22.5608,
+              "pressure_score": 38.5632
+            },
+            {
+              "action_type": "support",
+              "score": 12.8124,
+              "short_term_score": 37.9715,
+              "long_term_score": 12.0,
+              "world_cost": 14.9673,
+              "pressure_score": 23.7806
+            }
+          ],
+          "is_player_selected": false,
+          "relation_pairs_updated": [
+            [
+              "char_006",
+              "char_001"
+            ],
+            [
+              "char_001",
+              "char_006"
+            ]
+          ],
+          "world_pressure": {
+            "visibility_risk": 38.98,
+            "hierarchy_friction": 0.32,
+            "institutional_weight": 0.0,
+            "privacy_shield": 7.164,
+            "pressure_score": 24.4234,
+            "rumor_multiplier": 0.9044
+          },
+          "world_events": [
+            {
+              "trigger_type": "reputation_shift",
+              "trigger_id": "char_006",
+              "summary": "篠崎 朱音 の行動が周囲の評価に薄く残った。",
+              "affected_entities": [
+                "char_006",
+                "char_001"
+              ],
+              "pressure_score": 45.851
+            },
+            {
+              "trigger_type": "faction_pressure",
+              "trigger_id": "peripheral",
+              "pressure_score": 13.206,
+              "summary": "peripheral の空気が動き、周辺メンバーが出来事に反応し始めた。",
+              "affected_entities": [
+                "char_007"
+              ]
+            }
+          ]
+        },
+        {
+          "actor_id": "char_007",
+          "target_id": "char_001",
+          "location_id": "loc_infirmary_corridor",
+          "top_need": "safety",
+          "need_score": 79.3,
+          "action_type": "seek_help",
+          "short_term_score": 104.9216,
+          "long_term_score": 12.0,
+          "world_cost": 14.8919,
+          "engine_bias": 0.4071,
+          "ideology_bias": 2.4,
+          "score": 57.2121,
+          "reason": "stability_recovery",
+          "world_pressure_preview": {
+            "pressure_score": 24.1308,
+            "visibility_risk": 21.686,
+            "hierarchy_friction": 4.135,
+            "privacy_shield": 11.07
+          },
+          "candidate_preview": [
+            {
+              "action_type": "seek_help",
+              "score": 57.2121,
+              "short_term_score": 104.9216,
+              "long_term_score": 12.0,
+              "world_cost": 14.8919,
+              "pressure_score": 24.1308
+            },
+            {
+              "action_type": "confide",
+              "score": 46.9886,
+              "short_term_score": 91.2469,
+              "long_term_score": 21.0497,
+              "world_cost": 19.2094,
+              "pressure_score": 34.9261
+            },
+            {
+              "action_type": "withdraw",
+              "score": 37.7133,
+              "short_term_score": 67.8769,
+              "long_term_score": 8.0,
+              "world_cost": 7.8582,
+              "pressure_score": 12.7004
+            },
+            {
+              "action_type": "approach",
+              "score": 27.1508,
+              "short_term_score": 61.3266,
+              "long_term_score": 10.0,
+              "world_cost": 14.9677,
+              "pressure_score": 26.0358
+            },
+            {
+              "action_type": "support",
+              "score": 21.7909,
+              "short_term_score": 49.7074,
+              "long_term_score": 12.0,
+              "world_cost": 13.7106,
+              "pressure_score": 23.4957
+            },
+            {
+              "action_type": "wait",
+              "score": 7.8921,
+              "short_term_score": 15.4219,
+              "long_term_score": 4.0,
+              "world_cost": 3.8419,
+              "pressure_score": 6.9852
+            }
+          ],
+          "is_player_selected": false,
+          "relation_pairs_updated": [
+            [
+              "char_007",
+              "char_001"
+            ],
+            [
+              "char_001",
+              "char_007"
+            ]
+          ],
+          "world_pressure": {
+            "visibility_risk": 21.686,
+            "hierarchy_friction": 4.135,
+            "institutional_weight": 17.0,
+            "privacy_shield": 11.07,
+            "pressure_score": 24.1308,
+            "rumor_multiplier": 0.9017
+          },
+          "world_events": [
+            {
+              "trigger_type": "reputation_shift",
+              "trigger_id": "char_007",
+              "summary": "東雲 紗良 の行動が周囲の評価に薄く残った。",
+              "affected_entities": [
+                "char_007",
+                "char_001"
+              ],
+              "pressure_score": 26.7663
+            },
+            {
+              "trigger_type": "hierarchy_sanction",
+              "trigger_id": "char_007->char_001",
+              "summary": "東雲 紗良 の行動は階層差に阻まれ、表向きの立場を少し失った。",
+              "affected_entities": [
+                "char_007",
+                "char_001"
+              ],
+              "pressure_score": 4.7437
+            },
+            {
+              "trigger_type": "faction_pressure",
+              "trigger_id": "peripheral",
+              "pressure_score": 11.1287,
+              "summary": "peripheral の空気が動き、周辺メンバーが出来事に反応し始めた。",
+              "affected_entities": [
+                "char_006"
+              ]
+            }
+          ]
+        },
+        {
+          "actor_id": "char_008",
+          "target_id": "char_005",
+          "location_id": "loc_hallway_2f",
+          "top_need": "belonging",
+          "need_score": 62.56,
+          "action_type": "withdraw",
+          "short_term_score": 31.046,
+          "long_term_score": 9.8258,
+          "world_cost": 14.3453,
+          "engine_bias": 0.3267,
+          "ideology_bias": 0.0,
+          "score": 8.1668,
+          "reason": "defensive_need",
+          "world_pressure_preview": {
+            "pressure_score": 26.0824,
+            "visibility_risk": 65.608,
+            "hierarchy_friction": 1.92,
+            "privacy_shield": 2.322
+          },
+          "candidate_preview": [
+            {
+              "action_type": "withdraw",
+              "score": 8.1668,
+              "short_term_score": 31.046,
+              "long_term_score": 9.8258,
+              "world_cost": 14.3453,
+              "pressure_score": 26.0824
+            },
+            {
+              "action_type": "approach",
+              "score": 6.6754,
+              "short_term_score": 47.5285,
+              "long_term_score": 9.2885,
+              "world_cost": 30.6719,
+              "pressure_score": 53.4689
+            },
+            {
+              "action_type": "wait",
+              "score": 6.0547,
+              "short_term_score": 19.6031,
+              "long_term_score": 4.84,
+              "world_cost": 7.8899,
+              "pressure_score": 14.3453
+            },
+            {
+              "action_type": "seek_help",
+              "score": 0.1843,
+              "short_term_score": 43.651,
+              "long_term_score": 11.0216,
+              "world_cost": 30.4161,
+              "pressure_score": 49.5566
+            },
+            {
+              "action_type": "support",
+              "score": -0.8519,
+              "short_term_score": 41.0891,
+              "long_term_score": 10.9327,
+              "world_cost": 29.8468,
+              "pressure_score": 48.2524
+            },
+            {
+              "action_type": "confront",
+              "score": -5.4973,
+              "short_term_score": 56.4929,
+              "long_term_score": 13.8847,
+              "world_cost": 44.932,
+              "pressure_score": 78.2472
+            }
+          ],
+          "is_player_selected": false,
+          "relation_pairs_updated": [
+            [
+              "char_008",
+              "char_005"
+            ],
+            [
+              "char_005",
+              "char_008"
+            ]
+          ],
+          "world_pressure": {
+            "visibility_risk": 65.608,
+            "hierarchy_friction": 1.92,
+            "institutional_weight": 0.0,
+            "privacy_shield": 2.322,
+            "pressure_score": 26.0824,
+            "rumor_multiplier": 1.1464
+          },
+          "world_events": [
+            {
+              "trigger_type": "reputation_shift",
+              "trigger_id": "char_008",
+              "summary": "相沢 蓮 の行動が周囲の評価に薄く残った。",
+              "affected_entities": [
+                "char_008",
+                "char_005"
+              ],
+              "pressure_score": 71.0162
+            },
+            {
+              "trigger_type": "faction_pressure",
+              "trigger_id": "social_core",
+              "pressure_score": 11.6724,
+              "summary": "social_core の空気が動き、周辺メンバーが出来事に反応し始めた。",
+              "affected_entities": [
+                "char_002",
+                "char_003"
+              ]
+            }
+          ]
+        }
+      ],
+      "event_log_size": 43,
+      "hot_relations": [
+        {
+          "pair": "char_001->char_002",
+          "charge": 0.4819,
+          "breach_count": 0
+        },
+        {
+          "pair": "char_008->char_005",
+          "charge": 0.3651,
+          "breach_count": 1
+        },
+        {
+          "pair": "char_005->char_008",
+          "charge": 0.3187,
+          "breach_count": 1
+        }
+      ],
+      "secret_pressure": {
+        "secret_001": 9.4,
+        "secret_002": 15.4,
+        "secret_003": 15.4,
+        "secret_004": 15.4
+      },
+      "world_tension": 12.5811,
+      "location_heat": {
+        "loc_classroom_2a": 8.5872,
+        "loc_hallway_2f": 19.0789,
+        "loc_library_hall": 0.0,
+        "loc_student_council": 0.0,
+        "loc_courtyard": 0.4234,
+        "loc_infirmary_corridor": 0.0
+      },
+      "location_pressure_events": 8,
+      "save_metadata": {},
+      "faction_climate": {
+        "general_students": 2.6086,
+        "social_core": 12.6893,
+        "quiet_observers": 2.4008,
+        "institutional_core": 3.9309,
+        "peripheral": 5.3536
+      },
+      "institution_pressure": 1.1385,
+      "reputation_pressure_events": 8,
+      "offscreen_event_count": 2,
+      "turn_trace_count": 1
+    }
+  },
+  "faction_climate": {
+    "general_students": 2.6086,
+    "social_core": 12.6893,
+    "quiet_observers": 2.4008,
+    "institutional_core": 3.9309,
+    "peripheral": 5.3536
+  },
+  "institution_pressure": 1.1385,
+  "reputation_pressure_log": [
+    {
+      "turn": 1,
+      "actor_id": "char_001",
+      "target_id": "char_002",
+      "action_type": "withdraw",
+      "publicity": 59.7231,
+      "visible_delta": -0.5972,
+      "rumor_delta": 0.4778
+    },
+    {
+      "turn": 1,
+      "actor_id": "char_002",
+      "target_id": "char_001",
+      "action_type": "withdraw",
+      "publicity": 60.0726,
+      "visible_delta": -0.6007,
+      "rumor_delta": 0.4806
+    },
+    {
+      "turn": 1,
+      "actor_id": "char_003",
+      "target_id": "char_001",
+      "action_type": "confront",
+      "publicity": 69.8283,
+      "visible_delta": -1.5362,
+      "rumor_delta": 1.3966
+    },
+    {
+      "turn": 1,
+      "actor_id": "char_004",
+      "target_id": "char_001",
+      "action_type": "confide",
+      "publicity": 22.8459,
+      "visible_delta": 0.1828,
+      "rumor_delta": 0.3198
+    },
+    {
+      "turn": 1,
+      "actor_id": "char_005",
+      "target_id": "char_008",
+      "action_type": "confront",
+      "publicity": 21.9771,
+      "visible_delta": -0.4835,
+      "rumor_delta": 0.4395
+    },
+    {
+      "turn": 1,
+      "actor_id": "char_006",
+      "target_id": "char_001",
+      "action_type": "seek_help",
+      "publicity": 45.851,
+      "visible_delta": 0.4585,
+      "rumor_delta": 0.2293
+    },
+    {
+      "turn": 1,
+      "actor_id": "char_007",
+      "target_id": "char_001",
+      "action_type": "seek_help",
+      "publicity": 26.7663,
+      "visible_delta": 0.2677,
+      "rumor_delta": 0.1338
+    },
+    {
+      "turn": 1,
+      "actor_id": "char_008",
+      "target_id": "char_005",
+      "action_type": "withdraw",
+      "publicity": 71.0162,
+      "visible_delta": -0.7102,
+      "rumor_delta": 0.5681
+    }
+  ],
+  "offscreen_events": [
+    {
+      "trigger_type": "offscreen_rumor_echo",
+      "trigger_id": "loc_hallway_2f",
+      "summary": "loc_hallway_2f 周辺で出来事の余波が続き、見えないところで噂が補強された。",
+      "affected_entities": [
+        "char_003",
+        "char_008"
+      ]
+    },
+    {
+      "trigger_type": "offscreen_secret_drift",
+      "trigger_id": "secret_002",
+      "summary": "secret_002 の話題が視界外でもじわじわ広がっている。",
+      "affected_entities": [
+        "char_002",
+        "char_004",
+        "char_005",
+        "char_006",
+        "char_007",
+        "char_008"
+      ]
+    }
+  ],
+  "turn_traces": [
+    {
+      "turn": 1,
+      "world_tension": 12.5811,
+      "action_chain": [
+        {
+          "actor_id": "char_001",
+          "actor_name": "神代 湊",
+          "action_type": "withdraw",
+          "target_id": "char_002",
+          "target_name": "白峰 澪",
+          "score": 11.6821,
+          "top_need": "safety",
+          "reason": "defensive_need",
+          "world_cost": 16.4406,
+          "consequence_count": 2
+        },
+        {
+          "actor_id": "char_002",
+          "actor_name": "白峰 澪",
+          "action_type": "withdraw",
+          "target_id": "char_001",
+          "target_name": "神代 湊",
+          "score": 20.8769,
+          "top_need": "safety",
+          "reason": "defensive_need",
+          "world_cost": 15.1943,
+          "consequence_count": 2
+        },
+        {
+          "actor_id": "char_003",
+          "actor_name": "九条 迅",
+          "action_type": "confront",
+          "target_id": "char_001",
+          "target_name": "神代 湊",
+          "score": 32.0814,
+          "top_need": "power",
+          "reason": "conflict_pressure",
+          "world_cost": 43.6648,
+          "consequence_count": 3
+        },
+        {
+          "actor_id": "char_004",
+          "actor_name": "雨宮 透子",
+          "action_type": "confide",
+          "target_id": "char_001",
+          "target_name": "神代 湊",
+          "score": 34.3901,
+          "top_need": "safety",
+          "reason": "private_disclosure",
+          "world_cost": 5.3313,
+          "consequence_count": 2
+        },
+        {
+          "actor_id": "char_005",
+          "actor_name": "黒瀬 環",
+          "action_type": "confront",
+          "target_id": "char_008",
+          "target_name": "相沢 蓮",
+          "score": 43.257,
+          "top_need": "safety",
+          "reason": "conflict_pressure",
+          "world_cost": 11.3995,
+          "consequence_count": 2
+        },
+        {
+          "actor_id": "char_006",
+          "actor_name": "篠崎 朱音",
+          "action_type": "seek_help",
+          "target_id": "char_001",
+          "target_name": "神代 湊",
+          "score": 30.0365,
+          "top_need": "safety",
+          "reason": "stability_recovery",
+          "world_cost": 15.5179,
+          "consequence_count": 2
+        },
+        {
+          "actor_id": "char_007",
+          "actor_name": "東雲 紗良",
+          "action_type": "seek_help",
+          "target_id": "char_001",
+          "target_name": "神代 湊",
+          "score": 57.2121,
+          "top_need": "safety",
+          "reason": "stability_recovery",
+          "world_cost": 14.8919,
+          "consequence_count": 3
+        },
+        {
+          "actor_id": "char_008",
+          "actor_name": "相沢 蓮",
+          "action_type": "withdraw",
+          "target_id": "char_005",
+          "target_name": "黒瀬 環",
+          "score": 8.1668,
+          "top_need": "belonging",
+          "reason": "defensive_need",
+          "world_cost": 14.3453,
+          "consequence_count": 2
+        }
+      ],
+      "secret_chain": [
+        {
+          "secret_id": "secret_001",
+          "old_visibility": "hidden",
+          "new_visibility": "rumored",
+          "reason": "rumor_chain_investigation",
+          "affected_entities": [
+            "char_004",
+            "char_008"
+          ]
+        },
+        {
+          "secret_id": "secret_002",
+          "old_visibility": "hidden",
+          "new_visibility": "revealed",
+          "reason": "direct_confrontation_scene",
+          "affected_entities": [
+            "char_003",
+            "char_001"
+          ]
+        },
+        {
+          "secret_id": "secret_003",
+          "old_visibility": "hidden",
+          "new_visibility": "revealed",
+          "reason": "channel_breakdown",
+          "affected_entities": [
+            "char_005",
+            "char_008"
+          ]
+        },
+        {
+          "secret_id": "secret_004",
+          "old_visibility": "hidden",
+          "new_visibility": "revealed",
+          "reason": "dependency_confession",
+          "affected_entities": [
+            "char_007",
+            "char_001"
+          ]
+        }
+      ],
+      "secondary_chain": [
+        {
+          "trigger_type": "secret",
+          "trigger_id": "secret_001",
+          "summary": "白峰澪が神代湊への警戒を少し下げた。",
+          "affected_entities": [
+            "char_001",
+            "char_002"
+          ]
+        },
+        {
+          "trigger_type": "secret",
+          "trigger_id": "secret_002",
+          "summary": "神代湊と九条迅の対立が一段深く固定された。",
+          "affected_entities": [
+            "char_001",
+            "char_003"
+          ]
+        },
+        {
+          "trigger_type": "secret",
+          "trigger_id": "secret_003",
+          "summary": "相沢蓮が黒瀬環への不信を強め、情報流通がぎくしゃくし始めた。",
+          "affected_entities": [
+            "char_005",
+            "char_008"
+          ]
+        },
+        {
+          "trigger_type": "secret",
+          "trigger_id": "secret_004",
+          "summary": "東雲紗良の依存が反応を呼び、神代湊の負荷が増した。",
+          "affected_entities": [
+            "char_001",
+            "char_007"
+          ]
+        },
+        {
+          "trigger_type": "action",
+          "trigger_id": "char_001:withdraw",
+          "summary": "距離を取ったことで、相手側に小さな違和感が残った。",
+          "affected_entities": [
+            "char_001",
+            "char_002"
+          ]
+        },
+        {
+          "trigger_type": "action",
+          "trigger_id": "char_002:withdraw",
+          "summary": "距離を取ったことで、相手側に小さな違和感が残った。",
+          "affected_entities": [
+            "char_002",
+            "char_001"
+          ]
+        },
+        {
+          "trigger_type": "action",
+          "trigger_id": "char_003:confront",
+          "summary": "対立の余波で相手側の反感が残った。",
+          "affected_entities": [
+            "char_003",
+            "char_001"
+          ]
+        },
+        {
+          "trigger_type": "action",
+          "trigger_id": "char_004:confide",
+          "summary": "打ち明け話が相互理解の余韻を残した。",
+          "affected_entities": [
+            "char_004",
+            "char_001"
+          ]
+        },
+        {
+          "trigger_type": "action",
+          "trigger_id": "char_005:confront",
+          "summary": "対立の余波で相手側の反感が残った。",
+          "affected_entities": [
+            "char_005",
+            "char_008"
+          ]
+        },
+        {
+          "trigger_type": "action",
+          "trigger_id": "char_008:withdraw",
+          "summary": "距離を取ったことで、相手側に小さな違和感が残った。",
+          "affected_entities": [
+            "char_008",
+            "char_005"
+          ]
+        },
+        {
+          "trigger_type": "world_drift",
+          "trigger_id": "loc_hallway_2f",
+          "summary": "2F Hallway に残った空気が、そこにいる人物たちの緊張を少し押し上げた。",
+          "affected_entities": [
+            "char_003",
+            "char_008"
+          ]
+        },
+        {
+          "trigger_type": "offscreen_rumor_echo",
+          "trigger_id": "loc_hallway_2f",
+          "summary": "loc_hallway_2f 周辺で出来事の余波が続き、見えないところで噂が補強された。",
+          "affected_entities": [
+            "char_003",
+            "char_008"
+          ]
+        },
+        {
+          "trigger_type": "offscreen_secret_drift",
+          "trigger_id": "secret_002",
+          "summary": "secret_002 の話題が視界外でもじわじわ広がっている。",
+          "affected_entities": [
+            "char_002",
+            "char_004",
+            "char_005",
+            "char_006",
+            "char_007",
+            "char_008"
+          ]
+        }
+      ],
+      "hot_locations": [
+        {
+          "location_id": "loc_hallway_2f",
+          "heat": 19.0789
+        },
+        {
+          "location_id": "loc_classroom_2a",
+          "heat": 8.5872
+        },
+        {
+          "location_id": "loc_courtyard",
+          "heat": 0.4234
+        }
+      ]
+    }
+  ]
+}

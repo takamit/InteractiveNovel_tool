@@ -1,0 +1,141 @@
+{
+  "world_id": "closed_school_society",
+  "locations": [
+    {
+      "id": "loc_classroom_2a",
+      "name": "2-A Classroom",
+      "category": "classroom",
+      "visibility": "public",
+      "noise_level": 58.3,
+      "privacy_level": 21.4,
+      "social_pressure": 74.8,
+      "rumor_spread_rate": 68.5,
+      "emotional_tags": [
+        "daily_life",
+        "observation",
+        "tension"
+      ],
+      "connected_to": [
+        "loc_hallway_2f"
+      ],
+      "description": "神代湊と白峰澪の主戦場となる教室。視線と空気が蓄積しやすい。"
+    },
+    {
+      "id": "loc_hallway_2f",
+      "name": "2F Hallway",
+      "category": "hallway",
+      "visibility": "public",
+      "noise_level": 71.6,
+      "privacy_level": 12.9,
+      "social_pressure": 63.2,
+      "rumor_spread_rate": 82.7,
+      "emotional_tags": [
+        "traffic",
+        "chance_encounter",
+        "exposure"
+      ],
+      "connected_to": [
+        "loc_classroom_2a",
+        "loc_library_hall",
+        "loc_courtyard"
+      ],
+      "description": "人の流れが多く、噂や視線が交差する通路。相沢蓮や九条迅の影響が強く出やすい。"
+    },
+    {
+      "id": "loc_library_hall",
+      "name": "Library Hall",
+      "category": "library",
+      "visibility": "semi_public",
+      "noise_level": 18.5,
+      "privacy_level": 66.4,
+      "social_pressure": 27.6,
+      "rumor_spread_rate": 16.9,
+      "emotional_tags": [
+        "calm",
+        "analysis",
+        "confession_potential"
+      ],
+      "connected_to": [
+        "loc_hallway_2f"
+      ],
+      "description": "静けさと観察に向いた場所。雨宮透子の視点や秘密の断片が浮上しやすい。"
+    },
+    {
+      "id": "loc_student_council",
+      "name": "Student Council Room",
+      "category": "institution",
+      "visibility": "restricted",
+      "noise_level": 24.7,
+      "privacy_level": 72.1,
+      "social_pressure": 69.3,
+      "rumor_spread_rate": 21.4,
+      "emotional_tags": [
+        "control",
+        "authority",
+        "negotiation"
+      ],
+      "connected_to": [
+        "loc_hallway_2f"
+      ],
+      "description": "制度と権限の匂いが強い部屋。黒瀬環の操作性が最も高まる。"
+    },
+    {
+      "id": "loc_courtyard",
+      "name": "Courtyard",
+      "category": "open_space",
+      "visibility": "public",
+      "noise_level": 44.6,
+      "privacy_level": 39.8,
+      "social_pressure": 41.7,
+      "rumor_spread_rate": 47.2,
+      "emotional_tags": [
+        "openness",
+        "transition",
+        "fragile_peace"
+      ],
+      "connected_to": [
+        "loc_hallway_2f",
+        "loc_rooftop_access"
+      ],
+      "description": "偶然の接触と一時的な解放感が生まれる中庭。篠崎朱音の外部者性が映える。"
+    },
+    {
+      "id": "loc_infirmary_corridor",
+      "name": "Infirmary Corridor",
+      "category": "medical_corridor",
+      "visibility": "semi_public",
+      "noise_level": 15.3,
+      "privacy_level": 61.5,
+      "social_pressure": 32.4,
+      "rumor_spread_rate": 19.7,
+      "emotional_tags": [
+        "fragility",
+        "unease",
+        "dependency"
+      ],
+      "connected_to": [
+        "loc_hallway_2f"
+      ],
+      "description": "弱さや不調が表に出やすい場所。東雲紗良の不安定さと依存が浮きやすい。"
+    },
+    {
+      "id": "loc_rooftop_access",
+      "name": "Rooftop Access",
+      "category": "rooftop_edge",
+      "visibility": "semi_restricted",
+      "noise_level": 12.6,
+      "privacy_level": 78.3,
+      "social_pressure": 18.5,
+      "rumor_spread_rate": 9.4,
+      "emotional_tags": [
+        "isolation",
+        "honesty",
+        "critical_scene"
+      ],
+      "connected_to": [
+        "loc_courtyard"
+      ],
+      "description": "本音や対決が生じやすい高所の境界空間。重要秘密の開示候補地点。"
+    }
+  ]
+}

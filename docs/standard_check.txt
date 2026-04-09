@@ -1,0 +1,15 @@
+Python開発標準設定 反映確認
+
+反映済み
+- main.py を単一入口として維持
+- config / core / ui / tests / docs / logs / data を配置
+- core は logic / services / utils / models に分離
+- CLI と GUI は UI 層から共通 logic を呼び出す構成
+- requirements.txt を依存定義の単一ファイルへ統一
+- .gitignore を標準項目中心に整理
+- 不要な __pycache__ / .pytest_cache / 重複Markdownを削除
+
+確認メモ
+- ui/components は保持
+- 実装都合で ui/cli と ui/desktop を補助配置
+- tools / schemas は補助資産として保持

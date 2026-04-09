@@ -1,0 +1,614 @@
+{
+  "world_id": "closed_school_society",
+  "relations": [
+    {
+      "id": "rel_001",
+      "from": "char_001",
+      "to": "char_002",
+      "basic": {
+        "like": 58.4,
+        "trust": 41.7,
+        "respect": 72.3,
+        "fear": 11.4,
+        "suspicion": 26.8
+      },
+      "extended": {
+        "interest": 67.2,
+        "dependence": 18.9,
+        "attachment": 29.5,
+        "attraction": 34.1,
+        "intimacy": 21.3
+      },
+      "advanced": {
+        "desire": 12.4,
+        "exclusivity": 9.7,
+        "obsession": 4.8,
+        "control": 3.1,
+        "devotion": 14.2,
+        "resentment": 7.6
+      },
+      "labels": {
+        "structural": [
+          "classmate",
+          "heroine_axis"
+        ],
+        "emotional": [
+          "curious",
+          "careful"
+        ],
+        "perception": [
+          "hard_to_read",
+          "needs_protection"
+        ]
+      },
+      "maintenance": 26.3,
+      "decay": 8.4,
+      "asymmetry": 17.8,
+      "trend": "rising_cautiously"
+    },
+    {
+      "id": "rel_002",
+      "from": "char_002",
+      "to": "char_001",
+      "basic": {
+        "like": 43.6,
+        "trust": 28.4,
+        "respect": 61.7,
+        "fear": 8.2,
+        "suspicion": 39.1
+      },
+      "extended": {
+        "interest": 63.4,
+        "dependence": 14.6,
+        "attachment": 18.5,
+        "attraction": 21.8,
+        "intimacy": 15.2
+      },
+      "advanced": {
+        "desire": 8.9,
+        "exclusivity": 6.1,
+        "obsession": 2.7,
+        "control": 2.3,
+        "devotion": 9.8,
+        "resentment": 12.5
+      },
+      "labels": {
+        "structural": [
+          "classmate",
+          "heroine_axis"
+        ],
+        "emotional": [
+          "guarded",
+          "drawn_in"
+        ],
+        "perception": [
+          "possibly_safe",
+          "possibly_dangerous"
+        ]
+      },
+      "maintenance": 38.2,
+      "decay": 11.7,
+      "asymmetry": 22.4,
+      "trend": "unstable_rise"
+    },
+    {
+      "id": "rel_003",
+      "from": "char_001",
+      "to": "char_003",
+      "basic": {
+        "like": 24.1,
+        "trust": 19.5,
+        "respect": 52.7,
+        "fear": 22.8,
+        "suspicion": 48.2
+      },
+      "extended": {
+        "interest": 31.6,
+        "dependence": 6.2,
+        "attachment": 7.8,
+        "attraction": 4.3,
+        "intimacy": 5.1
+      },
+      "advanced": {
+        "desire": 2.0,
+        "exclusivity": 3.1,
+        "obsession": 1.4,
+        "control": 4.5,
+        "devotion": 1.8,
+        "resentment": 26.7
+      },
+      "labels": {
+        "structural": [
+          "rival_axis"
+        ],
+        "emotional": [
+          "tense"
+        ],
+        "perception": [
+          "watching_me",
+          "competitive"
+        ]
+      },
+      "maintenance": 9.6,
+      "decay": 17.1,
+      "asymmetry": 11.3,
+      "trend": "sharpening"
+    },
+    {
+      "id": "rel_004",
+      "from": "char_003",
+      "to": "char_001",
+      "basic": {
+        "like": 18.8,
+        "trust": 14.4,
+        "respect": 57.9,
+        "fear": 6.1,
+        "suspicion": 62.3
+      },
+      "extended": {
+        "interest": 54.6,
+        "dependence": 3.7,
+        "attachment": 6.4,
+        "attraction": 3.2,
+        "intimacy": 2.9
+      },
+      "advanced": {
+        "desire": 1.6,
+        "exclusivity": 7.8,
+        "obsession": 8.4,
+        "control": 14.6,
+        "devotion": 1.1,
+        "resentment": 31.9
+      },
+      "labels": {
+        "structural": [
+          "rival_axis"
+        ],
+        "emotional": [
+          "territorial"
+        ],
+        "perception": [
+          "unwelcome_variable",
+          "needs_assessment"
+        ]
+      },
+      "maintenance": 12.8,
+      "decay": 13.9,
+      "asymmetry": 19.7,
+      "trend": "escalating"
+    },
+    {
+      "id": "rel_005",
+      "from": "char_004",
+      "to": "char_001",
+      "basic": {
+        "like": 46.5,
+        "trust": 39.9,
+        "respect": 63.8,
+        "fear": 4.8,
+        "suspicion": 18.2
+      },
+      "extended": {
+        "interest": 58.7,
+        "dependence": 9.4,
+        "attachment": 17.6,
+        "attraction": 8.3,
+        "intimacy": 13.7
+      },
+      "advanced": {
+        "desire": 3.2,
+        "exclusivity": 2.9,
+        "obsession": 1.7,
+        "control": 1.1,
+        "devotion": 7.6,
+        "resentment": 2.4
+      },
+      "labels": {
+        "structural": [
+          "observer_to_protagonist"
+        ],
+        "emotional": [
+          "quiet_interest"
+        ],
+        "perception": [
+          "important_node",
+          "worth_tracking"
+        ]
+      },
+      "maintenance": 21.1,
+      "decay": 7.5,
+      "asymmetry": 13.2,
+      "trend": "slow_rise"
+    },
+    {
+      "id": "rel_006",
+      "from": "char_001",
+      "to": "char_004",
+      "basic": {
+        "like": 41.9,
+        "trust": 37.2,
+        "respect": 49.5,
+        "fear": 3.2,
+        "suspicion": 14.7
+      },
+      "extended": {
+        "interest": 34.8,
+        "dependence": 7.6,
+        "attachment": 12.5,
+        "attraction": 5.4,
+        "intimacy": 11.2
+      },
+      "advanced": {
+        "desire": 2.1,
+        "exclusivity": 1.9,
+        "obsession": 0.7,
+        "control": 0.8,
+        "devotion": 5.1,
+        "resentment": 1.6
+      },
+      "labels": {
+        "structural": [
+          "observer_link"
+        ],
+        "emotional": [
+          "comfortable"
+        ],
+        "perception": [
+          "easy_to_talk_to",
+          "not_simple"
+        ]
+      },
+      "maintenance": 18.3,
+      "decay": 6.9,
+      "asymmetry": 8.7,
+      "trend": "stable_rise"
+    },
+    {
+      "id": "rel_007",
+      "from": "char_005",
+      "to": "char_008",
+      "basic": {
+        "like": 37.6,
+        "trust": 29.8,
+        "respect": 44.9,
+        "fear": 6.5,
+        "suspicion": 21.7
+      },
+      "extended": {
+        "interest": 49.3,
+        "dependence": 16.1,
+        "attachment": 10.5,
+        "attraction": 7.2,
+        "intimacy": 9.4
+      },
+      "advanced": {
+        "desire": 3.8,
+        "exclusivity": 5.2,
+        "obsession": 4.7,
+        "control": 28.6,
+        "devotion": 4.4,
+        "resentment": 6.3
+      },
+      "labels": {
+        "structural": [
+          "information_channel"
+        ],
+        "emotional": [
+          "instrumental_affection"
+        ],
+        "perception": [
+          "useful_hub",
+          "manageable"
+        ]
+      },
+      "maintenance": 31.7,
+      "decay": 8.6,
+      "asymmetry": 34.8,
+      "trend": "controlled"
+    },
+    {
+      "id": "rel_008",
+      "from": "char_008",
+      "to": "char_005",
+      "basic": {
+        "like": 51.8,
+        "trust": 34.6,
+        "respect": 53.2,
+        "fear": 11.9,
+        "suspicion": 24.5
+      },
+      "extended": {
+        "interest": 41.1,
+        "dependence": 21.9,
+        "attachment": 16.3,
+        "attraction": 9.6,
+        "intimacy": 12.1
+      },
+      "advanced": {
+        "desire": 4.1,
+        "exclusivity": 6.3,
+        "obsession": 3.4,
+        "control": 5.9,
+        "devotion": 7.4,
+        "resentment": 7.2
+      },
+      "labels": {
+        "structural": [
+          "information_channel"
+        ],
+        "emotional": [
+          "impressed",
+          "slightly_wary"
+        ],
+        "perception": [
+          "important_senior",
+          "not_transparent"
+        ]
+      },
+      "maintenance": 35.9,
+      "decay": 10.2,
+      "asymmetry": 18.4,
+      "trend": "dependent_stability"
+    },
+    {
+      "id": "rel_009",
+      "from": "char_007",
+      "to": "char_001",
+      "basic": {
+        "like": 71.6,
+        "trust": 42.1,
+        "respect": 39.7,
+        "fear": 12.3,
+        "suspicion": 18.9
+      },
+      "extended": {
+        "interest": 83.5,
+        "dependence": 64.8,
+        "attachment": 69.1,
+        "attraction": 31.6,
+        "intimacy": 46.7
+      },
+      "advanced": {
+        "desire": 24.8,
+        "exclusivity": 39.5,
+        "obsession": 47.3,
+        "control": 8.6,
+        "devotion": 41.2,
+        "resentment": 13.4
+      },
+      "labels": {
+        "structural": [
+          "dependency_axis"
+        ],
+        "emotional": [
+          "clingy",
+          "anxious"
+        ],
+        "perception": [
+          "anchor",
+          "must_not_lose"
+        ]
+      },
+      "maintenance": 79.4,
+      "decay": 4.3,
+      "asymmetry": 61.7,
+      "trend": "dangerously_rising"
+    },
+    {
+      "id": "rel_010",
+      "from": "char_001",
+      "to": "char_007",
+      "basic": {
+        "like": 47.3,
+        "trust": 24.7,
+        "respect": 28.9,
+        "fear": 9.6,
+        "suspicion": 35.4
+      },
+      "extended": {
+        "interest": 38.5,
+        "dependence": 10.2,
+        "attachment": 19.6,
+        "attraction": 11.1,
+        "intimacy": 14.5
+      },
+      "advanced": {
+        "desire": 7.3,
+        "exclusivity": 4.4,
+        "obsession": 3.6,
+        "control": 4.2,
+        "devotion": 16.8,
+        "resentment": 10.5
+      },
+      "labels": {
+        "structural": [
+          "dependency_axis"
+        ],
+        "emotional": [
+          "protective",
+          "uneasy"
+        ],
+        "perception": [
+          "fragile",
+          "high_risk"
+        ]
+      },
+      "maintenance": 48.6,
+      "decay": 9.9,
+      "asymmetry": 43.8,
+      "trend": "strained_rise"
+    },
+    {
+      "id": "rel_011",
+      "from": "char_006",
+      "to": "char_001",
+      "basic": {
+        "like": 44.8,
+        "trust": 26.2,
+        "respect": 33.7,
+        "fear": 6.2,
+        "suspicion": 29.5
+      },
+      "extended": {
+        "interest": 57.6,
+        "dependence": 13.1,
+        "attachment": 17.8,
+        "attraction": 22.6,
+        "intimacy": 14.9
+      },
+      "advanced": {
+        "desire": 10.7,
+        "exclusivity": 6.8,
+        "obsession": 4.3,
+        "control": 2.9,
+        "devotion": 8.1,
+        "resentment": 5.7
+      },
+      "labels": {
+        "structural": [
+          "outsider_to_protagonist"
+        ],
+        "emotional": [
+          "interested",
+          "careful"
+        ],
+        "perception": [
+          "useful",
+          "readable_enough"
+        ]
+      },
+      "maintenance": 34.5,
+      "decay": 11.1,
+      "asymmetry": 14.2,
+      "trend": "opportunistic_rise"
+    },
+    {
+      "id": "rel_012",
+      "from": "char_001",
+      "to": "char_006",
+      "basic": {
+        "like": 39.7,
+        "trust": 22.5,
+        "respect": 27.9,
+        "fear": 4.1,
+        "suspicion": 37.8
+      },
+      "extended": {
+        "interest": 42.8,
+        "dependence": 6.3,
+        "attachment": 10.7,
+        "attraction": 18.4,
+        "intimacy": 8.9
+      },
+      "advanced": {
+        "desire": 8.3,
+        "exclusivity": 3.4,
+        "obsession": 2.2,
+        "control": 1.8,
+        "devotion": 4.5,
+        "resentment": 6.2
+      },
+      "labels": {
+        "structural": [
+          "outsider_to_protagonist"
+        ],
+        "emotional": [
+          "cautious_interest"
+        ],
+        "perception": [
+          "hiding_something",
+          "socially_skilled"
+        ]
+      },
+      "maintenance": 21.8,
+      "decay": 12.7,
+      "asymmetry": 18.1,
+      "trend": "uncertain"
+    },
+    {
+      "id": "rel_013",
+      "from": "char_002",
+      "to": "char_003",
+      "basic": {
+        "like": 16.2,
+        "trust": 14.3,
+        "respect": 39.8,
+        "fear": 17.9,
+        "suspicion": 52.7
+      },
+      "extended": {
+        "interest": 22.4,
+        "dependence": 3.6,
+        "attachment": 4.5,
+        "attraction": 4.9,
+        "intimacy": 2.8
+      },
+      "advanced": {
+        "desire": 1.5,
+        "exclusivity": 1.2,
+        "obsession": 1.0,
+        "control": 3.8,
+        "devotion": 1.1,
+        "resentment": 21.7
+      },
+      "labels": {
+        "structural": [
+          "tension_axis"
+        ],
+        "emotional": [
+          "cold"
+        ],
+        "perception": [
+          "pressuring_presence"
+        ]
+      },
+      "maintenance": 8.9,
+      "decay": 15.3,
+      "asymmetry": 10.9,
+      "trend": "cold_static"
+    },
+    {
+      "id": "rel_014",
+      "from": "char_003",
+      "to": "char_002",
+      "basic": {
+        "like": 33.5,
+        "trust": 21.9,
+        "respect": 58.4,
+        "fear": 5.2,
+        "suspicion": 31.8
+      },
+      "extended": {
+        "interest": 46.7,
+        "dependence": 6.1,
+        "attachment": 10.3,
+        "attraction": 19.4,
+        "intimacy": 7.5
+      },
+      "advanced": {
+        "desire": 9.8,
+        "exclusivity": 11.3,
+        "obsession": 6.4,
+        "control": 12.9,
+        "devotion": 5.1,
+        "resentment": 7.4
+      },
+      "labels": {
+        "structural": [
+          "tension_axis"
+        ],
+        "emotional": [
+          "competitive_interest"
+        ],
+        "perception": [
+          "hard_to_dominate",
+          "valuable_status_target"
+        ]
+      },
+      "maintenance": 19.6,
+      "decay": 12.1,
+      "asymmetry": 20.3,
+      "trend": "restless"
+    }
+  ]
+}

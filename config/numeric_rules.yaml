@@ -1,0 +1,5 @@
+numeric:
+  precision_internal: 4
+  precision_display: 1
+  min_value: 0.0
+  max_value: 100.0

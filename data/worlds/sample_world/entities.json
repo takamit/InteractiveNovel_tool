@@ -1,0 +1,1093 @@
+{
+  "world_id": "closed_school_society",
+  "entities": [
+    {
+      "id": "char_001",
+      "type": "character",
+      "name": {
+        "family_name": "神代",
+        "given_name": "湊",
+        "full_name": "神代 湊",
+        "reading": "かみしろ みなと"
+      },
+      "role": {
+        "primary": "protagonist",
+        "secondary": "student",
+        "archetype": "adaptive_observer"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-A",
+        "gender": "male"
+      },
+      "style_ratio": {
+        "action": 0.22,
+        "inner": 0.28,
+        "cognition": 0.34,
+        "world": 0.16
+      },
+      "intensity": {
+        "action": 61.2,
+        "inner": 72.8,
+        "cognition": 81.4,
+        "world": 55.3
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "classroom": {
+          "action": -2.2,
+          "inner": 1.1,
+          "cognition": 2.8,
+          "world": 0.4
+        },
+        "under_pressure": {
+          "action": 2.6,
+          "inner": -1.8,
+          "cognition": 3.1,
+          "world": 1.0
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "fairness",
+          "consistency",
+          "personal_responsibility"
+        ],
+        "taboo_values": [
+          "public_humiliation",
+          "manipulation_of_the_weak"
+        ],
+        "belief_style": "pragmatic_with_hidden_idealism"
+      },
+      "relation_tendency": {
+        "attachment_speed": 39.2,
+        "trust_growth_rate": 48.7,
+        "suspicion_growth_rate": 57.3,
+        "maintenance_need": 32.5,
+        "jealousy_bias": 24.8,
+        "forgiveness_rate": 51.6,
+        "asymmetry_tolerance": 63.4
+      },
+      "inner_profile": {
+        "self_evaluation": 54.6,
+        "insecurity": 47.2,
+        "maturity": 71.5,
+        "pride": 42.3,
+        "loneliness": 58.4
+      },
+      "needs": {
+        "survival": {
+          "hunger": 21.4,
+          "thirst": 18.7,
+          "sleepiness": 33.9,
+          "health": 86.2
+        },
+        "reproduction": {
+          "sexual_desire": 28.5,
+          "intimacy": 46.1
+        },
+        "psychological": {
+          "belonging": 52.8,
+          "approval": 38.4,
+          "safety": 47.6,
+          "power": 24.7,
+          "freedom": 63.3
+        }
+      },
+      "emotions": {
+        "joy": 31.8,
+        "anger": 16.2,
+        "sadness": 27.1,
+        "fear": 22.9,
+        "affection": 18.4
+      },
+      "persona": {
+        "surface_persona": "calm_and_detached",
+        "hidden_persona": "earnest_and_protective",
+        "mask_strength": 68.2,
+        "switch_threshold": 74.5
+      },
+      "status": {
+        "current_location_id": "loc_classroom_2a",
+        "social_position": "middle",
+        "visible_reputation": 56.8,
+        "hidden_reputation": 61.4,
+        "rumor_level": 18.9,
+        "fatigue": 22.7,
+        "stress": 34.6,
+        "injury": 0.0,
+        "financial_level": 52.0
+      },
+      "traits": [
+        "observant",
+        "self_restrained",
+        "quietly_competent",
+        "conflict_averse_but_not_passive"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_002",
+      "type": "character",
+      "name": {
+        "family_name": "白峰",
+        "given_name": "澪",
+        "full_name": "白峰 澪",
+        "reading": "しらみね みお"
+      },
+      "role": {
+        "primary": "heroine",
+        "secondary": "student",
+        "archetype": "guarded_elite"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-A",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.16,
+        "inner": 0.35,
+        "cognition": 0.32,
+        "world": 0.17
+      },
+      "intensity": {
+        "action": 42.7,
+        "inner": 84.9,
+        "cognition": 78.6,
+        "world": 58.1
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "public_attention": {
+          "action": -3.4,
+          "inner": 4.1,
+          "cognition": 2.3,
+          "world": 1.8
+        },
+        "trusted_company": {
+          "action": 1.6,
+          "inner": -2.7,
+          "cognition": -0.8,
+          "world": -0.3
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "dignity",
+          "merit",
+          "controlled_honesty"
+        ],
+        "taboo_values": [
+          "cheap_sympathy",
+          "malicious_gossip"
+        ],
+        "belief_style": "rational_defensiveness"
+      },
+      "relation_tendency": {
+        "attachment_speed": 26.1,
+        "trust_growth_rate": 31.8,
+        "suspicion_growth_rate": 66.4,
+        "maintenance_need": 41.7,
+        "jealousy_bias": 34.2,
+        "forgiveness_rate": 28.5,
+        "asymmetry_tolerance": 22.9
+      },
+      "inner_profile": {
+        "self_evaluation": 73.4,
+        "insecurity": 58.9,
+        "maturity": 81.1,
+        "pride": 84.5,
+        "loneliness": 76.3
+      },
+      "needs": {
+        "survival": {
+          "hunger": 19.8,
+          "thirst": 17.3,
+          "sleepiness": 29.4,
+          "health": 82.6
+        },
+        "reproduction": {
+          "sexual_desire": 19.2,
+          "intimacy": 51.7
+        },
+        "psychological": {
+          "belonging": 61.5,
+          "approval": 21.4,
+          "safety": 62.2,
+          "power": 39.1,
+          "freedom": 44.6
+        }
+      },
+      "emotions": {
+        "joy": 18.6,
+        "anger": 21.5,
+        "sadness": 34.8,
+        "fear": 28.3,
+        "affection": 16.9
+      },
+      "persona": {
+        "surface_persona": "untouchable_honor_student",
+        "hidden_persona": "wounded_and_cautious",
+        "mask_strength": 86.4,
+        "switch_threshold": 79.3
+      },
+      "status": {
+        "current_location_id": "loc_classroom_2a",
+        "social_position": "upper",
+        "visible_reputation": 74.1,
+        "hidden_reputation": 48.2,
+        "rumor_level": 62.7,
+        "fatigue": 19.5,
+        "stress": 57.6,
+        "injury": 0.0,
+        "financial_level": 66.5
+      },
+      "traits": [
+        "high_pride",
+        "emotionally_guarded",
+        "sensitive_to_rumor",
+        "quietly_kind"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_003",
+      "type": "character",
+      "name": {
+        "family_name": "九条",
+        "given_name": "迅",
+        "full_name": "九条 迅",
+        "reading": "くじょう じん"
+      },
+      "role": {
+        "primary": "rival",
+        "secondary": "student",
+        "archetype": "dominant_competitor"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-B",
+        "gender": "male"
+      },
+      "style_ratio": {
+        "action": 0.35,
+        "inner": 0.17,
+        "cognition": 0.28,
+        "world": 0.2
+      },
+      "intensity": {
+        "action": 82.3,
+        "inner": 49.4,
+        "cognition": 69.7,
+        "world": 67.5
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "competition": {
+          "action": 4.2,
+          "inner": 0.9,
+          "cognition": 1.7,
+          "world": 1.1
+        },
+        "loss_of_control": {
+          "action": 3.1,
+          "inner": 2.4,
+          "cognition": -2.9,
+          "world": 0.8
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "strength",
+          "initiative",
+          "status"
+        ],
+        "taboo_values": [
+          "public_weakness",
+          "unearned_superiority"
+        ],
+        "belief_style": "competitive_hierarchy"
+      },
+      "relation_tendency": {
+        "attachment_speed": 21.7,
+        "trust_growth_rate": 33.2,
+        "suspicion_growth_rate": 61.8,
+        "maintenance_need": 29.6,
+        "jealousy_bias": 49.1,
+        "forgiveness_rate": 26.7,
+        "asymmetry_tolerance": 37.5
+      },
+      "inner_profile": {
+        "self_evaluation": 79.6,
+        "insecurity": 41.3,
+        "maturity": 58.7,
+        "pride": 87.1,
+        "loneliness": 32.9
+      },
+      "needs": {
+        "survival": {
+          "hunger": 24.8,
+          "thirst": 20.2,
+          "sleepiness": 27.3,
+          "health": 89.4
+        },
+        "reproduction": {
+          "sexual_desire": 36.7,
+          "intimacy": 22.6
+        },
+        "psychological": {
+          "belonging": 28.9,
+          "approval": 57.8,
+          "safety": 31.4,
+          "power": 74.5,
+          "freedom": 46.7
+        }
+      },
+      "emotions": {
+        "joy": 34.7,
+        "anger": 27.6,
+        "sadness": 11.2,
+        "fear": 13.9,
+        "affection": 9.6
+      },
+      "persona": {
+        "surface_persona": "charismatic_alpha",
+        "hidden_persona": "territorial_and_watchful",
+        "mask_strength": 64.3,
+        "switch_threshold": 69.1
+      },
+      "status": {
+        "current_location_id": "loc_hallway_2f",
+        "social_position": "upper",
+        "visible_reputation": 79.8,
+        "hidden_reputation": 55.9,
+        "rumor_level": 31.5,
+        "fatigue": 17.6,
+        "stress": 29.7,
+        "injury": 0.0,
+        "financial_level": 71.3
+      },
+      "traits": [
+        "aggressive_competence",
+        "status_conscious",
+        "protective_of_territory",
+        "socially_influential"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_004",
+      "type": "character",
+      "name": {
+        "family_name": "雨宮",
+        "given_name": "透子",
+        "full_name": "雨宮 透子",
+        "reading": "あまみや とうこ"
+      },
+      "role": {
+        "primary": "observer",
+        "secondary": "student",
+        "archetype": "quiet_analyst"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-C",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.12,
+        "inner": 0.26,
+        "cognition": 0.43,
+        "world": 0.19
+      },
+      "intensity": {
+        "action": 28.4,
+        "inner": 61.2,
+        "cognition": 89.5,
+        "world": 57.6
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "library": {
+          "action": -1.5,
+          "inner": -0.7,
+          "cognition": 4.4,
+          "world": 0.9
+        },
+        "social_noise": {
+          "action": -1.1,
+          "inner": 1.5,
+          "cognition": 2.2,
+          "world": 0.5
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "understanding",
+          "truth_pattern",
+          "noninterference_until_needed"
+        ],
+        "taboo_values": [
+          "needless_cruelty",
+          "reckless_disclosure"
+        ],
+        "belief_style": "detached_empathy"
+      },
+      "relation_tendency": {
+        "attachment_speed": 18.9,
+        "trust_growth_rate": 44.1,
+        "suspicion_growth_rate": 42.4,
+        "maintenance_need": 17.3,
+        "jealousy_bias": 11.5,
+        "forgiveness_rate": 59.8,
+        "asymmetry_tolerance": 71.2
+      },
+      "inner_profile": {
+        "self_evaluation": 67.2,
+        "insecurity": 29.5,
+        "maturity": 84.3,
+        "pride": 38.6,
+        "loneliness": 49.7
+      },
+      "needs": {
+        "survival": {
+          "hunger": 18.1,
+          "thirst": 22.5,
+          "sleepiness": 35.2,
+          "health": 79.7
+        },
+        "reproduction": {
+          "sexual_desire": 12.8,
+          "intimacy": 24.6
+        },
+        "psychological": {
+          "belonging": 33.7,
+          "approval": 14.9,
+          "safety": 51.1,
+          "power": 19.4,
+          "freedom": 58.2
+        }
+      },
+      "emotions": {
+        "joy": 26.5,
+        "anger": 8.7,
+        "sadness": 19.3,
+        "fear": 14.2,
+        "affection": 17.8
+      },
+      "persona": {
+        "surface_persona": "soft_spoken_bookish",
+        "hidden_persona": "sharp_pattern_reader",
+        "mask_strength": 58.9,
+        "switch_threshold": 66.4
+      },
+      "status": {
+        "current_location_id": "loc_library_hall",
+        "social_position": "middle_low",
+        "visible_reputation": 43.2,
+        "hidden_reputation": 62.5,
+        "rumor_level": 12.4,
+        "fatigue": 24.3,
+        "stress": 21.8,
+        "injury": 0.0,
+        "financial_level": 49.6
+      },
+      "traits": [
+        "analytical",
+        "observes_before_acting",
+        "emotionally_precise",
+        "low_visibility"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_005",
+      "type": "character",
+      "name": {
+        "family_name": "黒瀬",
+        "given_name": "環",
+        "full_name": "黒瀬 環",
+        "reading": "くろせ たまき"
+      },
+      "role": {
+        "primary": "operator",
+        "secondary": "student_council_aide",
+        "archetype": "social_manipulator"
+      },
+      "demographics": {
+        "age": 18,
+        "school_year": 3,
+        "class_name": "3-A",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.18,
+        "inner": 0.17,
+        "cognition": 0.31,
+        "world": 0.34
+      },
+      "intensity": {
+        "action": 48.3,
+        "inner": 44.6,
+        "cognition": 79.1,
+        "world": 86.2
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "institutional_space": {
+          "action": 1.2,
+          "inner": -0.4,
+          "cognition": 2.9,
+          "world": 3.8
+        },
+        "private_conversation": {
+          "action": 0.6,
+          "inner": 1.1,
+          "cognition": 1.7,
+          "world": -1.3
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "control",
+          "predictability",
+          "advantage_management"
+        ],
+        "taboo_values": [
+          "being_used_by_others",
+          "public_loss_of_face"
+        ],
+        "belief_style": "cold_utilitarianism"
+      },
+      "relation_tendency": {
+        "attachment_speed": 14.6,
+        "trust_growth_rate": 22.8,
+        "suspicion_growth_rate": 68.9,
+        "maintenance_need": 34.4,
+        "jealousy_bias": 29.7,
+        "forgiveness_rate": 19.6,
+        "asymmetry_tolerance": 74.8
+      },
+      "inner_profile": {
+        "self_evaluation": 76.4,
+        "insecurity": 36.1,
+        "maturity": 83.7,
+        "pride": 72.8,
+        "loneliness": 41.9
+      },
+      "needs": {
+        "survival": {
+          "hunger": 16.7,
+          "thirst": 15.9,
+          "sleepiness": 26.4,
+          "health": 84.1
+        },
+        "reproduction": {
+          "sexual_desire": 22.1,
+          "intimacy": 17.9
+        },
+        "psychological": {
+          "belonging": 19.8,
+          "approval": 41.5,
+          "safety": 57.7,
+          "power": 81.9,
+          "freedom": 38.6
+        }
+      },
+      "emotions": {
+        "joy": 22.4,
+        "anger": 14.6,
+        "sadness": 10.9,
+        "fear": 18.3,
+        "affection": 8.5
+      },
+      "persona": {
+        "surface_persona": "composed_high_functional_senior",
+        "hidden_persona": "control_oriented_strategist",
+        "mask_strength": 82.7,
+        "switch_threshold": 72.6
+      },
+      "status": {
+        "current_location_id": "loc_student_council",
+        "social_position": "upper",
+        "visible_reputation": 68.5,
+        "hidden_reputation": 73.4,
+        "rumor_level": 24.8,
+        "fatigue": 20.7,
+        "stress": 25.6,
+        "injury": 0.0,
+        "financial_level": 69.3
+      },
+      "traits": [
+        "political",
+        "indirect_operator",
+        "high_control_need",
+        "institutionally_capable"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_006",
+      "type": "character",
+      "name": {
+        "family_name": "篠崎",
+        "given_name": "朱音",
+        "full_name": "篠崎 朱音",
+        "reading": "しのざき あかね"
+      },
+      "role": {
+        "primary": "outsider",
+        "secondary": "transfer_student",
+        "archetype": "charming_disruptor"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-D",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.29,
+        "inner": 0.24,
+        "cognition": 0.21,
+        "world": 0.26
+      },
+      "intensity": {
+        "action": 69.1,
+        "inner": 57.3,
+        "cognition": 52.7,
+        "world": 64.8
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "new_social_field": {
+          "action": 2.3,
+          "inner": 1.4,
+          "cognition": -0.9,
+          "world": 2.1
+        },
+        "cornered": {
+          "action": 1.7,
+          "inner": 2.6,
+          "cognition": -1.2,
+          "world": 0.5
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "self_preservation",
+          "mobility",
+          "emotional_readability_of_others"
+        ],
+        "taboo_values": [
+          "being_fixed_in_one_role",
+          "forced_confession"
+        ],
+        "belief_style": "adaptive_survivalism"
+      },
+      "relation_tendency": {
+        "attachment_speed": 44.8,
+        "trust_growth_rate": 39.2,
+        "suspicion_growth_rate": 46.7,
+        "maintenance_need": 52.1,
+        "jealousy_bias": 31.5,
+        "forgiveness_rate": 46.9,
+        "asymmetry_tolerance": 54.6
+      },
+      "inner_profile": {
+        "self_evaluation": 51.3,
+        "insecurity": 63.5,
+        "maturity": 49.7,
+        "pride": 46.2,
+        "loneliness": 57.8
+      },
+      "needs": {
+        "survival": {
+          "hunger": 22.2,
+          "thirst": 19.6,
+          "sleepiness": 30.7,
+          "health": 78.8
+        },
+        "reproduction": {
+          "sexual_desire": 34.4,
+          "intimacy": 48.3
+        },
+        "psychological": {
+          "belonging": 68.9,
+          "approval": 55.6,
+          "safety": 59.4,
+          "power": 27.8,
+          "freedom": 62.7
+        }
+      },
+      "emotions": {
+        "joy": 37.1,
+        "anger": 12.4,
+        "sadness": 24.7,
+        "fear": 29.6,
+        "affection": 26.3
+      },
+      "persona": {
+        "surface_persona": "friendly_transfer_student",
+        "hidden_persona": "self_protective_liar",
+        "mask_strength": 73.2,
+        "switch_threshold": 67.8
+      },
+      "status": {
+        "current_location_id": "loc_courtyard",
+        "social_position": "unstable_middle",
+        "visible_reputation": 52.4,
+        "hidden_reputation": 39.8,
+        "rumor_level": 36.9,
+        "fatigue": 26.6,
+        "stress": 48.5,
+        "injury": 0.0,
+        "financial_level": 43.7
+      },
+      "traits": [
+        "socially_flexible",
+        "secretive",
+        "emotionally_hungry",
+        "escape_oriented"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": false,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_007",
+      "type": "character",
+      "name": {
+        "family_name": "東雲",
+        "given_name": "紗良",
+        "full_name": "東雲 紗良",
+        "reading": "しののめ さら"
+      },
+      "role": {
+        "primary": "unstable_actor",
+        "secondary": "student",
+        "archetype": "fragile_dependent"
+      },
+      "demographics": {
+        "age": 16,
+        "school_year": 1,
+        "class_name": "1-C",
+        "gender": "female"
+      },
+      "style_ratio": {
+        "action": 0.14,
+        "inner": 0.43,
+        "cognition": 0.18,
+        "world": 0.25
+      },
+      "intensity": {
+        "action": 31.9,
+        "inner": 88.2,
+        "cognition": 37.6,
+        "world": 53.1
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "abandonment_trigger": {
+          "action": 1.1,
+          "inner": 5.2,
+          "cognition": -3.6,
+          "world": 0.9
+        },
+        "gentle_attention": {
+          "action": -0.7,
+          "inner": -2.9,
+          "cognition": 0.6,
+          "world": -0.4
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "emotional_anchor",
+          "not_being_left_behind",
+          "exclusive_bond"
+        ],
+        "taboo_values": [
+          "abandonment",
+          "cold_rejection"
+        ],
+        "belief_style": "dependency_seeking"
+      },
+      "relation_tendency": {
+        "attachment_speed": 78.4,
+        "trust_growth_rate": 52.3,
+        "suspicion_growth_rate": 58.2,
+        "maintenance_need": 86.7,
+        "jealousy_bias": 67.9,
+        "forgiveness_rate": 33.5,
+        "asymmetry_tolerance": 18.6
+      },
+      "inner_profile": {
+        "self_evaluation": 28.4,
+        "insecurity": 84.7,
+        "maturity": 31.2,
+        "pride": 14.9,
+        "loneliness": 88.1
+      },
+      "needs": {
+        "survival": {
+          "hunger": 20.9,
+          "thirst": 17.2,
+          "sleepiness": 41.6,
+          "health": 64.3
+        },
+        "reproduction": {
+          "sexual_desire": 17.5,
+          "intimacy": 72.4
+        },
+        "psychological": {
+          "belonging": 86.3,
+          "approval": 61.7,
+          "safety": 79.1,
+          "power": 8.9,
+          "freedom": 18.4
+        }
+      },
+      "emotions": {
+        "joy": 13.8,
+        "anger": 19.9,
+        "sadness": 52.7,
+        "fear": 48.6,
+        "affection": 39.4
+      },
+      "persona": {
+        "surface_persona": "quiet_and_unsteady",
+        "hidden_persona": "clingy_and_overinvested",
+        "mask_strength": 37.4,
+        "switch_threshold": 52.6
+      },
+      "status": {
+        "current_location_id": "loc_infirmary_corridor",
+        "social_position": "lower",
+        "visible_reputation": 29.7,
+        "hidden_reputation": 34.5,
+        "rumor_level": 27.3,
+        "fatigue": 43.2,
+        "stress": 71.9,
+        "injury": 9.4,
+        "financial_level": 38.9
+      },
+      "traits": [
+        "emotionally_fragile",
+        "high_dependency_risk",
+        "rumination_prone",
+        "attachment_sensitive"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": true,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    },
+    {
+      "id": "char_008",
+      "type": "character",
+      "name": {
+        "family_name": "相沢",
+        "given_name": "蓮",
+        "full_name": "相沢 蓮",
+        "reading": "あいざわ れん"
+      },
+      "role": {
+        "primary": "social_hub",
+        "secondary": "student",
+        "archetype": "network_mediator"
+      },
+      "demographics": {
+        "age": 17,
+        "school_year": 2,
+        "class_name": "2-B",
+        "gender": "male"
+      },
+      "style_ratio": {
+        "action": 0.26,
+        "inner": 0.22,
+        "cognition": 0.19,
+        "world": 0.33
+      },
+      "intensity": {
+        "action": 58.4,
+        "inner": 53.7,
+        "cognition": 47.1,
+        "world": 78.6
+      },
+      "context_modifier": {
+        "baseline": {
+          "action": 0.0,
+          "inner": 0.0,
+          "cognition": 0.0,
+          "world": 0.0
+        },
+        "crowd": {
+          "action": 1.4,
+          "inner": -0.6,
+          "cognition": 0.5,
+          "world": 4.2
+        },
+        "isolation": {
+          "action": -1.9,
+          "inner": 1.7,
+          "cognition": 0.8,
+          "world": -2.3
+        }
+      },
+      "ideology": {
+        "core_values": [
+          "social_balance",
+          "access",
+          "smooth_interaction"
+        ],
+        "taboo_values": [
+          "being_excluded",
+          "irrelevance"
+        ],
+        "belief_style": "network_pragmatism"
+      },
+      "relation_tendency": {
+        "attachment_speed": 36.2,
+        "trust_growth_rate": 43.5,
+        "suspicion_growth_rate": 33.4,
+        "maintenance_need": 61.9,
+        "jealousy_bias": 26.1,
+        "forgiveness_rate": 57.3,
+        "asymmetry_tolerance": 68.8
+      },
+      "inner_profile": {
+        "self_evaluation": 65.8,
+        "insecurity": 37.2,
+        "maturity": 56.1,
+        "pride": 51.4,
+        "loneliness": 29.8
+      },
+      "needs": {
+        "survival": {
+          "hunger": 23.4,
+          "thirst": 18.2,
+          "sleepiness": 28.6,
+          "health": 87.5
+        },
+        "reproduction": {
+          "sexual_desire": 39.1,
+          "intimacy": 41.8
+        },
+        "psychological": {
+          "belonging": 72.7,
+          "approval": 63.9,
+          "safety": 36.5,
+          "power": 42.8,
+          "freedom": 51.6
+        }
+      },
+      "emotions": {
+        "joy": 42.6,
+        "anger": 10.7,
+        "sadness": 13.2,
+        "fear": 15.4,
+        "affection": 21.5
+      },
+      "persona": {
+        "surface_persona": "friendly_connector",
+        "hidden_persona": "approval_sensitive_broker",
+        "mask_strength": 71.5,
+        "switch_threshold": 64.9
+      },
+      "status": {
+        "current_location_id": "loc_hallway_2f",
+        "social_position": "upper_middle",
+        "visible_reputation": 77.4,
+        "hidden_reputation": 58.7,
+        "rumor_level": 40.6,
+        "fatigue": 18.9,
+        "stress": 26.3,
+        "injury": 0.0,
+        "financial_level": 58.4
+      },
+      "traits": [
+        "well_connected",
+        "mediating",
+        "approval_sensitive",
+        "easily_used_as_channel"
+      ],
+      "flags": {
+        "is_npc": false,
+        "is_promotable": true,
+        "is_viewpoint_candidate": true,
+        "is_hidden_key_actor": true
+      }
+    }
+  ]
+}

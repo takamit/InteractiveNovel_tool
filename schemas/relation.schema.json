@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RelationFile",
+  "type": "object",
+  "required": [
+    "world_id",
+    "relations"
+  ],
+  "properties": {
+    "world_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "from",
+          "to",
+          "basic",
+          "extended",
+          "advanced",
+          "labels",
+          "maintenance",
+          "decay",
+          "asymmetry",
+          "trend"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^rel_[0-9]{3}$"
+          },
+          "from": {
+            "type": "string",
+            "pattern": "^char_[0-9]{3}$"
+          },
+          "to": {
+            "type": "string",
+            "pattern": "^char_[0-9]{3}$"
+          },
+          "basic": {
+            "$ref": "#/$defs/basicLayer"
+          },
+          "extended": {
+            "$ref": "#/$defs/extendedLayer"
+          },
+          "advanced": {
+            "$ref": "#/$defs/advancedLayer"
+          },
+          "labels": {
+            "type": "object",
+            "required": [
+              "structural",
+              "emotional",
+              "perception"
+            ],
+            "properties": {
+              "structural": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "emotional": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "perception": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "maintenance": {
+            "$ref": "#/$defs/value100"
+          },
+          "decay": {
+            "$ref": "#/$defs/value100"
+          },
+          "asymmetry": {
+            "$ref": "#/$defs/value100"
+          },
+          "trend": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "value100": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "basicLayer": {
+      "type": "object",
+      "required": [
+        "like",
+        "trust",
+        "respect",
+        "fear",
+        "suspicion"
+      ],
+      "properties": {
+        "like": {
+          "$ref": "#/$defs/value100"
+        },
+        "trust": {
+          "$ref": "#/$defs/value100"
+        },
+        "respect": {
+          "$ref": "#/$defs/value100"
+        },
+        "fear": {
+          "$ref": "#/$defs/value100"
+        },
+        "suspicion": {
+          "$ref": "#/$defs/value100"
+        }
+      },
+      "additionalProperties": false
+    },
+    "extendedLayer": {
+      "type": "object",
+      "required": [
+        "interest",
+        "dependence",
+        "attachment",
+        "attraction",
+        "intimacy"
+      ],
+      "properties": {
+        "interest": {
+          "$ref": "#/$defs/value100"
+        },
+        "dependence": {
+          "$ref": "#/$defs/value100"
+        },
+        "attachment": {
+          "$ref": "#/$defs/value100"
+        },
+        "attraction": {
+          "$ref": "#/$defs/value100"
+        },
+        "intimacy": {
+          "$ref": "#/$defs/value100"
+        }
+      },
+      "additionalProperties": false
+    },
+    "advancedLayer": {
+      "type": "object",
+      "required": [
+        "desire",
+        "exclusivity",
+        "obsession",
+        "control",
+        "devotion",
+        "resentment"
+      ],
+      "properties": {
+        "desire": {
+          "$ref": "#/$defs/value100"
+        },
+        "exclusivity": {
+          "$ref": "#/$defs/value100"
+        },
+        "obsession": {
+          "$ref": "#/$defs/value100"
+        },
+        "control": {
+          "$ref": "#/$defs/value100"
+        },
+        "devotion": {
+          "$ref": "#/$defs/value100"
+        },
+        "resentment": {
+          "$ref": "#/$defs/value100"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

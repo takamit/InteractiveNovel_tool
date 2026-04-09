@@ -1,0 +1,492 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EntityFile",
+  "type": "object",
+  "required": [
+    "world_id",
+    "entities"
+  ],
+  "properties": {
+    "world_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "name",
+          "role",
+          "demographics",
+          "style_ratio",
+          "intensity",
+          "ideology",
+          "relation_tendency",
+          "inner_profile",
+          "needs",
+          "emotions",
+          "persona",
+          "status",
+          "traits",
+          "flags"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^char_[0-9]{3}$"
+          },
+          "type": {
+            "type": "string",
+            "const": "character"
+          },
+          "name": {
+            "type": "object",
+            "required": [
+              "family_name",
+              "given_name",
+              "full_name",
+              "reading"
+            ],
+            "properties": {
+              "family_name": {
+                "type": "string"
+              },
+              "given_name": {
+                "type": "string"
+              },
+              "full_name": {
+                "type": "string"
+              },
+              "reading": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "role": {
+            "type": "object",
+            "required": [
+              "primary",
+              "secondary",
+              "archetype"
+            ],
+            "properties": {
+              "primary": {
+                "type": "string"
+              },
+              "secondary": {
+                "type": "string"
+              },
+              "archetype": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "demographics": {
+            "type": "object",
+            "required": [
+              "age",
+              "school_year",
+              "class_name",
+              "gender"
+            ],
+            "properties": {
+              "age": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "school_year": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "class_name": {
+                "type": "string"
+              },
+              "gender": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "style_ratio": {
+            "type": "object",
+            "required": [
+              "action",
+              "inner",
+              "cognition",
+              "world"
+            ],
+            "properties": {
+              "action": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "inner": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "cognition": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "world": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "intensity": {
+            "$ref": "#/$defs/fourAxis100"
+          },
+          "context_modifier": {
+            "type": "object"
+          },
+          "ideology": {
+            "type": "object",
+            "required": [
+              "core_values",
+              "taboo_values",
+              "belief_style"
+            ],
+            "properties": {
+              "core_values": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "taboo_values": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "belief_style": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "relation_tendency": {
+            "$ref": "#/$defs/relationTendency"
+          },
+          "inner_profile": {
+            "$ref": "#/$defs/profile100"
+          },
+          "needs": {
+            "type": "object",
+            "required": [
+              "survival",
+              "reproduction",
+              "psychological"
+            ],
+            "properties": {
+              "survival": {
+                "type": "object",
+                "required": [
+                  "hunger",
+                  "thirst",
+                  "sleepiness",
+                  "health"
+                ],
+                "properties": {
+                  "hunger": {
+                    "$ref": "#/$defs/value100"
+                  },
+                  "thirst": {
+                    "$ref": "#/$defs/value100"
+                  },
+                  "sleepiness": {
+                    "$ref": "#/$defs/value100"
+                  },
+                  "health": {
+                    "$ref": "#/$defs/value100"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "reproduction": {
+                "type": "object",
+                "required": [
+                  "sexual_desire",
+                  "intimacy"
+                ],
+                "properties": {
+                  "sexual_desire": {
+                    "$ref": "#/$defs/value100"
+                  },
+                  "intimacy": {
+                    "$ref": "#/$defs/value100"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "psychological": {
+                "type": "object",
+                "required": [
+                  "belonging",
+                  "approval",
+                  "safety",
+                  "power",
+                  "freedom"
+                ],
+                "properties": {
+                  "belonging": {
+                    "$ref": "#/$defs/value100"
+                  },
+                  "approval": {
+                    "$ref": "#/$defs/value100"
+                  },
+                  "safety": {
+                    "$ref": "#/$defs/value100"
+                  },
+                  "power": {
+                    "$ref": "#/$defs/value100"
+                  },
+                  "freedom": {
+                    "$ref": "#/$defs/value100"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "emotions": {
+            "type": "object",
+            "required": [
+              "joy",
+              "anger",
+              "sadness",
+              "fear",
+              "affection"
+            ],
+            "properties": {
+              "joy": {
+                "$ref": "#/$defs/value100"
+              },
+              "anger": {
+                "$ref": "#/$defs/value100"
+              },
+              "sadness": {
+                "$ref": "#/$defs/value100"
+              },
+              "fear": {
+                "$ref": "#/$defs/value100"
+              },
+              "affection": {
+                "$ref": "#/$defs/value100"
+              }
+            },
+            "additionalProperties": false
+          },
+          "persona": {
+            "type": "object",
+            "required": [
+              "surface_persona",
+              "hidden_persona",
+              "mask_strength",
+              "switch_threshold"
+            ],
+            "properties": {
+              "surface_persona": {
+                "type": "string"
+              },
+              "hidden_persona": {
+                "type": "string"
+              },
+              "mask_strength": {
+                "$ref": "#/$defs/value100"
+              },
+              "switch_threshold": {
+                "$ref": "#/$defs/value100"
+              }
+            },
+            "additionalProperties": false
+          },
+          "status": {
+            "type": "object",
+            "required": [
+              "current_location_id",
+              "social_position",
+              "visible_reputation",
+              "hidden_reputation",
+              "rumor_level",
+              "fatigue",
+              "stress",
+              "injury",
+              "financial_level"
+            ],
+            "properties": {
+              "current_location_id": {
+                "type": "string",
+                "pattern": "^loc_"
+              },
+              "social_position": {
+                "type": "string"
+              },
+              "visible_reputation": {
+                "$ref": "#/$defs/value100"
+              },
+              "hidden_reputation": {
+                "$ref": "#/$defs/value100"
+              },
+              "rumor_level": {
+                "$ref": "#/$defs/value100"
+              },
+              "fatigue": {
+                "$ref": "#/$defs/value100"
+              },
+              "stress": {
+                "$ref": "#/$defs/value100"
+              },
+              "injury": {
+                "$ref": "#/$defs/value100"
+              },
+              "financial_level": {
+                "$ref": "#/$defs/value100"
+              }
+            },
+            "additionalProperties": false
+          },
+          "traits": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "flags": {
+            "type": "object",
+            "required": [
+              "is_npc",
+              "is_promotable",
+              "is_viewpoint_candidate",
+              "is_hidden_key_actor"
+            ],
+            "properties": {
+              "is_npc": {
+                "type": "boolean"
+              },
+              "is_promotable": {
+                "type": "boolean"
+              },
+              "is_viewpoint_candidate": {
+                "type": "boolean"
+              },
+              "is_hidden_key_actor": {
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "value100": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "fourAxis100": {
+      "type": "object",
+      "required": [
+        "action",
+        "inner",
+        "cognition",
+        "world"
+      ],
+      "properties": {
+        "action": {
+          "$ref": "#/$defs/value100"
+        },
+        "inner": {
+          "$ref": "#/$defs/value100"
+        },
+        "cognition": {
+          "$ref": "#/$defs/value100"
+        },
+        "world": {
+          "$ref": "#/$defs/value100"
+        }
+      },
+      "additionalProperties": false
+    },
+    "profile100": {
+      "type": "object",
+      "required": [
+        "self_evaluation",
+        "insecurity",
+        "maturity",
+        "pride",
+        "loneliness"
+      ],
+      "properties": {
+        "self_evaluation": {
+          "$ref": "#/$defs/value100"
+        },
+        "insecurity": {
+          "$ref": "#/$defs/value100"
+        },
+        "maturity": {
+          "$ref": "#/$defs/value100"
+        },
+        "pride": {
+          "$ref": "#/$defs/value100"
+        },
+        "loneliness": {
+          "$ref": "#/$defs/value100"
+        }
+      },
+      "additionalProperties": false
+    },
+    "relationTendency": {
+      "type": "object",
+      "required": [
+        "attachment_speed",
+        "trust_growth_rate",
+        "suspicion_growth_rate",
+        "maintenance_need",
+        "jealousy_bias",
+        "forgiveness_rate",
+        "asymmetry_tolerance"
+      ],
+      "properties": {
+        "attachment_speed": {
+          "$ref": "#/$defs/value100"
+        },
+        "trust_growth_rate": {
+          "$ref": "#/$defs/value100"
+        },
+        "suspicion_growth_rate": {
+          "$ref": "#/$defs/value100"
+        },
+        "maintenance_need": {
+          "$ref": "#/$defs/value100"
+        },
+        "jealousy_bias": {
+          "$ref": "#/$defs/value100"
+        },
+        "forgiveness_rate": {
+          "$ref": "#/$defs/value100"
+        },
+        "asymmetry_tolerance": {
+          "$ref": "#/$defs/value100"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
